@@ -1,0 +1,11 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHorror.Windows", "OpenHorror.Windows\OpenHorror.Windows.csproj", "{E45776F9-573D-480F-8465-C42847AA27CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHorror.Game", "OpenHorror.Game\OpenHorror.Game.csproj", "{57EDC79F-3FD0-47FB-866C-30F753DA87A8}"
+EndProject
+Global
+EndGlobal
