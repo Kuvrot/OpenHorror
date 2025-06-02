@@ -5,10 +5,10 @@ Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: a34fb444-2676-453e-a118-d9981689675f:Default assets/Textures/paper
+            Texture: 4636b779-0cf0-4897-a7ee-bd84675bcff2:Default assets/Textures/paper_2
             FallbackValue:
                 Value: {R: 1.0, G: 0.8392157, B: 0.43529412, A: 1.0}
-            Scale: {X: 1.0, Y: 0.5}
+            Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}

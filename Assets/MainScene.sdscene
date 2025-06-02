@@ -167,8 +167,8 @@ Hierarchy:
                     f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
                         Id: 1a8366e1-7b2e-4c04-b4e6-477c26641dcd
                         Position: {X: -9.04518, Y: 1.013574, Z: 9.906629}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.47372538, Y: 0.010158025, Z: 0.30684742}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.3, Y: 0.01, Z: 0.5}
                         Children: {}
                     00a6a4d59608117c18a5b957071983c8: !ModelComponent
                         Id: f372198e-3f57-4458-84b2-01c822cadf4e
@@ -181,7 +181,7 @@ Hierarchy:
                         itemId: 0
                         itemName: 
                         isPickable: false
-                        rotationInspection: {X: 0.49999997, Y: 0.49999997, Z: 0.49999997, W: 0.49999997}
+                        rotationInspection: {X: 0.7071067, Y: -2.9802322E-08, Z: 2.9802322E-08, W: 0.7071067}
                         ItemType: document
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
                         Id: b3afbcb2-cb9f-46a1-91be-ba35fa3a5dff
@@ -4688,7 +4688,7 @@ Hierarchy:
                 Components:
                     aa37db61145ce7265de686c2ce252422: !TransformComponent
                         Id: 27081004-b96a-4b12-b3d1-5025071e3fd0
-                        Position: {X: 0.0, Y: 0.0, Z: -0.7911103}
+                        Position: {X: 0.0, Y: 0.0, Z: -0.68152684}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}

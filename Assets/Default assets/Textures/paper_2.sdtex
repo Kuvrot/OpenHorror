@@ -1,0 +1,7 @@
+!Texture
+Id: 4636b779-0cf0-4897-a7ee-bd84675bcff2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Default assets/Textures/paper_2.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
