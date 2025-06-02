@@ -74,22 +74,56 @@ namespace OpenHorror.Player
         /// </summary>
         public override void Update()
         {
-            var interactableRay = this.GetSimulation().Raycast(Entity.Transform.WorldMatrix.TranslationVector, Entity.Transform.WorldMatrix.TranslationVector + Entity.Transform.WorldMatrix.Forward * 2);
-            if (interactableRay.Collider != null)
+            InteractionController();
+        }
+
+        private void InteractionController()
+        {
+            var hitResult = this.GetSimulation().Raycast(Entity.Transform.WorldMatrix.TranslationVector, Entity.Transform.WorldMatrix.TranslationVector + Entity.Transform.WorldMatrix.Forward * 2);
+
+            if (IsColliderInteractable(hitResult))
             {
-                if (interactableRay.Collider.Entity.Get<ItemComponent>() != null)
+                if (hitResult.Collider.Entity.Get<ItemComponent>() != null)
                 {
-                    UIManager.Instance.SetCursor(UIManager.Instance.lensFrame);
-                    if (Input.IsMouseButtonReleased(MouseButton.Left))
-                    {
-                        interactableRay.Collider.Entity.Get<ItemComponent>().Inspect();
-                    }
+                    InspectElement(hitResult);
                 }
-                else
-                {
-                    UIManager.Instance.SetCursor(UIManager.Instance.defaultFrame);
-                }
-            }  
+            }
+            else
+            {
+                UIManager.Instance.SetCursor(UIManager.Instance.defaultFrame);
+            }
+        }
+
+        private void InspectElement(HitResult hitResult)
+        {
+            if (!GameManager.Instance.IsInspecting())
+            {
+                UIManager.Instance.SetCursor(UIManager.Instance.lensFrame);
+            }
+            else
+            {
+                UIManager.Instance.SetCursor(UIManager.Instance.defaultFrame);
+            }
+
+            if (Input.IsMouseButtonReleased(MouseButton.Left))
+            {
+                hitResult.Collider.Entity.Get<ItemComponent>().Inspect();
+            }
+        }
+
+        private bool IsColliderInteractable (HitResult hitResult)
+        {
+            if (hitResult.Collider == null)
+            {
+                return false;
+            }
+
+            if (hitResult.Collider.Entity.Get<ItemComponent>() != null)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         private void WeaponController()

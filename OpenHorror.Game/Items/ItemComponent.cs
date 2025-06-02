@@ -41,15 +41,10 @@ namespace OpenHorror.Items
 
         public override void Update()
         {
-            if (isPickable)
-            {
-                DebugText.Print("pickable" , new Int2(300 , 300));
-            }
         }
 
         public void PickItem()
         {
-            DebugText.Print("pickedItem", new Int2(300, 300));
         }
 
         public void Inspect ()
