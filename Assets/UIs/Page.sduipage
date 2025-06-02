@@ -1,0 +1,35 @@
+!UIPageAsset
+Id: 15deb367-b8af-40de-af62-3defb3da25f3
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 1ccce0d6-a358-4114-80d7-7b80fdcc32a9
+    Parts:
+        -   UIElement: !Grid
+                Id: 1ccce0d6-a358-4114-80d7-7b80fdcc32a9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    f77be56fdd98e9e328442f1a48729e19: !ImageElement ref!! f5d36df8-fb27-4a56-bce7-be50b2e2c485
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: f5d36df8-fb27-4a56-bce7-be50b2e2c485
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 0
+                Width: 46.18725
+                Height: 45.75733
+                Margin: {Left: 596.4064, Top: 324.62143, Right: 637.4064, Bottom: 349.62125}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: cursor
+                Source: !SpriteFromSheet
+                    Sheet: ab25e771-f6cc-4809-ac52-e4373a507a37:Default assets/Pointers/SpriteSheet
+                Color: {R: 255, G: 255, B: 255, A: 255}

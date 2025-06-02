@@ -2,9 +2,12 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
 using System.Threading.Tasks;
+using OpenHorror.Core;
+using OpenHorror.Items;
 using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Engine.Events;
+using Stride.Input;
 using Stride.Physics;
 using Stride.Rendering.Sprites;
 
@@ -71,6 +74,26 @@ namespace OpenHorror.Player
         /// </summary>
         public override void Update()
         {
+            var interactableRay = this.GetSimulation().Raycast(Entity.Transform.WorldMatrix.TranslationVector, Entity.Transform.WorldMatrix.TranslationVector + Entity.Transform.WorldMatrix.Forward * 2);
+            if (interactableRay.Collider != null)
+            {
+                if (interactableRay.Collider.Entity.Get<ItemComponent>() != null)
+                {
+                    UIManager.Instance.SetCursor(UIManager.Instance.lensFrame);
+                    if (Input.IsMouseButtonReleased(MouseButton.Left))
+                    {
+                        interactableRay.Collider.Entity.Get<ItemComponent>().Inspect();
+                    }
+                }
+                else
+                {
+                    UIManager.Instance.SetCursor(UIManager.Instance.defaultFrame);
+                }
+            }  
+        }
+
+        private void WeaponController()
+        {
             bool didShoot;
             shootEvent.TryReceive(out didShoot);
 
@@ -101,7 +124,7 @@ namespace OpenHorror.Player
 
             var result = this.GetSimulation().Raycast(raycastStart, raycastEnd);
 
-            var weaponFired = new WeaponFiredResult {HitResult = result, DidFire = true, DidHit = false };
+            var weaponFired = new WeaponFiredResult { HitResult = result, DidFire = true, DidHit = false };
 
             if (result.Succeeded && result.Collider != null)
             {
@@ -117,7 +140,7 @@ namespace OpenHorror.Player
             }
 
             // Broadcast the fire event
-            WeaponFired.Broadcast( weaponFired );
+            WeaponFired.Broadcast(weaponFired);
         }
     }
 }

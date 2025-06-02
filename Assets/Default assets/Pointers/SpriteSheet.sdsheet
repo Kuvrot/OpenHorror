@@ -1,0 +1,50 @@
+!SpriteSheet
+Id: ab25e771-f6cc-4809-ac52-e4373a507a37
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    20fc3f4d20398ea9d7ebe61390fc95c5:
+        Source: !file ../../../Resources/Default assets/Pointers/Key.png
+        Name: Null
+        TextureRegion: {X: 1, Y: 36, Width: 30, Height: 23}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    193b638d45485f7ac088dd877780654d:
+        Source: !file ../../../Resources/Default assets/Pointers/Key.png
+        Name: Key
+        TextureRegion: {X: 0, Y: 0, Width: 66, Height: 64}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8db8daf37a97e4e28299528bad316c29:
+        Source: !file ../../../Resources/Default assets/Pointers/lock.png
+        Name: lock
+        TextureRegion: {X: 0, Y: 0, Width: 42, Height: 64}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    731ec19ad69d8f8f100f91dcf79bd190:
+        Source: !file ../../../Resources/Default assets/Pointers/dig.png
+        Name: dig
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e9054d339581e1b4e8ab068623eb8598:
+        Source: !file ../../../Resources/Default assets/Pointers/glass.png
+        Name: glass
+        TextureRegion: {X: 0, Y: 0, Width: 63, Height: 61}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cade078562146160dfbdcaed749f1c4e:
+        Source: !file ../../../Resources/Default assets/Pointers/hand.png
+        Name: hand
+        TextureRegion: {X: 0, Y: 0, Width: 28, Height: 28}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

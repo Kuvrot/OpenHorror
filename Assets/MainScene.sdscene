@@ -42,6 +42,10 @@ Hierarchy:
         - ref!! 1c16ce32-59b1-4691-9465-974111982f67
         - ref!! 25bc5b70-bc98-4f51-b245-56c77af74122
         - ref!! 0ceaf263-3374-437f-9232-ef205569f93d
+        - ref!! 04d32fb6-dc45-4bcf-8334-f5562b2c5179
+        - ref!! 7d0e9eca-a78d-4ed6-ae55-68d868e37025
+        - ref!! 68abd0fc-aab9-48fb-b95b-c69f37f3eddd
+        - ref!! 45c76283-96d7-49ee-b100-385e8bb2b212
     Parts:
         -   Entity:
                 Id: 0157316b-840c-4bb8-aed8-aaeee66c7b90
@@ -156,6 +160,45 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             4eecb3c27affe3478bcc584553d59e41: ref!! c2b3ec4e-ff7a-47e3-8bcc-584553d59e41
+        -   Entity:
+                Id: 04d32fb6-dc45-4bcf-8334-f5562b2c5179
+                Name: Letter
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: 1a8366e1-7b2e-4c04-b4e6-477c26641dcd
+                        Position: {X: -9.04518, Y: 1.013574, Z: 9.906629}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.47372538, Y: 0.010158025, Z: 0.30684742}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: f372198e-3f57-4458-84b2-01c822cadf4e
+                        Model: 062cb574-0d97-4e01-86e9-95030aee18e8:Models/Box1x1x1
+                        Materials:
+                            3147122c6558eeb5b543c6d7e84283dd~0: 2bc2698d-e8a3-4853-985e-dcb80b86ab18:Default assets/Textures/Material
+                    33e595b56604f815018c98d1a3c15a53: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: fece2e54-147c-408e-8f3d-4b60a4edbba4
+                        Priority: -1
+                        itemId: 0
+                        itemName: 
+                        isPickable: false
+                        rotationInspection: {X: 0.49999997, Y: 0.49999997, Z: 0.49999997, W: 0.49999997}
+                        ItemType: document
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: b3afbcb2-cb9f-46a1-91be-ba35fa3a5dff
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.5, Y: 20.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 0634eedb-0d35-4713-9172-3a2d0d2d7ff8
                 Name: Wall0x2x5Window
@@ -654,7 +697,7 @@ Hierarchy:
                 Components:
                     778e226aaeea787c9b36c3d654d2d3e4: !TransformComponent
                         Id: a8f8a141-760e-4087-b8ac-712a67749cdf
-                        Position: {X: 7.656844E-07, Y: 2.0839443, Z: -4.3792043}
+                        Position: {X: -0.772696, Y: 2.0839443, Z: -1.5701026}
                         Rotation: {X: -0.49999997, Y: 0.49999997, Z: 0.49999997, W: 0.49999997}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -663,7 +706,7 @@ Hierarchy:
                         Type: !LightPoint
                             Color: !ColorRgbProvider
                                 Value: {R: 0.76875, G: 0.6797432, B: 0.49488282}
-                            Radius: 5.0
+                            Radius: 20.0
                             Shadow:
                                 Size: Small
                                 BiasParameters: {}
@@ -2164,7 +2207,7 @@ Hierarchy:
                         Rotation: {X: 0.70710677, Y: 3.8090255E-07, Z: -3.8090255E-07, W: 0.70710677}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    c743ceab56f65b45899acfd17ce4565d: !OpenHorror.EffectController,OpenHorror.Game
+                    5324555f27d6feacf3a70b1cac8360c0: !OpenHorror.EffectController,OpenHorror.Game
                         Id: abce43c7-f656-455b-899a-cfd17ce4565d
                         TriggerGroup:
                             Name: Gunfire
@@ -2342,6 +2385,30 @@ Hierarchy:
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 5af087f6-4b02-4107-908f-24e6c946a492
         -   Entity:
+                Id: 45c76283-96d7-49ee-b100-385e8bb2b212
+                Name: GameManager
+                Components:
+                    f3fd218c6aa6e728be0e9cd98a5496db: !TransformComponent
+                        Id: abc9b49a-1649-4925-9c18-4ef00dea26ca
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    35aa4b8f950db384632a508fdc04b2e0: !OpenHorror.Core.GameManager,OpenHorror.Game
+                        Id: f6024192-00e5-4739-b3ac-7d59e3089c6a
+                        Priority: -10
+                        inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
+                    65ecc19667862670f33e414e8141fe9c: !OpenHorror.Core.UIManager,OpenHorror.Game
+                        Id: e7d532a0-ca69-4721-a291-edf8d3877bd7
+                        Priority: -10
+                        defaultFrame: 0
+                        keyFrame: 1
+                        lockFrame: 2
+                        shovelFrame: 3
+                        lensFrame: 4
+                        handFrame: 5
+                        playerUI: ref!! d1719f59-9a2f-4a6d-8258-57f2400a9530
+        -   Entity:
                 Id: 46b62aed-0c5e-4c2c-9693-298a9bf5de54
                 Name: Wall0x2x5Window (3)
                 Components:
@@ -2430,17 +2497,18 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1fe64d64198b4543bfc6b549158775e4: ref!! 644de61f-8b19-4345-bfc6-b549158775e4
+                            ae3863ee8d2f5a23e9990d76b44fbfd6: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Name: null
                         Projection: Perspective
                         Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
-                    7e880022b3b3f743a0686a19d7ecd8e1: !OpenHorror.FpsCamera,OpenHorror.Game
+                    6a1fa3ade0b6350463d8d283c6eafe7e: !OpenHorror.FpsCamera,OpenHorror.Game
                         Id: 2200887e-b3b3-43f7-a068-6a19d7ecd8e1
                         RotationSpeed: 0.02355
                         InvertX: false
                         InvertY: false
-                    e3f466ccb7fa4a4e816d3113bb7c953a: !OpenHorror.Player.WeaponScript,OpenHorror.Game
+                    375699f3d1eeb40088269923f27f7720: !OpenHorror.Player.WeaponScript,OpenHorror.Game
                         Id: cc66f4e3-fab7-4e4a-816d-3113bb7c953a
                         MaxShootDistance: 50.0
                         ShootImpulse: 12.0
@@ -3707,6 +3775,21 @@ Hierarchy:
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
                 InstanceId: 7cb655c7-4fc1-45de-874c-65469dd7be14
         -   Entity:
+                Id: 68abd0fc-aab9-48fb-b95b-c69f37f3eddd
+                Name: PlayerUI
+                Components:
+                    920336cb4bc35edac1628259ce8d74d9: !TransformComponent
+                        Id: 448c9b23-b17b-4995-a1e2-ae05669a88e6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    afedc61de05252a5e215820fdca67b89: !UIComponent
+                        Id: d1719f59-9a2f-4a6d-8258-57f2400a9530
+                        Page: 15deb367-b8af-40de-af62-3defb3da25f3:UIs/Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+        -   Entity:
                 Id: 69169290-2a5e-41ad-8e15-6dd6a73a78d1
                 Name: Wall0x2x5 (3)
                 Components:
@@ -4295,6 +4378,42 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             674fdd1fb2513d41ab88936773660929: ref!! b923d838-2b87-49ce-8a93-4a9212cb97a0
+        -   Folder: null
+            Entity:
+                Id: 7b1aff77-b11f-471f-a763-040d253ed08c
+                Name: Box3x1x1
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 7978942b-1384-48d7-aeb0-bf9ce48e7129
+                        Position*: {X: 12.064203, Y: 0.5, Z: -6.9168406}
+                        Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: ebffae6e-2af1-433b-9ad2-cd455be55a37
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 349e661b-f2c8-4ec9-9e9e-b73f63a1d558
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
+                BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
+                InstanceId: d9060466-91f5-4fb2-b421-6ea0ad847fe2
         -   Entity:
                 Id: 7c6519e4-a908-4206-8edc-8af879d62af5
                 Name: Wall0x2x5 (4)
@@ -4341,6 +4460,21 @@ Hierarchy:
                 BasePartAsset: 256f3a1c-04ea-4170-8b60-94947eb8efcd:BlocksPrefabs/Box1x1x1
                 BasePartId: 496dab69-b03b-4272-a196-8e81329ce249
                 InstanceId: 6d7fc8ac-9e95-421a-88a8-b344d8bdd710
+        -   Entity:
+                Id: 7d0e9eca-a78d-4ed6-ae55-68d868e37025
+                Name: InspectUI
+                Components:
+                    7c748e6a37b1b8e61108c49359c12070: !TransformComponent
+                        Id: b4e01207-608b-45c7-ab4d-dceb4b4af2f9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    27b7f979e6fd6fbfe36bfc2c2d85b494: !UIComponent
+                        Id: ba78aa56-5925-431f-a358-dfed14331974
+                        Page: null
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
         -   Entity:
                 Id: 7ef0e907-590c-473b-a508-a256e65e832e
                 Name: Wall0x2x2Window
@@ -4548,6 +4682,16 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             674fdd1fb2513d41ab88936773660929: ref!! 3f84025f-135b-4752-9b70-ffd72d4a7a43
+        -   Entity:
+                Id: 877ffc6b-5ca1-48f3-80f2-eda394f7bdd4
+                Name: Inspect
+                Components:
+                    aa37db61145ce7265de686c2ce252422: !TransformComponent
+                        Id: 27081004-b96a-4b12-b3d1-5025071e3fd0
+                        Position: {X: 0.0, Y: 0.0, Z: -0.7911103}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
         -   Entity:
                 Id: 8846ceb8-3f3f-4f18-a5be-396398a31f58
                 Name: Wall0x2x5Window (2)
@@ -4988,10 +5132,10 @@ Hierarchy:
                                 Radius: 0.4
                                 LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    3f1a23a17e66d8489193aa2eca6779e1: !OpenHorror.Player.PlayerController,OpenHorror.Game
+                    939a90d0ea09cfee704b18fab4bb4948: !OpenHorror.Player.PlayerController,OpenHorror.Game
                         Id: a1231a3f-667e-48d8-9193-aa2eca6779e1
                         MaxRunSpeed: 5.0
-                    5cea3fc41b5e1c40865911bd77ee624c: !OpenHorror.Player.PlayerInput,OpenHorror.Game
+                    7326900eea33bcbae6afe1e312ded016: !OpenHorror.Player.PlayerInput,OpenHorror.Game
                         Id: c43fea5c-5e1b-401c-8659-11bd77ee624c
                         Priority: -1000
                         DeadZone: 0.25
@@ -5898,7 +6042,7 @@ Hierarchy:
                     e7f9e12d8d35d348b360d0f05ad26c60: !AnimationComponent
                         Id: 2de1f9e7-358d-48d3-b360-d0f05ad26c60
                         Animations: {}
-                    71355c7daba4f04b8dc4bb2c21b9cac6: !OpenHorror.Player.AnimationController,OpenHorror.Game
+                    f0827949e5c834eb497bf54d277a6c96: !OpenHorror.Player.AnimationController,OpenHorror.Game
                         Id: 7d5c3571-a4ab-4bf0-8dc4-bb2c21b9cac6
                         AnimationComponent: ref!! 2de1f9e7-358d-48d3-b360-d0f05ad26c60
                         AnimationIdle: accd7484-3a17-4c8b-9a93-8745a2acb869:Animations/Gun_Idle
@@ -6280,6 +6424,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             a2d6ca1adcf6ec41a4c7d29eb46ea480: ref!! a65ded2b-c552-4839-88fc-45c662e350f4
+                            b7f5ca71cc96daa1c8cf35f8dd0a535e: ref!! 7978942b-1384-48d7-aeb0-bf9ce48e7129
         -   Entity:
                 Id: c8316b2f-2834-49f6-a42b-56c68c86c43d
                 Name: Wall0x2x2Window

@@ -6,6 +6,7 @@ using System;
 using System.Threading.Tasks;
 using OpenHorror.Player;
 using Stride.Engine.Events;
+using OpenHorror.Core;
 
 namespace OpenHorror
 {
@@ -79,6 +80,9 @@ namespace OpenHorror
         /// </summary>
         protected virtual void UpdateCamera()
         {
+            if (GameManager.Instance.IsInspecting())
+                return;
+
             // Camera movement from player input
             Vector2 cameraMovement;
             cameraDirectionEvent.TryReceive(out cameraMovement);
