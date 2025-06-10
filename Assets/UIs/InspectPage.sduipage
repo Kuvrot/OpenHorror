@@ -1,0 +1,133 @@
+!UIPageAsset
+Id: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 132ed21e-e8ec-48e8-89ee-5b079d608b5b
+    Parts:
+        -   UIElement: !Grid
+                Id: 132ed21e-e8ec-48e8-89ee-5b079d608b5b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    d239625eaca1e035b3a24baaf7eacf37: !TextBlock ref!! 8b11c6c4-ed12-49f9-a31a-4e6436ee7e42
+                    d1cf70ac2b96528fed3e1761634629e5: !TextBlock ref!! 2c22b274-3b05-40cc-9ea1-47e0818bc971
+                    1f5286039ab04221d83b10aef2c4937d: !TextBlock ref!! 3d330d10-f022-413d-8885-d0a3dc90b443
+                    ee04e0e8460cbd1ba6cd4dd08c498881: !TextBlock ref!! 1c6cb3cd-ca02-4002-b7f8-18a52bece847
+                    7af0aa87389c7e09f3a997fcf9ff2deb: !StackPanel ref!! 9a06ad10-5908-4c78-b6b6-8bba686c7107
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 1c6cb3cd-ca02-4002-b7f8-18a52bece847
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1218.0
+                Height: 131.0
+                VerticalAlignment: Top
+                Margin: {Left: 28.0, Top: 21.0, Right: 34.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ItemName
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 21c457bf-3582-4b85-b1ab-c58dc8449563
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 682.0
+                Height: 653.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 20.0, Top: 20.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: DocumentText
+                Text: drgddfgdfgdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                WrapText: true
+        -   UIElement: !TextBlock
+                Id: 2c22b274-3b05-40cc-9ea1-47e0818bc971
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1218.0
+                Height: 131.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 28.0, Right: 34.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: LeaveItem
+                Text: RMB to leave
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Right
+        -   UIElement: !TextBlock
+                Id: 3d330d10-f022-413d-8885-d0a3dc90b443
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1218.0
+                Height: 131.0
+                VerticalAlignment: Top
+                Margin: {Left: 28.0, Top: 21.0, Right: 34.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ReadDocument
+                Text: R to read
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Right
+        -   UIElement: !TextBlock
+                Id: 8b11c6c4-ed12-49f9-a31a-4e6436ee7e42
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1218.0
+                Height: 131.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 28.0, Right: 34.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TakeItem
+                Text: LMB to pick up
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+        -   UIElement: !StackPanel
+                Id: 9a06ad10-5908-4c78-b6b6-8bba686c7107
+                DependencyProperties: {}
+                BackgroundColor: {R: 255, G: 255, B: 255, A: 0}
+                Opacity: 0.0
+                Width: 721.0
+                Height: 673.0
+                Margin: {Left: 281.0, Top: 21.0, Right: 278.0, Bottom: 26.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: DocumentPanel
+                Children:
+                    edbad5e3a173e5e1d96b6a13068b13b6: !TextBlock ref!! 21c457bf-3582-4b85-b1ab-c58dc8449563

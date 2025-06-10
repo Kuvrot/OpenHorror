@@ -15,9 +15,29 @@ Hierarchy:
                 Margin: {}
                 Children:
                     f77be56fdd98e9e328442f1a48729e19: !ImageElement ref!! f5d36df8-fb27-4a56-bce7-be50b2e2c485
+                    4b51e0b96e7ce6d89940234f3cf5fb32: !TextBlock ref!! cf8ee764-ff69-49f3-9113-321679c2c960
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: cf8ee764-ff69-49f3-9113-321679c2c960
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 106.0
+                VerticalAlignment: Bottom
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Notification
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Center
         -   UIElement: !ImageElement
                 Id: f5d36df8-fb27-4a56-bce7-be50b2e2c485
                 DependencyProperties: {}

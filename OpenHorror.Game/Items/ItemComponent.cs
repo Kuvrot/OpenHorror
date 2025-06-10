@@ -27,8 +27,9 @@ namespace OpenHorror.Items
         public String itemName = "";
         public bool isPickable = false; //This variable indicates if the item can be pickable after inspection or not.
         public Quaternion rotationInspection; //Rotation of the object when is being inspected
-        private bool inspected = false;
+        public String notificationText = "";
 
+        public String documentText = "";
 
         private Vector3 startPosition , inspectPosition;
         private ModelComponent  modelComponent;
@@ -49,14 +50,13 @@ namespace OpenHorror.Items
 
         public void Inspect ()
         {
-            
             if (!GameManager.Instance.IsInspecting())
             {
                 GameManager.Instance.inspectPosition.Entity.Transform.Scale = Entity.Transform.Scale;
                 GameManager.Instance.inspectPosition.Entity.Transform.Rotation = rotationInspection;
                 Entity.Remove(modelComponent);
                 GameManager.Instance.inspectPosition.Entity.Add(modelComponent);
-                GameManager.Instance.SetInspecting(true);
+                GameManager.Instance.SetInspecting(true , this);
             }
             else
             {
@@ -65,6 +65,15 @@ namespace OpenHorror.Items
                 GameManager.Instance.inspectPosition.Entity.Transform.Scale = Vector3.One;
                 GameManager.Instance.inspectPosition.Entity.Transform.Rotation = Quaternion.Zero;
                 GameManager.Instance.SetInspecting(false);
+
+                if (isPickable)
+                {
+                    ItemComponent itemComponent = this;
+                    GameManager.Instance.playerInventorySystem.Inventory.Add(itemComponent);
+                    Entity.Get<ModelComponent>().Enabled = false;
+                    Entity.Remove(this);
+                    GameManager.Instance.GetUI().PushNotification(notificationText);
+                }
             }
         }
 
@@ -72,7 +81,6 @@ namespace OpenHorror.Items
         {
             this.isPickable = isPickable;
         }
-
         public bool IsPickable()
         {
             return isPickable;

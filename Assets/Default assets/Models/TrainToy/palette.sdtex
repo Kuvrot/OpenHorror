@@ -1,0 +1,7 @@
+!Texture
+Id: 69d7f690-aa1e-48d2-9b2a-5560ca8ba163
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/Models/palette.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

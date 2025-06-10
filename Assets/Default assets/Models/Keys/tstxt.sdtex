@@ -1,0 +1,7 @@
+!Texture
+Id: f12b2f6a-3502-4e8c-955f-d80a4e1db76c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/Models/Keys/tstxt.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

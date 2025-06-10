@@ -1,0 +1,15 @@
+!Model
+Id: fffde762-934b-4a0e-9587-1a38d8764a9b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/Models/train.dae
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    187f2dc4343d0078adf1d0292ca519b1:
+        Name: palette
+        MaterialInstance:
+            Material: aef05155-41af-412b-bc1d-ab8182f16170:Default assets/Models/TrainToy/Material
+Modifiers: {}
+~SourceHashes:
+    dbd193e0084e9f237069595768cde8f6~../../../../Resources/Default assets/Models/train.dae: 39485a249111a425aae2f3e88db99d76

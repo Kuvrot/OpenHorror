@@ -43,6 +43,8 @@ Hierarchy:
         - ref!! 25bc5b70-bc98-4f51-b245-56c77af74122
         - ref!! 0ceaf263-3374-437f-9232-ef205569f93d
         - ref!! 04d32fb6-dc45-4bcf-8334-f5562b2c5179
+        - ref!! 0c9c3a58-5c8b-4dbb-8001-8ae084d220ad
+        - ref!! a79de183-01f7-462f-a0f6-b065fde832f1
         - ref!! 7d0e9eca-a78d-4ed6-ae55-68d868e37025
         - ref!! 68abd0fc-aab9-48fb-b95b-c69f37f3eddd
         - ref!! 45c76283-96d7-49ee-b100-385e8bb2b212
@@ -179,9 +181,11 @@ Hierarchy:
                         Id: fece2e54-147c-408e-8f3d-4b60a4edbba4
                         Priority: -1
                         itemId: 0
-                        itemName: 
+                        itemName: Letter to Anel
                         isPickable: false
                         rotationInspection: {X: 0.7071067, Y: -2.9802322E-08, Z: 2.9802322E-08, W: 0.7071067}
+                        notificationText: 
+                        documentText: Te amo <#
                         ItemType: document
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
                         Id: b3afbcb2-cb9f-46a1-91be-ba35fa3a5dff
@@ -426,6 +430,47 @@ Hierarchy:
                 BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
                 InstanceId: 7bd63b9e-8c21-4801-be4c-f3781acdece2
+        -   Folder: null
+            Entity:
+                Id: 0c9c3a58-5c8b-4dbb-8001-8ae084d220ad
+                Name: Toy
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: 3e475aa8-59ef-4bed-8fb5-3b58fb10f2a7
+                        Position: {X: -9.04518, Y: 1.0612, Z: 10.658596}
+                        Rotation: {X: -0.49999994, Y: -0.5, Z: 0.5, W: 0.5}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: 235478a2-a811-48ac-93ae-9baa392d6d1f
+                        Model: fffde762-934b-4a0e-9587-1a38d8764a9b:Default assets/Models/TrainToy/train
+                        Materials: {}
+                    33e595b56604f815018c98d1a3c15a53: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: aab111a4-8da3-4b07-a5f5-eaed37e8520d
+                        Priority: -1
+                        itemId: 0
+                        itemName: Train toy
+                        isPickable: false
+                        rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
+                        notificationText: 
+                        documentText: 
+                        ItemType: pickable
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: 63a48882-5305-46be-86ba-e875cbe405e3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 0.5, Z: 0.5}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: Ground
             Entity:
                 Id: 0ceaf263-3374-437f-9232-ef205569f93d
@@ -2398,6 +2443,7 @@ Hierarchy:
                         Id: f6024192-00e5-4739-b3ac-7d59e3089c6a
                         Priority: -10
                         inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
+                        playerInventorySystem: null
                     65ecc19667862670f33e414e8141fe9c: !OpenHorror.Core.UIManager,OpenHorror.Game
                         Id: e7d532a0-ca69-4721-a291-edf8d3877bd7
                         Priority: -10
@@ -2408,6 +2454,10 @@ Hierarchy:
                         lensFrame: 4
                         handFrame: 5
                         playerUI: ref!! d1719f59-9a2f-4a6d-8258-57f2400a9530
+                        inspectUI: ref!! ba78aa56-5925-431f-a358-dfed14331974
+                    1af80ab5b047be3d1c9acb46d49b36cc: !OpenHorror.Player.PlayerInventorySystem,OpenHorror.Game
+                        Id: 46fdcc74-b51a-4973-8f79-e13ac6b7f51f
+                        Inventory: {}
         -   Entity:
                 Id: 46b62aed-0c5e-4c2c-9693-298a9bf5de54
                 Name: Wall0x2x5Window (3)
@@ -4472,7 +4522,8 @@ Hierarchy:
                         Children: {}
                     27b7f979e6fd6fbfe36bfc2c2d85b494: !UIComponent
                         Id: ba78aa56-5925-431f-a358-dfed14331974
-                        Page: null
+                        Enabled: false
+                        Page: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9:UIs/InspectPage
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
         -   Entity:
@@ -5674,6 +5725,47 @@ Hierarchy:
                 BasePartAsset: 9159c232-776a-4d28-942d-4dd79c2e81e7:BlocksPrefabs/Wall0x2x5
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: e258edaf-572a-4486-b87e-75fc47416b05
+        -   Folder: null
+            Entity:
+                Id: a79de183-01f7-462f-a0f6-b065fde832f1
+                Name: Key
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: a4daec83-49d8-42b7-946e-dd9995cfb922
+                        Position: {X: -9.04518, Y: 1.0611999, Z: 11.501472}
+                        Rotation: {X: 0.49999997, Y: -0.49999997, Z: 0.49999997, W: 0.49999997}
+                        Scale: {X: 0.16590412, Y: 0.16590412, Z: 0.16590412}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: e543f6b3-76f1-4c15-9e5d-b91a92890f28
+                        Model: 56acc843-de29-4595-b40f-d9f5c70ff6b1:Default assets/Models/Keys/antique lock3
+                        Materials: {}
+                    33e595b56604f815018c98d1a3c15a53: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: e2d573ac-ffe2-40ea-b617-69c6f5838818
+                        Priority: -1
+                        itemId: 1
+                        itemName: First key
+                        isPickable: true
+                        rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
+                        notificationText: First Key picked up
+                        documentText: 
+                        ItemType: key
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: f90ee5a7-fdff-43ba-bb99-0542953463db
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: a85b44d8-b5b5-46de-8e3d-b9e209975538
                 Name: Wall0x2x2

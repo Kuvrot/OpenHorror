@@ -1,0 +1,15 @@
+!Model
+Id: 56acc843-de29-4595-b40f-d9f5c70ff6b1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/Models/Keys/antique lock3.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    10d085171abf8f453daaa43e02be00ef:
+        Name: Material.001
+        MaterialInstance:
+            Material: cda553b0-8c52-4324-93bb-7227436f0d96:Default assets/Models/Keys/Material.001
+Modifiers: {}
+~SourceHashes:
+    5fd0f2613e4e800b12e55dfa254701c9~../../../../Resources/Default assets/Models/Keys/antique lock3.obj: 0b7dea067b08b7f93ee1924cea974a1d
