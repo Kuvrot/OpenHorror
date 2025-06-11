@@ -4,6 +4,7 @@ using Stride.UI.Controls;
 using Stride.Input;
 using Stride.UI.Panels;
 using OpenHorror.Player;
+using Stride.Core.Mathematics;
 
 namespace OpenHorror.Core
 {
@@ -28,6 +29,8 @@ namespace OpenHorror.Core
 
         public override void Update()
         {
+            DebugText.Print(playerInventorySystem.Inventory.Count.ToString() , new Int2(300,300));
+
             if (isInspecting)
             {
                 uiManager.inspectUI.Enabled = true;

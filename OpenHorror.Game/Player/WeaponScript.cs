@@ -3,6 +3,7 @@
 using System;
 using System.Threading.Tasks;
 using OpenHorror.Core;
+using OpenHorror.Interaction;
 using OpenHorror.Items;
 using Stride.Core.Mathematics;
 using Stride.Engine;
@@ -41,7 +42,7 @@ namespace OpenHorror.Player
 
         public SpriteComponent RemainingBullets { get; set; }
         private int remainingBullets = 0;
-
+        private float interactionDistance = 2; //Max distance that let the player interact with things
         private void UpdateBulletsLED()
         {
             var spriteSheet = RemainingBullets?.SpriteProvider as SpriteFromSheet;
@@ -79,13 +80,22 @@ namespace OpenHorror.Player
 
         private void InteractionController()
         {
-            var hitResult = this.GetSimulation().Raycast(Entity.Transform.WorldMatrix.TranslationVector, Entity.Transform.WorldMatrix.TranslationVector + Entity.Transform.WorldMatrix.Forward * 2);
+            var hitResult = this.GetSimulation().Raycast(Entity.Transform.WorldMatrix.TranslationVector, Entity.Transform.WorldMatrix.TranslationVector + Entity.Transform.WorldMatrix.Forward * interactionDistance);
 
             if (IsColliderInteractable(hitResult))
             {
                 if (hitResult.Collider.Entity.Get<ItemComponent>() != null)
                 {
                     InspectElement(hitResult);
+                }
+
+                if (hitResult.Collider.Entity.Get<DoorSystem>() != null)
+                {
+                    if (Input.IsMouseButtonReleased(MouseButton.Left))
+                    {
+                        hitResult.Collider.Entity.Get<DoorSystem>().Interact();
+                    }
+                    UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
                 }
             }
             else
@@ -113,12 +123,7 @@ namespace OpenHorror.Player
 
         private bool IsColliderInteractable (HitResult hitResult)
         {
-            if (hitResult.Collider == null)
-            {
-                return false;
-            }
-
-            if (hitResult.Collider.Entity.Get<ItemComponent>() != null)
+            if (hitResult.Collider != null)
             {
                 return true;
             }
