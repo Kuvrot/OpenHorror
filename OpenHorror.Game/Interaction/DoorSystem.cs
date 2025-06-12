@@ -1,7 +1,6 @@
 ﻿using OpenHorror.Core;
 using Stride.Core.Mathematics;
 using Stride.Engine;
-using System.Windows.Navigation;
 
 
 namespace OpenHorror.Interaction

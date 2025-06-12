@@ -1,7 +1,6 @@
 ﻿using Stride.Engine;
 using OpenHorror.Items;
 using System.Collections.Generic;
-using Stride.Input;
 
 namespace OpenHorror.Player
 {
