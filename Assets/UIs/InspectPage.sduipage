@@ -18,6 +18,7 @@ Hierarchy:
                     d1cf70ac2b96528fed3e1761634629e5: !TextBlock ref!! 2c22b274-3b05-40cc-9ea1-47e0818bc971
                     1f5286039ab04221d83b10aef2c4937d: !TextBlock ref!! 3d330d10-f022-413d-8885-d0a3dc90b443
                     ee04e0e8460cbd1ba6cd4dd08c498881: !TextBlock ref!! 1c6cb3cd-ca02-4002-b7f8-18a52bece847
+                    92f0310c60e6a8e0345a9cd9829620eb: !TextBlock ref!! f91a1bee-c478-4a02-af0e-27ed8c0ebba8
                     7af0aa87389c7e09f3a997fcf9ff2deb: !StackPanel ref!! 9a06ad10-5908-4c78-b6b6-8bba686c7107
                 RowDefinitions: {}
                 ColumnDefinitions: {}
@@ -29,7 +30,7 @@ Hierarchy:
                 Width: 1218.0
                 Height: 131.0
                 VerticalAlignment: Top
-                Margin: {Left: 28.0, Top: 21.0, Right: 34.0}
+                Margin: {Left: 34.0, Top: 21.0, Right: 34.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
@@ -69,7 +70,7 @@ Hierarchy:
                 Width: 1218.0
                 Height: 131.0
                 VerticalAlignment: Bottom
-                Margin: {Left: 28.0, Right: 34.0}
+                Margin: {Left: 34.0, Right: 34.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
@@ -88,7 +89,7 @@ Hierarchy:
                 Width: 1218.0
                 Height: 131.0
                 VerticalAlignment: Top
-                Margin: {Left: 28.0, Top: 21.0, Right: 34.0}
+                Margin: {Left: 34.0, Top: 21.0, Right: 34.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
@@ -107,7 +108,7 @@ Hierarchy:
                 Width: 1218.0
                 Height: 131.0
                 VerticalAlignment: Bottom
-                Margin: {Left: 28.0, Right: 34.0}
+                Margin: {Left: 34.0, Right: 34.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
@@ -125,10 +126,29 @@ Hierarchy:
                 Opacity: 0.0
                 Width: 721.0
                 Height: 673.0
-                Margin: {Left: 281.0, Top: 21.0, Right: 278.0, Bottom: 26.0}
+                Margin: {Left: 278.0, Top: 21.0, Right: 278.0, Bottom: 26.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
                 Name: DocumentPanel
                 Children:
                     edbad5e3a173e5e1d96b6a13068b13b6: !TextBlock ref!! 21c457bf-3582-4b85-b1ab-c58dc8449563
+        -   UIElement: !TextBlock
+                Id: f91a1bee-c478-4a02-af0e-27ed8c0ebba8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1218.0
+                Height: 131.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 34.0, Right: 34.0, Bottom: 40.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ItemDescription
+                Text: Item description
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Center

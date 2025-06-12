@@ -15,19 +15,21 @@ namespace OpenHorror.Items
 {
     public enum ItemType
     {
-        pickable,
         key,
-        document
+        document,
+        inspectable,
+        nonInspectable
     }
 
     public class ItemComponent : SyncScript
     {
         public ItemType ItemType { get; set; }
         public ushort itemId = 0;
-        public String itemName = "";
+        public String itemName = "Object";
+        public String itemDescription = "This is an object...";
         public bool isPickable = false; //This variable indicates if the item can be pickable after inspection or not.
         public Quaternion rotationInspection; //Rotation of the object when is being inspected
-        public String notificationText = "";
+        public String notificationText = "Picked item...";
 
         public String documentText = "";
 
@@ -46,10 +48,21 @@ namespace OpenHorror.Items
 
         public void PickItem()
         {
+            ItemComponent itemComponent = this;
+            GameManager.Instance.playerInventorySystem.Inventory.Add(itemComponent);
+            Entity.Get<ModelComponent>().Enabled = false;
+            Entity.Remove(this);
+            GameManager.Instance.GetUI().PushNotification(notificationText);
         }
 
         public void Inspect ()
         {
+            if (ItemType == ItemType.nonInspectable)
+            {
+                GameManager.Instance.GetUI().PushNotification(notificationText);
+                return;
+            }
+
             if (!GameManager.Instance.IsInspecting())
             {
                 GameManager.Instance.inspectPosition.Entity.Transform.Scale = Entity.Transform.Scale;
@@ -68,11 +81,7 @@ namespace OpenHorror.Items
 
                 if (isPickable)
                 {
-                    ItemComponent itemComponent = this;
-                    GameManager.Instance.playerInventorySystem.Inventory.Add(itemComponent);
-                    Entity.Get<ModelComponent>().Enabled = false;
-                    Entity.Remove(this);
-                    GameManager.Instance.GetUI().PushNotification(notificationText);
+                    PickItem();
                 }
             }
         }

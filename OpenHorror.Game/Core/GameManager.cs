@@ -38,9 +38,11 @@ namespace OpenHorror.Core
                 TextBlock readDocument = uiManager.inspectUI.Page.RootElement.FindName("ReadDocument") as TextBlock;
                 TextBlock takeItem = uiManager.inspectUI.Page.RootElement.FindName("TakeItem") as TextBlock;
                 TextBlock documentText = uiManager.inspectUI.Page.RootElement.FindName("DocumentText") as TextBlock;
+                TextBlock itemDescription = uiManager.inspectUI.Page.RootElement.FindName("ItemDescription") as TextBlock;
                 StackPanel documentPanel = uiManager.inspectUI.Page.RootElement.FindName("DocumentPanel") as StackPanel;
 
                 itemName.Text = itemComponent.itemName;
+                itemDescription.Text = itemComponent.itemDescription;
 
                 if (itemComponent.isPickable)
                 {
