@@ -1788,7 +1788,7 @@ Hierarchy:
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: c4230f12-8578-4d11-b1cb-4407fadfa0e2
-                        Position*: {X: 12.064204, Y: 0.5, Z: -0.4685974}
+                        Position*: {X: 12.064204, Y: 0.5, Z: -0.45243433}
                         Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
                         Scale*: {X: 0.35545292, Y: 3.5002513, Z: 1.0}
                         Children: {}
@@ -3007,14 +3007,14 @@ Hierarchy:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: 1407c58e-be08-43dd-95b1-2865bd71e40b
                         Position*: {X: -3.825774E-08, Y: 0.0, Z: 0.6418583}
-                        Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale*: {X: 0.35545292, Y: 2.3234098, Z: 0.16929448}
+                        Rotation*: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale*: {X: 0.35545292, Y: 2.3234098, Z: 0.052638385}
                         Children: {}
                     8fff9564224e164bbfeeb200886985b1: !ModelComponent
                         Id: c7b6cc8c-d273-4dfb-a9b1-46d6fdafb1be
                         Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
                         Materials:
-                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                            1f66d7610cd6dc4c9b32d800d312e162*~0: aa7daf1f-b6d8-4003-935e-6f4542f62f70:Default assets/Textures/DoorMaterial
                     d85b2b6e072fba4f9eac30a89cde96ea: ~(Deleted)
             Base:
                 BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1

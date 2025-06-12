@@ -1,0 +1,17 @@
+!MaterialAsset
+Id: aa7daf1f-b6d8-4003-935e-6f4542f62f70
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 7e06d66c-c84d-431b-aa39-1eeef4fc1ff5:Default assets/Textures/Door
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.43529412, A: 1.0}
+            Scale: {X: 0.34, Y: 1.0}
+            Offset: {X: 0.34, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

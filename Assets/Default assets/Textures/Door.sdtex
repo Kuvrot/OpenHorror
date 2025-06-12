@@ -1,0 +1,7 @@
+!Texture
+Id: 7e06d66c-c84d-431b-aa39-1eeef4fc1ff5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Default assets/Textures/Door.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
