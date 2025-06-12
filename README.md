@@ -1,2 +1,20 @@
 # Open Horror
 Horrorgame template for Stride engine
+![imagen](https://github.com/user-attachments/assets/92dbaafe-2597-4f9c-81d4-f2f346845672)
+![imagen](https://github.com/user-attachments/assets/85c7d13c-047e-45f9-9595-8fdb31125735)
+
+# Roadmap
+- [x] Inspectable objects
+- [x] Read documents
+- [x] Door system
+- [x] Keys system
+- [x] Simple inventory system
+- [ ] Internationalization
+- [ ] Ladder system
+- [ ] Sprinting
+- [ ] Puzzles
+- [ ] Footstep system
+- [ ] Add sounds
+
+
+
