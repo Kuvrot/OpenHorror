@@ -29,8 +29,6 @@ namespace OpenHorror.Core
 
         public override void Update()
         {
-            DebugText.Print(playerInventorySystem.Inventory.Count.ToString() , new Int2(300,300));
-
             if (isInspecting)
             {
                 uiManager.inspectUI.Enabled = true;

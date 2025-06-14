@@ -9,6 +9,7 @@ namespace OpenHorror.Interaction
     {
         public float OpenAngle = 90f;
         public float Speed = 90f;
+        public bool invertDirection = false;
 
         public int idDoor = 0; //If the door is locked the id door should match with the id key used
         public bool isLocked = false;
@@ -52,7 +53,16 @@ namespace OpenHorror.Interaction
                 }
 
                 var rotation = Entity.Transform.RotationEulerXYZ;
-                rotation.Y += MathUtil.DegreesToRadians(rotationStep);
+
+                if (invertDirection)
+                {
+                    rotation.Y -= MathUtil.DegreesToRadians(rotationStep);
+                }
+                else
+                {
+                    rotation.Y += MathUtil.DegreesToRadians(rotationStep);
+                }
+
                 Entity.Transform.RotationEulerXYZ = rotation;
             }
         }
