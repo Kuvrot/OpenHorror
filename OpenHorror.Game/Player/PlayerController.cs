@@ -6,6 +6,7 @@ using Stride.Core;
 using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Engine.Events;
+using Stride.Input;
 using Stride.Physics;
 
 namespace OpenHorror.Player
@@ -22,6 +23,7 @@ namespace OpenHorror.Player
 
         private readonly EventReceiver<Vector3> moveDirectionEvent = new EventReceiver<Vector3>(PlayerInput.MoveDirectionEventKey);
 
+        private float defaultFOV = 0;
         /// <summary>
         /// Called when the script is first initialized
         /// </summary>
@@ -32,6 +34,8 @@ namespace OpenHorror.Player
             // Will search for an CharacterComponent within the same entity as this script
             character = Entity.Get<CharacterComponent>();
             if (character == null) throw new ArgumentException("Please add a CharacterComponent to the entity containing PlayerController!");
+
+            defaultFOV = Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView;
         }
         
         /// <summary>
@@ -51,7 +55,22 @@ namespace OpenHorror.Player
             Vector3 moveDirection = Vector3.Zero;
             moveDirectionEvent.TryReceive(out moveDirection);
 
-            character.SetVelocity(moveDirection * MaxRunSpeed);
+            if (Input.IsKeyDown(Keys.LeftShift))
+            {
+                character.SetVelocity(moveDirection * MaxRunSpeed * 1.5f);
+                if (Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView <= defaultFOV + 2.5f)
+                {
+                    Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView += 10 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
+                }
+            }
+            else
+            {
+                character.SetVelocity(moveDirection * MaxRunSpeed);
+                if (Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView > defaultFOV)
+                {
+                    Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView -= 10 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
+                }
+            }
 
             // Broadcast normalized speed
             RunSpeedEventKey.Broadcast(moveDirection.Length());

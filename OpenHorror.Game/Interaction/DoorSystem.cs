@@ -26,7 +26,6 @@ namespace OpenHorror.Interaction
 
         public override void Update()
         {
-            // Animación de apertura o cierre
             if (isMoving)
             {
                 float rotationStep = Speed * (float)Game.UpdateTime.Elapsed.TotalSeconds;
@@ -73,8 +72,7 @@ namespace OpenHorror.Interaction
             {
                 if (CheckIfPlayerHasKey())
                 {
-                    GameManager.Instance.GetUI().PushNotification(unlockedNotification);
-                    isLocked = false;
+                    Unlock();
                 }
                 else
                 {
@@ -85,6 +83,12 @@ namespace OpenHorror.Interaction
 
             isOpening = !isOpening;
             isMoving = true;
+        }
+
+        public void Unlock()
+        {
+            GameManager.Instance.GetUI().PushNotification(unlockedNotification);
+            isLocked = false;
         }
 
         private bool CheckIfPlayerHasKey()
