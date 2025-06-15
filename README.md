@@ -12,9 +12,9 @@ Horror game template in C# for ![Stride engine](https://github.com/stride3d/stri
 - [ ] Internationalization
 - [ ] Ladder system
 - [x] Sprinting
-- [ ] Puzzles
-- [ ] Footstep system
-- [ ] Add sounds
+- [x] Puzzles
+- [ ] Footstep system (in progress)
+- [ ] Add sounds (in progress)
 
 
 
