@@ -6726,6 +6726,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1fd94bf6112e05418d8b81f8ee7c0a28: ref!! 0d800143-caf7-4b7e-8e39-0548da8e4c10
+                            596df2b5a477e55de674e5ed45bf959c: ref!! dbc3868d-6ec1-4c31-9cec-70a33e1e9aba
         -   Entity:
                 Id: af7bf43b-38fb-400b-91bd-cb095d0b4ba1
                 Name: Box3x1x1 (4)
@@ -6961,6 +6962,39 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             4eecb3c27affe3478bcc584553d59e41: ref!! 3a5b4812-5322-478d-ae45-857ee55be130
+        -   Folder: null
+            Entity:
+                Id: b7d5416b-478a-4ba9-9fd2-74bd5febb9dc
+                Name: Stairs1x1x2
+                Components:
+                    1fd94bf6112e05418d8b81f8ee7c0a28: !TransformComponent
+                        Id: dbc3868d-6ec1-4c31-9cec-70a33e1e9aba
+                        Position: {X: -0.98560154, Y: 0.5, Z: -1.5064938}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    289202be5050af41832ce05e2d398d2c: !ModelComponent
+                        Id: b49d170c-d830-4410-8b40-65cd0be9ebd8
+                        Model: 34a4ad37-a550-4579-b63b-e727a1488078:Models/Stairs1x1x2
+                        Materials:
+                            74dc3e7c6e633f46a3801edd86a197dd~0: 0e07d68a-2807-42cd-9c85-5250b4db3c83:Materials/GridMTStairs
+                    01635891d64e2c4d98af82259f64e540: !StaticColliderComponent
+                        Id: 583a51f4-7984-4ff8-b133-1ccfb5135192
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e50925e86d99e849bde2b006ac86de09: !ColliderShapeAssetDesc
+                                Shape: 61e8b214-e1c1-4f2a-a3be-64af6250b6c9:CollisionMeshes/Stairs1x1x2
+            Base:
+                BasePartAsset: a0ad4bf6-1953-4ddf-afd3-4bf860f9467f:BlocksPrefabs/Stairs1x1x2
+                BasePartId: 1c50115c-c05d-4cb6-ab0e-53e44178a7e6
+                InstanceId: 0d6265eb-c113-4204-9db7-bba9f87c849f
         -   Entity:
                 Id: b94823af-0bd5-416d-8fe6-aa94c4fcc854
                 Name: Stairs1x1x2
