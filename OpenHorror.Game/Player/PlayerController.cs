@@ -20,6 +20,7 @@ namespace OpenHorror.Player
 
         // This component is the physics representation of a controllable character
         private CharacterComponent character;
+        private CameraComponent camera;
 
         private readonly EventReceiver<Vector3> moveDirectionEvent = new EventReceiver<Vector3>(PlayerInput.MoveDirectionEventKey);
 
@@ -34,8 +35,8 @@ namespace OpenHorror.Player
             // Will search for an CharacterComponent within the same entity as this script
             character = Entity.Get<CharacterComponent>();
             if (character == null) throw new ArgumentException("Please add a CharacterComponent to the entity containing PlayerController!");
-
-            defaultFOV = Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView;
+            camera = Entity.GetChild(0).Get<CameraComponent>();
+            defaultFOV = camera.VerticalFieldOfView;
         }
         
         /// <summary>
@@ -47,6 +48,10 @@ namespace OpenHorror.Player
             {
                 Move();
             }
+            else
+            {
+                camera.VerticalFieldOfView = defaultFOV;
+            }
         }
 
         private void Move()
@@ -55,25 +60,29 @@ namespace OpenHorror.Player
             Vector3 moveDirection = Vector3.Zero;
             moveDirectionEvent.TryReceive(out moveDirection);
 
+            // Broadcast normalized speed
+            RunSpeedEventKey.Broadcast(moveDirection.Length());
+
             if (Input.IsKeyDown(Keys.LeftShift))
             {
                 character.SetVelocity(moveDirection * MaxRunSpeed * 1.5f);
-                if (Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView <= defaultFOV + 2.5f)
+                if (camera.VerticalFieldOfView <= defaultFOV + 5f)
                 {
-                    Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView += 10 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
+                    camera.VerticalFieldOfView += 20 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
                 }
+                return;
             }
             else
             {
-                character.SetVelocity(moveDirection * MaxRunSpeed);
-                if (Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView > defaultFOV)
+                if (camera.VerticalFieldOfView >= defaultFOV)
                 {
-                    Entity.GetChild(0).Get<CameraComponent>().VerticalFieldOfView -= 10 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
+                    camera.VerticalFieldOfView -= 20 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
                 }
+
+                character.SetVelocity(moveDirection * MaxRunSpeed);
             }
 
-            // Broadcast normalized speed
-            RunSpeedEventKey.Broadcast(moveDirection.Length());
+           
         }
     }
 }

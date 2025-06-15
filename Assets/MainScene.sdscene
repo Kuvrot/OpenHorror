@@ -11,7 +11,8 @@ Hierarchy:
         - ref!! 9b0657ff-aa84-4ace-990e-7a300720a219
         - ref!! 4ed66640-5d6e-4380-9510-11277a46b368
         - ref!! f19c8d3f-de35-40b3-ba5c-35143f8f6a31
-        - ref!! 418f5e61-32d0-4535-9c95-0d95d2135f28
+        - ref!! 102c6818-0814-49fc-924a-e28c56d80940
+        - ref!! 04bafe46-d5bb-438f-998b-464a096de5d0
         - ref!! 3131c101-2e58-44ef-8404-de919635c290
         - ref!! 99fb845f-cada-4b88-869c-94ff73b24253
         - ref!! 96a9e8b6-3a2d-4d58-83b0-86ce04c80379
@@ -51,12 +52,14 @@ Hierarchy:
         - ref!! 25bc5b70-bc98-4f51-b245-56c77af74122
         - ref!! 0ceaf263-3374-437f-9232-ef205569f93d
         - ref!! 04d32fb6-dc45-4bcf-8334-f5562b2c5179
+        - ref!! 696fc0d3-05ae-4229-b6b2-9226007e6d92
         - ref!! 0c9c3a58-5c8b-4dbb-8001-8ae084d220ad
         - ref!! 2622708e-2759-4132-9f87-6c0ec2576122
         - ref!! a79de183-01f7-462f-a0f6-b065fde832f1
         - ref!! 7d0e9eca-a78d-4ed6-ae55-68d868e37025
         - ref!! 68abd0fc-aab9-48fb-b95b-c69f37f3eddd
         - ref!! 45c76283-96d7-49ee-b100-385e8bb2b212
+        - ref!! e5637132-aebd-421c-b824-29dd2354aa6d
     Parts:
         -   Entity:
                 Id: 0157316b-840c-4bb8-aed8-aaeee66c7b90
@@ -104,6 +107,26 @@ Hierarchy:
                 BasePartAsset: 9159c232-776a-4d28-942d-4dd79c2e81e7:BlocksPrefabs/Wall0x2x5
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 02bf299a-bb5e-4e73-84c5-b642af272272
+        -   Entity:
+                Id: 026a446b-b919-415e-8d5d-b1f5f955af51
+                Name*: Model
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: d67cc01c-139b-429d-ac44-06076b325f83
+                        Position*: {X: -3.825774E-08, Y: 0.0, Z: 0.55478895}
+                        Rotation*: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale*: {X: 0.35545292, Y: 2.3234098, Z: 0.052638385}
+                        Children: {}
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: 0fea3392-670d-4de4-972e-17fed0cd06eb
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162*~0: aa7daf1f-b6d8-4003-935e-6f4542f62f70:Default assets/Textures/DoorMaterial
+                    d85b2b6e072fba4f9eac30a89cde96ea: ~(Deleted)
+            Base:
+                BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
+                BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
+                InstanceId: 61f67908-91d0-40fa-8e0b-4068490e56ac
         -   Entity:
                 Id: 030be464-2b2f-4b8c-9e21-b71b6f14dc61
                 Name: Wall0x2x2 (7)
@@ -171,6 +194,18 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             4eecb3c27affe3478bcc584553d59e41: ref!! c2b3ec4e-ff7a-47e3-8bcc-584553d59e41
+        -   Folder: null
+            Entity:
+                Id: 04bafe46-d5bb-438f-998b-464a096de5d0
+                Name: DoorSystem
+                Components:
+                    43c61b505e9add97363ab9f6f991b11b: !TransformComponent
+                        Id: ab46f5fa-46f3-462b-9236-330a331579fb
+                        Position: {X: -9.0101595, Y: 0.9662628, Z: 1.3987665}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e01298576d64336f594d63093d187060: ref!! c706942c-b356-42fe-a0a7-08affd68f33e
         -   Entity:
                 Id: 04d32fb6-dc45-4bcf-8334-f5562b2c5179
                 Name: Letter
@@ -315,6 +350,43 @@ Hierarchy:
                 BasePartAsset: 256f3a1c-04ea-4170-8b60-94947eb8efcd:BlocksPrefabs/Box1x1x1
                 BasePartId: 496dab69-b03b-4272-a196-8e81329ce249
                 InstanceId: 8cac211d-f204-444d-ade4-ce0e88e0092b
+        -   Folder: null
+            Entity:
+                Id: 08137fcd-06ec-4241-894d-753d045b6758
+                Name: 3
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 770335f4-a59e-49cc-94a5-9249f0136d7f
+                        Position: {X: 2.1956978E-08, Y: 0.0, Z: 0.3683769}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 6a18e0a1-d6d4-4146-be0a-234c5c8b88b2
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 3
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: c576edca-1198-47cb-8ec7-37bf3559c074
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: 69c4c6ac-2b0a-4cd6-a404-34e62c7511a4
+                        puzzleSystem: null
+                        value: 3
         -   Entity:
                 Id: 08373dfc-44ac-4e99-84b7-39b8b12d5ba5
                 Name: Wall0x2x5
@@ -542,6 +614,17 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: ref!! bc7e0d94-c452-446b-b110-05482b161b65
+        -   Entity:
+                Id: 102c6818-0814-49fc-924a-e28c56d80940
+                Name: DoorSystem
+                Components:
+                    43c61b505e9add97363ab9f6f991b11b: !TransformComponent
+                        Id: 1f0db278-007f-4e91-a428-c6423359c9f2
+                        Position: {X: -9.0101595, Y: 0.9662628, Z: 4.9661856}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e01298576d64336f594d63093d187060: ref!! a3480f31-c107-4a34-9868-2fba7607cacc
         -   Entity:
                 Id: 108a9970-f141-480b-875d-107fbc553ac9
                 Name: Gate2x3x1
@@ -803,6 +886,42 @@ Hierarchy:
                 BasePartAsset: 9159c232-776a-4d28-942d-4dd79c2e81e7:BlocksPrefabs/Wall0x2x5
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: fb90afdc-0f0c-4ffc-8580-b79cacbc3e3d
+        -   Entity:
+                Id: 153c113a-8c74-47b3-bcca-c81ec816ceb0
+                Name: 1
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 4d549b46-86b2-497f-a203-c298caa98be2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: c27d6b62-bb04-4af2-b113-1c56235bf263
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: 3eac71b2-72b4-405a-84a4-b14a57557bd3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: f9950c9d-2166-4fbb-b0fe-853788782208
+                        puzzleSystem: null
+                        value: 1
         -   Entity:
                 Id: 15fb9a7f-6064-4b7c-9754-d3ddb5307ff9
                 Name: Wall0x2x2
@@ -1761,7 +1880,6 @@ Hierarchy:
                         Children: {}
                     90bb395a55a1e34bb46aa14806033dd7: !LightComponent
                         Id: 5a39bb90-a155-4be3-b46a-a14806033dd7
-                        Enabled: false
                         Type: !LightAmbient
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
@@ -1882,6 +2000,43 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             d93eb98b061811fa289ca953595240bd: ref!! 563f4d14-6880-41f2-8d44-eab000df9df7
+        -   Folder: null
+            Entity:
+                Id: 31c8c212-9e72-4d2e-80c9-2542e705d8c9
+                Name: 2
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 3a92165c-e896-412a-8cb4-c622a1978578
+                        Position: {X: 1.1312396E-08, Y: 0.0, Z: 0.1897905}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 4f7bb2ff-bd7d-42db-bddf-1ed7337cb972
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: 78cb0443-8e27-46e9-ab21-4bcfdab26295
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: e7d74c5e-56ed-4755-a60f-201bcaddc6d2
+                        puzzleSystem: null
+                        value: 2
         -   Entity:
                 Id: 32c287d0-7fa8-4510-9b40-a773eca87ee4
                 Name: Box3x1x1 (5)
@@ -2105,6 +2260,42 @@ Hierarchy:
                 BasePartAsset: e5f85b82-8dc3-4dd1-86d6-967abdb76a97:BlocksPrefabs/Ramp1x1_2x2
                 BasePartId: ebb1699f-cbad-48c0-8147-9d3d1236b47b
                 InstanceId: 9acd443f-ec6d-4fd8-ad98-28cacbd2475f
+        -   Folder: null
+            Entity:
+                Id: 3a9fbeff-c7cb-40e7-b9b9-03bc061af322
+                Name: Box3x1x1
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 6c0c2182-9e05-4a5d-857f-4e6bdf30196e
+                        Position*: {X: 12.064204, Y: 0.5, Z: 3.114985}
+                        Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale*: {X: 0.35545292, Y: 3.5002513, Z: 1.0}
+                        Children: {}
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: 24a03202-ec95-4d98-b36f-7ded2230f830
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: c132f2bd-e62f-4bb3-b115-3db92e7b03a3
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
+                BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
+                InstanceId: 6e658c77-3401-4171-a54d-b432a4c94e93
         -   Entity:
                 Id: 3c2d59cc-b8cd-485e-b4e8-f770e1e583a6
                 Name: GridBase10x10
@@ -2457,7 +2648,7 @@ Hierarchy:
                 Components:
                     bfbab213661aed3fd72c5fbc77aaff31: !TransformComponent
                         Id: a3480f31-c107-4a34-9868-2fba7607cacc
-                        Position: {X: -9.0101595, Y: 0.9662628, Z: 4.9018955}
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -2624,6 +2815,7 @@ Hierarchy:
                         Priority: -10
                         inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
                         playerInventorySystem: null
+                        isDebugEnabled: false
                     00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
                         Id: e7d532a0-ca69-4721-a291-edf8d3877bd7
                         Priority: -10
@@ -2745,6 +2937,43 @@ Hierarchy:
                         Cooldown: 0.4
                         ReloadCooldown: 2.0
                         RemainingBullets: ref!! 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
+        -   Folder: null
+            Entity:
+                Id: 49b5e754-4846-455f-b4d7-82ac9e73c26a
+                Name: 4
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 1cc2d0bf-9b44-450a-a8c7-737492b5aeb1
+                        Position: {X: 3.2004912E-08, Y: 0.0, Z: 0.5369532}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 1291aabd-4d15-431d-8966-e03090a6ee27
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 4
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: ef79d05c-82a9-444d-b640-21ce39a2a91c
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: 42c83d3a-f2bb-4146-bcac-da8cc31fd4a6
+                        puzzleSystem: null
+                        value: 4
         -   Entity:
                 Id: 4ac16211-9c81-4929-9df1-753678c4eb02
                 Name: Wall0x2x2
@@ -3095,7 +3324,7 @@ Hierarchy:
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: 1407c58e-be08-43dd-95b1-2865bd71e40b
-                        Position*: {X: -3.825774E-08, Y: 0.0, Z: 0.57}
+                        Position*: {X: -3.825774E-08, Y: 0.0, Z: 0.55478895}
                         Rotation*: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
                         Scale*: {X: 0.35545292, Y: 2.3234098, Z: 0.052638385}
                         Children: {}
@@ -4097,6 +4326,50 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             4eecb3c27affe3478bcc584553d59e41: ref!! 22c3a0c6-764d-4432-a518-48d25412a1b8
+        -   Folder: null
+            Entity:
+                Id: 696fc0d3-05ae-4229-b6b2-9226007e6d92
+                Name: PuzzleSolution
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: 47f148db-14fe-4ec6-b396-d2d4e79a6b2a
+                        Position: {X: -9.595439, Y: 1.0176997, Z: 2.9581406}
+                        Rotation: {X: 0.5, Y: -0.49999997, Z: 0.49999997, W: 0.5}
+                        Scale: {X: 0.3, Y: 0.01, Z: 0.5}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: 93927435-22e7-4fc8-9626-b7790bd40517
+                        Model: 062cb574-0d97-4e01-86e9-95030aee18e8:Models/Box1x1x1
+                        IsShadowCaster: false
+                        Materials:
+                            3147122c6558eeb5b543c6d7e84283dd~0: 32c97e70-9dcb-4538-b6e6-95d8af8ff0ed:Default assets/Textures/CleanPaper
+                    7586b098de883b31645566d5245612c8: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: dfa9bb23-17fa-4879-8b59-441132997559
+                        Priority: -1
+                        itemId: 0
+                        itemName: Door password
+                        itemDescription: 
+                        isPickable: false
+                        rotationInspection: {X: 0.7071067, Y: -2.9802322E-08, Z: 2.9802322E-08, W: 0.7071067}
+                        notificationText: 
+                        documentText: Press 1 , 3 , 2 ,4 buttons in that order to open the door
+                        ItemType: document
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: fde447c7-1ea1-4128-906e-ef3cdc0cc921
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.5, Y: 20.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 6a055428-ceee-41f1-b593-a006a6473abd
                 Name: Wall0x2x5
@@ -5324,6 +5597,42 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             c444819e77a60441a6144bd7bd8a4a23: ref!! 9e8144c4-a677-4104-a614-4bd7bd8a4a23
+        -   Folder: null
+            Entity:
+                Id: 920f8e27-7b30-4c3e-910d-b37ef5cfc917
+                Name: Box3x1x1
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 33bb3418-e490-4f90-bcb6-5ac7ee8cebdf
+                        Position*: {X: 12.064204, Y: 0.5, Z: 0.97108126}
+                        Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale*: {X: 0.35545292, Y: 3.5002513, Z: 1.0}
+                        Children: {}
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: c0c48827-d308-4af0-a6a4-c75ad0d2e546
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 7e3d6eb2-9eb1-48e6-a30e-5f0876259268
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
+                BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
+                InstanceId: f3535e60-1543-4329-ae27-f6acc7465836
         -   Entity:
                 Id: 92d564ea-a959-40ba-a909-13b58357ea97
                 Name: Stairs1x1x1_50
@@ -5760,6 +6069,48 @@ Hierarchy:
                 BasePartAsset: b9a40f15-4ee1-4a57-bb1c-2c6e8589be15:BlocksPrefabs/Wall0x2x2Window
                 BasePartId: 33a6f301-d9b7-4a2a-b0c9-7771e250fd3e
                 InstanceId: 8e34422a-ab0e-4b21-b060-78b5f2104aa3
+        -   Entity:
+                Id: 9c06ce13-b689-40da-8ff3-8ca51718d712
+                Name: Door
+                Components:
+                    bfbab213661aed3fd72c5fbc77aaff31: !TransformComponent
+                        Id: c706942c-b356-42fe-a0a7-08affd68f33e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d1f2317e88ecac9fcf67e0d646b802bf: ref!! d67cc01c-139b-429d-ac44-06076b325f83
+                    db4782d4159563bb29ef74ef6e3f54c9: !OpenHorror.Interaction.DoorSystem,OpenHorror.Game
+                        Id: b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
+                        OpenAngle: 90.0
+                        Speed: 45.0
+                        invertDirection: false
+                        idDoor: 99
+                        isLocked: true
+                        lockedNotification: Door is locked...
+                        unlockedNotification: The key fits
+                    bd731eaaf3a08432f3671444661b290d: !RigidbodyComponent
+                        Id: 3e81fe35-b116-4834-929f-af5b374af081
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 0.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            3a48e3cf834b3372bb6a0a0b4b9716dd: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.65}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 9c59f31c-0873-40a1-8d15-291610197cac
                 Name: Wall0x2x5Window
@@ -6962,8 +7313,10 @@ Hierarchy:
                             a2d6ca1adcf6ec41a4c7d29eb46ea480: ref!! a65ded2b-c552-4839-88fc-45c662e350f4
                             b7f5ca71cc96daa1c8cf35f8dd0a535e: ref!! 7978942b-1384-48d7-aeb0-bf9ce48e7129
                             7944c07943153e5452e22b537fe00641: ref!! c4230f12-8578-4d11-b1cb-4407fadfa0e2
+                            5baba95d441d03122d2ec9d520117d5a: ref!! 6c0c2182-9e05-4a5d-857f-4e6bdf30196e
                             190536a2b5f00c043df8c62777c22308: ref!! d91adcfa-9efe-49ac-993c-b2b79503886f
                             d469963d8ae83cc797c85b01723c22a5: ref!! 110c42aa-477e-4f4b-9377-83728555b87c
+                            4baff1e2460d403a6a724a5ec7113f24: ref!! 33bb3418-e490-4f90-bcb6-5ac7ee8cebdf
         -   Entity:
                 Id: c8316b2f-2834-49f6-a42b-56c68c86c43d
                 Name: Wall0x2x2Window
@@ -7596,6 +7949,24 @@ Hierarchy:
                 BasePartAsset: 0d617600-c153-48b3-a945-f907c906d804:BlocksPrefabs/Stairs1x1x1_25
                 BasePartId: 55691071-2afa-4446-a26b-67474badc01c
                 InstanceId: d1ae627e-8a9f-4611-b8c5-cb3d09e6c594
+        -   Entity:
+                Id: e5637132-aebd-421c-b824-29dd2354aa6d
+                Name: SimplePuzzle
+                Components:
+                    98e2d82c2189e98c271105a7b111eab9: !TransformComponent
+                        Id: 02296666-069b-4391-91ea-5143e57c213f
+                        Position: {X: -9.631271, Y: 1.4742577, Z: 2.7554717}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            93e9516a65135fc3664a52a5e795ad01: ref!! 4d549b46-86b2-497f-a203-c298caa98be2
+                            26df6f825ccc0e74cf620e1e66f1fdba: ref!! 3a92165c-e896-412a-8cb4-c622a1978578
+                            4b53fda9f079519acf67efe8dcfed35c: ref!! 770335f4-a59e-49cc-94a5-9249f0136d7f
+                            4b22019d8f3f5655e57863fde3445407: ref!! 1cc2d0bf-9b44-450a-a8c7-737492b5aeb1
+                    92349e51f074846ed8a78c52983c646b: !OpenHorror.Interaction.PuzzleSystem,OpenHorror.Game
+                        Id: 18831ba5-e643-4494-98b0-7f2317e819ac
+                        password: 1324
+                        unlockDoor: ref!! b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
         -   Entity:
                 Id: e58af6bf-4c1f-44cf-bfb5-4b5fb2c84d0e
                 Name: Stairs1x1x1_50

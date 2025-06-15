@@ -217,5 +217,5 @@ Game: !Stride.Rendering.Compositing.SceneCameraRenderer,Stride.Engine
             01d338078e9b21121ead0868932613dd: !Stride.Rendering.Compositing.DebugRenderer,Stride.Rendering ref!! 7f627be4-065f-4541-bfd2-f7e6cef58a96
     RenderMask: All
 SingleView: !Stride.Rendering.Compositing.ForwardRenderer,Stride.Engine ref!! f73edb54-66b5-4d61-ba47-af960f05d385
-Editor: !Stride.Rendering.Compositing.ForwardRenderer,Stride.Engine ref!! 4d409a59-d3c6-4b55-a5c7-4bd9b8886ea5
+Editor*: !Stride.Rendering.Compositing.ForwardRenderer,Stride.Engine ref!! f73edb54-66b5-4d61-ba47-af960f05d385
 BlockPositions: {}

@@ -27,6 +27,8 @@ namespace OpenHorror.Core
         private ItemComponent itemComponent; //current item being inspected
         public PlayerInventorySystem playerInventorySystem;
 
+
+        public bool isDebugEnabled = false;
         public override void Update()
         {
             if (isInspecting)
@@ -76,6 +78,12 @@ namespace OpenHorror.Core
             {
                 uiManager.inspectUI.Enabled = false;
             }
+
+            if (isDebugEnabled)
+            {
+                Debug();
+            }
+
         }
 
 
@@ -98,6 +106,13 @@ namespace OpenHorror.Core
         public bool IsInspecting()
         {
             return isInspecting;
+        }
+
+        private void Debug()
+        {
+            //Debug menu
+
+            DebugText.Print("[K] TO ENABLE/DISABLE AMBIENT LIGHT" , new Int2(300 , 300));
         }
     }
 }

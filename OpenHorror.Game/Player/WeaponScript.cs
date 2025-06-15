@@ -97,6 +97,16 @@ namespace OpenHorror.Player
                     }
                     UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
                 }
+
+                if (hitResult.Collider.Entity.Get<PuzzleButton>() != null)
+                {
+                    if (Input.IsMouseButtonReleased(MouseButton.Left))
+                    {
+                        hitResult.Collider.Entity.Get<PuzzleButton>().PressButton();
+                    }
+                    UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
+                }
+
             }
             else
             {
