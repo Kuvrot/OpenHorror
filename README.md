@@ -11,7 +11,7 @@ Horror game template in C# for ![Stride engine](https://github.com/stride3d/stri
 - [x] Simple inventory system
 - [ ] Internationalization
 - [ ] Ladder system
-- [ ] Sprinting
+- [x] Sprinting
 - [ ] Puzzles
 - [ ] Footstep system
 - [ ] Add sounds
