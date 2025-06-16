@@ -59,13 +59,13 @@ namespace OpenHorror.Player
             // Character speed
             Vector3 moveDirection = Vector3.Zero;
             moveDirectionEvent.TryReceive(out moveDirection);
-
             // Broadcast normalized speed
             RunSpeedEventKey.Broadcast(moveDirection.Length());
 
             if (Input.IsKeyDown(Keys.LeftShift))
             {
-                character.SetVelocity(moveDirection * MaxRunSpeed * 1.5f);
+                Entity.Get<FootstepsSystem>().setRunning(moveDirection != Vector3.Zero);
+                character.SetVelocity(moveDirection * MaxRunSpeed * 2f);
                 if (camera.VerticalFieldOfView <= defaultFOV + 5f)
                 {
                     camera.VerticalFieldOfView += 20 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
@@ -78,11 +78,9 @@ namespace OpenHorror.Player
                 {
                     camera.VerticalFieldOfView -= 20 * (float)this.Game.UpdateTime.Elapsed.TotalSeconds;
                 }
-
+                Entity.Get<FootstepsSystem>().setWalking(moveDirection != Vector3.Zero);
                 character.SetVelocity(moveDirection * MaxRunSpeed);
             }
-
-           
         }
     }
 }

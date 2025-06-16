@@ -5813,7 +5813,7 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     e3730ef4c10fc311cdee97ef9c416942: !OpenHorror.Player.PlayerController,OpenHorror.Game
                         Id: a1231a3f-667e-48d8-9193-aa2eca6779e1
-                        MaxRunSpeed: 5.0
+                        MaxRunSpeed: 4.0
                     99486f0b232148dd09a6627b59db596b: !OpenHorror.Player.PlayerInput,OpenHorror.Game
                         Id: c43fea5c-5e1b-401c-8659-11bd77ee624c
                         Priority: -1000
@@ -5835,6 +5835,20 @@ Hierarchy:
                         KeysReload:
                             f7748360940667938216bda161f12ed0: E
                             05744cc71fc6762cd1820202d01398ed: R
+                    6982bf064bd5745fa8e961e88cb5502c: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 725ee6c1-c5dd-46bd-8ca7-503279a4438a
+                    02249df08ffdf823ea232b420d942abb: !OpenHorror.Player.FootstepsSystem,OpenHorror.Game
+                        Id: d683e711-076e-44c3-86ac-b129ccdb5a43
+                        soundSpeed: 0.75
+                        sounds:
+                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/VFX/Stone/stepstone_1
+                            192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/VFX/Stone/stepstone_2
+                            3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/VFX/Stone/stepstone_3
+                            b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/VFX/Stone/stepstone_4
+                            a50b8a5b5741ddfb5a8ff52c7aef9165: b636395e-8160-4a27-b4f4-9bee88906280:Default assets/VFX/Stone/stepstone_5
+                            6131a963a2ee2ba8a9aa1a2cfb4559a8: 52712599-9d89-4a27-b738-3a22c088f1d4:Default assets/VFX/Stone/stepstone_6
+                            2b06292ce7b90826ecd5cb8da39d9081: fb7fb692-31d5-4548-9d84-06d128e88237:Default assets/VFX/Stone/stepstone_7
+                            4ab172a7123f63c4869ecf21e7b83b8f: f4021685-c4a3-48b9-8aa3-8a59cd330eb2:Default assets/VFX/Stone/stepstone_8
         -   Entity:
                 Id: 9758b4f8-356a-4443-9a06-4001ccb9e7c4
                 Name: Wall0x2x5

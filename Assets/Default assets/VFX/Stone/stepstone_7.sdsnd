@@ -1,0 +1,8 @@
+!Sound
+Id: fb7fb692-31d5-4548-9d84-06d128e88237
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/VFX/Stone/stepstone_7.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false
