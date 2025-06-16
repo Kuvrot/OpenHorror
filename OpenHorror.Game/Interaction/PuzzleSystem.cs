@@ -23,8 +23,6 @@ namespace OpenHorror.Interaction
 
         public override void Update()
         {
-            DebugText.Print(history , new Int2(600,600));
-
             if (history.Contains(password))
             {
                 unlockDoor.Unlock();
