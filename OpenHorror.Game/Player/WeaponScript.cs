@@ -106,7 +106,6 @@ namespace OpenHorror.Player
                     }
                     UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
                 }
-
             }
             else
             {

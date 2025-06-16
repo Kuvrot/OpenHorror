@@ -24,7 +24,6 @@ namespace OpenHorror.Interaction
 
         public override void Update()
         {
-            // Do stuff every new frame
         }
 
         public void PressButton()
