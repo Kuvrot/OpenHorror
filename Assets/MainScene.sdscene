@@ -2813,7 +2813,12 @@ Hierarchy:
                     314a81e40a0a2e28b311d78b50ed2085: !OpenHorror.Core.GameManager,OpenHorror.Game
                         Id: f6024192-00e5-4739-b3ac-7d59e3089c6a
                         Priority: -10
-                        inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
+                        inspectPosition:
+                            Id: 27081004-b96a-4b12-b3d1-5025071e3fd0
+                            Position: {X: 0.0, Y: 0.0, Z: -0.68152684}
+                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                            Children: {}
                         playerInventorySystem: null
                         isDebugEnabled: false
                     00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
@@ -2825,8 +2830,17 @@ Hierarchy:
                         shovelFrame: 3
                         lensFrame: 4
                         handFrame: 5
-                        playerUI: ref!! d1719f59-9a2f-4a6d-8258-57f2400a9530
-                        inspectUI: ref!! ba78aa56-5925-431f-a358-dfed14331974
+                        playerUI:
+                            Id: d1719f59-9a2f-4a6d-8258-57f2400a9530
+                            Page: 15deb367-b8af-40de-af62-3defb3da25f3:UIs/Page
+                            Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                            Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        inspectUI:
+                            Id: ba78aa56-5925-431f-a358-dfed14331974
+                            Enabled: false
+                            Page: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9:UIs/InspectPage
+                            Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                            Size: {X: 1.28, Y: 0.72, Z: 1.0}
                     7a561a2309620adb10fa02e2cffbd80f: !OpenHorror.Player.PlayerInventorySystem,OpenHorror.Game
                         Id: 46fdcc74-b51a-4973-8f79-e13ac6b7f51f
                         Inventory: {}
@@ -2936,7 +2950,12 @@ Hierarchy:
                         ShootImpulse: 12.0
                         Cooldown: 0.4
                         ReloadCooldown: 2.0
-                        RemainingBullets: ref!! 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
+                        RemainingBullets:
+                            Id: 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
+                            SpriteProvider: !SpriteFromSheet
+                                Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                            Intensity: 0.0
         -   Folder: null
             Entity:
                 Id: 49b5e754-4846-455f-b4d7-82ac9e73c26a
@@ -6890,7 +6909,9 @@ Hierarchy:
                         Animations: {}
                     369eeb64cbd6b1712596845936028019: !OpenHorror.Player.AnimationController,OpenHorror.Game
                         Id: 7d5c3571-a4ab-4bf0-8dc4-bb2c21b9cac6
-                        AnimationComponent: ref!! 2de1f9e7-358d-48d3-b360-d0f05ad26c60
+                        AnimationComponent:
+                            Id: 2de1f9e7-358d-48d3-b360-d0f05ad26c60
+                            Animations: {}
                         AnimationIdle: accd7484-3a17-4c8b-9a93-8745a2acb869:Animations/Gun_Idle
                         AnimationWalk: 13693975-a936-4d71-b30b-f4b8379e62f6:Animations/Gun_Run
                         AnimationShoot: 2e90ed18-afb2-4794-9966-3e2ab8a30429:Animations/Gun_Shoot
@@ -8014,7 +8035,15 @@ Hierarchy:
                     92349e51f074846ed8a78c52983c646b: !OpenHorror.Interaction.PuzzleSystem,OpenHorror.Game
                         Id: 18831ba5-e643-4494-98b0-7f2317e819ac
                         password: 1324
-                        unlockDoor: ref!! b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
+                        unlockDoor:
+                            Id: b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
+                            OpenAngle: 90.0
+                            Speed: 45.0
+                            invertDirection: false
+                            idDoor: 99
+                            isLocked: true
+                            lockedNotification: Door is locked...
+                            unlockedNotification: The key fits
         -   Entity:
                 Id: e58af6bf-4c1f-44cf-bfb5-4b5fb2c84d0e
                 Name: Stairs1x1x1_50
