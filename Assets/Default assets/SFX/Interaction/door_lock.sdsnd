@@ -1,0 +1,9 @@
+!Sound
+Id: 36a812f7-a081-4849-bf71-f431c5c6e0e6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/door_lock.flac
+SampleRate: 96000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

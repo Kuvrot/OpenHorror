@@ -5,6 +5,7 @@ using Stride.Input;
 using Stride.UI.Panels;
 using OpenHorror.Player;
 using Stride.Core.Mathematics;
+using Silk.NET.Core;
 
 namespace OpenHorror.Core
 {
@@ -18,6 +19,7 @@ namespace OpenHorror.Core
             Instance = this;
             uiManager = Entity.Get<UIManager>();
             playerInventorySystem = Entity.Get<PlayerInventorySystem>();
+            audioManager = Entity.Get<AudioManager>();
         }
         #endregion
 
@@ -25,8 +27,8 @@ namespace OpenHorror.Core
         private UIManager uiManager;
         private bool isInspecting;
         private ItemComponent itemComponent; //current item being inspected
+        private AudioManager audioManager;
         public PlayerInventorySystem playerInventorySystem;
-
 
         public bool isDebugEnabled = false;
         public override void Update()
@@ -86,7 +88,6 @@ namespace OpenHorror.Core
 
         }
 
-
         public UIManager GetUI()
         {
             return uiManager;
@@ -108,6 +109,10 @@ namespace OpenHorror.Core
             return isInspecting;
         }
 
+        public AudioManager GetAudioManager()
+        {
+            return audioManager;
+        }
         private void Debug()
         {
             //Debug menu

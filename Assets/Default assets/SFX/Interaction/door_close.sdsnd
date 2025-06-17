@@ -1,0 +1,9 @@
+!Sound
+Id: 1b3e5cce-9ee4-413b-8b52-6a761670dc24
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/door_close.flac
+SampleRate: 96000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

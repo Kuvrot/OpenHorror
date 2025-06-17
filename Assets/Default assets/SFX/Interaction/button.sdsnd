@@ -1,0 +1,8 @@
+!Sound
+Id: cd9511b7-5902-48a2-99f3-34e61d368bea
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/button.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

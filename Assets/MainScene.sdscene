@@ -2813,12 +2813,7 @@ Hierarchy:
                     314a81e40a0a2e28b311d78b50ed2085: !OpenHorror.Core.GameManager,OpenHorror.Game
                         Id: f6024192-00e5-4739-b3ac-7d59e3089c6a
                         Priority: -10
-                        inspectPosition:
-                            Id: 27081004-b96a-4b12-b3d1-5025071e3fd0
-                            Position: {X: 0.0, Y: 0.0, Z: -0.68152684}
-                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                            Children: {}
+                        inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
                         playerInventorySystem: null
                         isDebugEnabled: false
                     00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
@@ -2830,20 +2825,23 @@ Hierarchy:
                         shovelFrame: 3
                         lensFrame: 4
                         handFrame: 5
-                        playerUI:
-                            Id: d1719f59-9a2f-4a6d-8258-57f2400a9530
-                            Page: 15deb367-b8af-40de-af62-3defb3da25f3:UIs/Page
-                            Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
-                            Size: {X: 1.28, Y: 0.72, Z: 1.0}
-                        inspectUI:
-                            Id: ba78aa56-5925-431f-a358-dfed14331974
-                            Enabled: false
-                            Page: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9:UIs/InspectPage
-                            Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
-                            Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        playerUI: ref!! d1719f59-9a2f-4a6d-8258-57f2400a9530
+                        inspectUI: ref!! ba78aa56-5925-431f-a358-dfed14331974
                     7a561a2309620adb10fa02e2cffbd80f: !OpenHorror.Player.PlayerInventorySystem,OpenHorror.Game
                         Id: 46fdcc74-b51a-4973-8f79-e13ac6b7f51f
                         Inventory: {}
+                    a0d85eacf79fe671adeb55dcaa88a709: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 32cfdeab-7769-4d6b-95dd-7bd80a000ce2
+                    aeeff610b81282d2f919ebd6e6264b53: !OpenHorror.Core.GlobalAudioManager,OpenHorror.Game
+                        Id: a105b40a-bc6f-46a9-9a7b-28414569e1ca
+                        openDoor: 6ba62104-6dff-4c1c-a8ff-c3f2cb6d7566:Default assets/SFX/Interaction/door_open
+                        closeDoor: 1b3e5cce-9ee4-413b-8b52-6a761670dc24:Default assets/SFX/Interaction/door_close
+                        lockDoor: 36a812f7-a081-4849-bf71-f431c5c6e0e6:Default assets/SFX/Interaction/door_lock
+                        unlockDoor: 8f5d3153-49e4-4b06-9c8a-873c4bb1226b:Default assets/SFX/Interaction/door_unlock
+                        takeItem: 81fb9abd-f8a1-453c-ac9f-15c1bcd6e729:Default assets/SFX/Interaction/leather_inventory
+                        inspectItem: 2d83be5d-407a-4cfe-a015-2a9ce2f20073:Default assets/SFX/Interaction/cloth-inventory
+                        readDocument: ff95f233-bf7b-49a8-a9cf-2ba760fbe4e1:Default assets/SFX/Interaction/turn_page
+                        pressButton: cd9511b7-5902-48a2-99f3-34e61d368bea:Default assets/SFX/Interaction/button
         -   Entity:
                 Id: 46b62aed-0c5e-4c2c-9693-298a9bf5de54
                 Name: Wall0x2x5Window (3)
@@ -2950,12 +2948,7 @@ Hierarchy:
                         ShootImpulse: 12.0
                         Cooldown: 0.4
                         ReloadCooldown: 2.0
-                        RemainingBullets:
-                            Id: 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
-                            SpriteProvider: !SpriteFromSheet
-                                Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
-                            Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                            Intensity: 0.0
+                        RemainingBullets: ref!! b4bdf270-dc35-45fd-bb3a-b5881cdc8ae8
         -   Folder: null
             Entity:
                 Id: 49b5e754-4846-455f-b4d7-82ac9e73c26a
@@ -5860,14 +5853,14 @@ Hierarchy:
                         Id: d683e711-076e-44c3-86ac-b129ccdb5a43
                         soundSpeed: 0.75
                         sounds:
-                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/VFX/Stone/stepstone_1
-                            192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/VFX/Stone/stepstone_2
-                            3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/VFX/Stone/stepstone_3
-                            b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/VFX/Stone/stepstone_4
-                            a50b8a5b5741ddfb5a8ff52c7aef9165: b636395e-8160-4a27-b4f4-9bee88906280:Default assets/VFX/Stone/stepstone_5
-                            6131a963a2ee2ba8a9aa1a2cfb4559a8: 52712599-9d89-4a27-b738-3a22c088f1d4:Default assets/VFX/Stone/stepstone_6
-                            2b06292ce7b90826ecd5cb8da39d9081: fb7fb692-31d5-4548-9d84-06d128e88237:Default assets/VFX/Stone/stepstone_7
-                            4ab172a7123f63c4869ecf21e7b83b8f: f4021685-c4a3-48b9-8aa3-8a59cd330eb2:Default assets/VFX/Stone/stepstone_8
+                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/SFX/Footsteps/stepstone_1
+                            192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/SFX/Footsteps/stepstone_2
+                            3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/SFX/Footsteps/stepstone_3
+                            b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/SFX/Footsteps/stepstone_4
+                            a50b8a5b5741ddfb5a8ff52c7aef9165: b636395e-8160-4a27-b4f4-9bee88906280:Default assets/SFX/Footsteps/stepstone_5
+                            6131a963a2ee2ba8a9aa1a2cfb4559a8: 52712599-9d89-4a27-b738-3a22c088f1d4:Default assets/SFX/Footsteps/stepstone_6
+                            2b06292ce7b90826ecd5cb8da39d9081: fb7fb692-31d5-4548-9d84-06d128e88237:Default assets/SFX/Footsteps/stepstone_7
+                            4ab172a7123f63c4869ecf21e7b83b8f: f4021685-c4a3-48b9-8aa3-8a59cd330eb2:Default assets/SFX/Footsteps/stepstone_8
         -   Entity:
                 Id: 9758b4f8-356a-4443-9a06-4001ccb9e7c4
                 Name: Wall0x2x5
@@ -6114,7 +6107,7 @@ Hierarchy:
                         Children:
                             d1f2317e88ecac9fcf67e0d646b802bf: ref!! d67cc01c-139b-429d-ac44-06076b325f83
                     db4782d4159563bb29ef74ef6e3f54c9: !OpenHorror.Interaction.DoorSystem,OpenHorror.Game
-                        Id: b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
+                        Id: e9965c27-641d-4819-8d28-fa336125c125
                         OpenAngle: 90.0
                         Speed: 45.0
                         invertDirection: false
@@ -6697,7 +6690,7 @@ Hierarchy:
                         Scale: {X: 0.04, Y: 0.04, Z: 0.04}
                         Children: {}
                     a3de2d72fa2fc24d83c344dedd18fc64: !SpriteComponent
-                        Id: 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
+                        Id: b4bdf270-dc35-45fd-bb3a-b5881cdc8ae8
                         SpriteProvider: !SpriteFromSheet
                             Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
@@ -6909,9 +6902,7 @@ Hierarchy:
                         Animations: {}
                     369eeb64cbd6b1712596845936028019: !OpenHorror.Player.AnimationController,OpenHorror.Game
                         Id: 7d5c3571-a4ab-4bf0-8dc4-bb2c21b9cac6
-                        AnimationComponent:
-                            Id: 2de1f9e7-358d-48d3-b360-d0f05ad26c60
-                            Animations: {}
+                        AnimationComponent: ref!! 2de1f9e7-358d-48d3-b360-d0f05ad26c60
                         AnimationIdle: accd7484-3a17-4c8b-9a93-8745a2acb869:Animations/Gun_Idle
                         AnimationWalk: 13693975-a936-4d71-b30b-f4b8379e62f6:Animations/Gun_Run
                         AnimationShoot: 2e90ed18-afb2-4794-9966-3e2ab8a30429:Animations/Gun_Shoot
@@ -8035,15 +8026,7 @@ Hierarchy:
                     92349e51f074846ed8a78c52983c646b: !OpenHorror.Interaction.PuzzleSystem,OpenHorror.Game
                         Id: 18831ba5-e643-4494-98b0-7f2317e819ac
                         password: 1324
-                        unlockDoor:
-                            Id: b8a9b8ed-ad9b-44fd-b94c-b4c997b3e569
-                            OpenAngle: 90.0
-                            Speed: 45.0
-                            invertDirection: false
-                            idDoor: 99
-                            isLocked: true
-                            lockedNotification: Door is locked...
-                            unlockedNotification: The key fits
+                        unlockDoor: ref!! e9965c27-641d-4819-8d28-fa336125c125
         -   Entity:
                 Id: e58af6bf-4c1f-44cf-bfb5-4b5fb2c84d0e
                 Name: Stairs1x1x1_50

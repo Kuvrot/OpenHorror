@@ -1,0 +1,8 @@
+!Sound
+Id: 81fb9abd-f8a1-453c-ac9f-15c1bcd6e729
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/leather_inventory.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

@@ -77,18 +77,21 @@ namespace OpenHorror.Interaction
                 else
                 {
                     GameManager.Instance.GetUI().PushNotification(lockedNotification);
+                    GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.lockDoor);
                     return;
                 }
             }
 
             isOpening = !isOpening;
             isMoving = true;
+            GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.openDoor);
         }
 
         public void Unlock()
         {
             GameManager.Instance.GetUI().PushNotification(unlockedNotification);
             isLocked = false;
+            GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.unlockDoor);
         }
 
         private bool CheckIfPlayerHasKey()
@@ -101,7 +104,6 @@ namespace OpenHorror.Interaction
                     return true;
                 }
             }
-
             return false;
         }
     }

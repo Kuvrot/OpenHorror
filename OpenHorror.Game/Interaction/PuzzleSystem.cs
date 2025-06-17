@@ -13,6 +13,7 @@ namespace OpenHorror.Interaction
     {
         public string password = "";
         private string history = "";
+        private bool puzzleSolved = false;
 
         public DoorSystem unlockDoor;
 
@@ -23,10 +24,11 @@ namespace OpenHorror.Interaction
 
         public override void Update()
         {
-            if (history.Contains(password))
+            if (history.Contains(password) && !puzzleSolved)
             {
                 unlockDoor.Unlock();
                 history = "";
+                puzzleSolved = true;
             }
         }
 

@@ -53,6 +53,7 @@ namespace OpenHorror.Items
             Entity.Get<ModelComponent>().Enabled = false;
             Entity.Remove(this);
             GameManager.Instance.GetUI().PushNotification(notificationText);
+            GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.takeItem);
         }
 
         public void Inspect ()
@@ -70,6 +71,14 @@ namespace OpenHorror.Items
                 Entity.Remove(modelComponent);
                 GameManager.Instance.inspectPosition.Entity.Add(modelComponent);
                 GameManager.Instance.SetInspecting(true , this);
+                if (ItemType == ItemType.document)
+                {
+                    GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.readDocument);
+                }
+                else
+                {
+                    GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.inspectItem);
+                }
             }
             else
             {

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Stride.Core.Mathematics;
 using Stride.Input;
 using Stride.Engine;
+using OpenHorror.Core;
 
 namespace OpenHorror.Interaction
 {
@@ -29,6 +30,7 @@ namespace OpenHorror.Interaction
         public void PressButton()
         {
             puzzleSystem.PushHistory(value);
+            GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.pressButton);
         }
     }
 }

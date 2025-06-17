@@ -1,0 +1,8 @@
+!Sound
+Id: ff95f233-bf7b-49a8-a9cf-2ba760fbe4e1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/turn_page.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

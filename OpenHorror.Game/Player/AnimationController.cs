@@ -57,7 +57,10 @@ namespace OpenHorror.Player
             base.Start();
 
             if (AnimationComponent == null)
+            {
+                AnimationComponent = Entity.Get<AnimationComponent>();
                 throw new InvalidOperationException("The animation component is not set");
+            }
 
             if (AnimationIdle == null)
                 throw new InvalidOperationException("Idle animation is not set");
