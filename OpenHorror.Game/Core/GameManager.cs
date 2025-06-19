@@ -43,9 +43,8 @@ namespace OpenHorror.Core
                 TextBlock itemDescription = uiManager.inspectUI.Page.RootElement.FindName("ItemDescription") as TextBlock;
                 StackPanel documentPanel = uiManager.inspectUI.Page.RootElement.FindName("DocumentPanel") as StackPanel;
 
-                itemName.Text = itemComponent.itemName;
-                itemDescription.Text = itemComponent.itemDescription;
-
+                itemName.Text = Language.Instance.Translate(itemComponent.itemName);
+                itemDescription.Text = Language.Instance.Translate(itemComponent.itemDescription);
                 if (itemComponent.isPickable)
                 {
                     takeItem.Opacity = 1;
@@ -58,7 +57,7 @@ namespace OpenHorror.Core
                 if (itemComponent.ItemType == ItemType.document)
                 {
                     readDocument.Opacity = 1;
-                    documentText.Text = itemComponent.documentText;
+                    documentText.Text = Language.Instance.Translate(itemComponent.documentText);
 
                     if (Input.IsKeyReleased(Keys.R) && documentPanel.Opacity == 0)
                     {

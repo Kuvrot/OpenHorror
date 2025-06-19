@@ -179,11 +179,16 @@ SharedRenderers:
         AmbientOcclusion:
             Enabled: false
         LocalReflections:
-            Enabled: false
+            Enabled*: false
             ResolvePassResolution: Full
-            DepthResolution: Half
+            ResolveSamples*: 7
+            DepthResolution*: Half
+            RayTracePassResolution*: Half
+            MaxSteps*: 64
+            GlossinessThreshold*: 0.5563
+            TemporalEffect*: true
         DepthOfField:
-            Enabled: false
+            Enabled*: false
             DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
         BrightFilter:
             Color: {R: 1.0, G: 1.0, B: 1.0}
@@ -195,13 +200,17 @@ SharedRenderers:
             Attenuation: 0.7
         LensFlare: {}
         ColorTransforms:
+            Enabled*: false
             Transforms:
                 1e06f805f8b2e949a06c30d45fe413ef: !ToneMap
                     Operator: !ToneMapHejl2Operator {}
                 c57351444609d14ea258b3f511ec8a74: !FilmGrain
-                    Enabled: false
+                    Enabled*: true
+                    Amount*: 1.0
+                    GrainSize*: 2.887
+                    Animate*: true
                 e86e22e9a5d65545b8b55fca26e0afee: !Vignetting
-                    Enabled: false
+                    Enabled*: true
                     Color: {R: 0.0, G: 0.0, B: 0.0}
         Antialiasing: !FXAAEffect {}
     ee80a20a9bd99f2d70711114e15fe7ca: !Stride.Rendering.Compositing.DebugRenderer,Stride.Rendering

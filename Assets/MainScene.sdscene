@@ -226,12 +226,12 @@ Hierarchy:
                         Id: fece2e54-147c-408e-8f3d-4b60a4edbba4
                         Priority: -1
                         itemId: 0
-                        itemName: Letter to Anel
+                        itemName: letter.anel.name
                         itemDescription: 
                         isPickable: false
                         rotationInspection: {X: 0.7071067, Y: -2.9802322E-08, Z: 2.9802322E-08, W: 0.7071067}
                         notificationText: 
-                        documentText: Te amo <#
+                        documentText: letter.anel.text
                         ItemType: document
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
                         Id: b3afbcb2-cb9f-46a1-91be-ba35fa3a5dff
@@ -533,13 +533,13 @@ Hierarchy:
                         Id: aab111a4-8da3-4b07-a5f5-eaed37e8520d
                         Priority: -1
                         itemId: 0
-                        itemName: Train toy
-                        itemDescription: This is a old train toy.
+                        itemName: object.toy.name
+                        itemDescription: object.toy.description
                         isPickable: false
                         rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
                         notificationText: 
                         documentText: 
-                        ItemType: key
+                        ItemType: inspectable
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
                         Id: 63a48882-5305-46be-86ba-e875cbe405e3
                         CanSleep: true
@@ -1544,8 +1544,8 @@ Hierarchy:
                         Id: 3eb498a8-54f5-4f59-8677-2b50464b383f
                         Priority: -1
                         itemId: 0
-                        itemName: Train toy
-                        itemDescription: This is an object...
+                        itemName: 
+                        itemDescription: object.cube.notification
                         isPickable: false
                         rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
                         notificationText: Is just a Cube...
@@ -2660,8 +2660,8 @@ Hierarchy:
                         invertDirection: false
                         idDoor: 1
                         isLocked: true
-                        lockedNotification: Door is locked...
-                        unlockedNotification: The key fits
+                        lockedNotification: door.locked
+                        unlockedNotification: door.unlocked
                     bd731eaaf3a08432f3671444661b290d: !RigidbodyComponent
                         Id: bca98165-c563-49ac-926f-ebdf185ff6d4
                         CanSleep: false
@@ -2842,6 +2842,9 @@ Hierarchy:
                         inspectItem: 2d83be5d-407a-4cfe-a015-2a9ce2f20073:Default assets/SFX/Interaction/cloth-inventory
                         readDocument: ff95f233-bf7b-49a8-a9cf-2ba760fbe4e1:Default assets/SFX/Interaction/turn_page
                         pressButton: cd9511b7-5902-48a2-99f3-34e61d368bea:Default assets/SFX/Interaction/button
+                    d6240c44c633145696bf0a0f649a9cad: !OpenHorror.Core.Language,OpenHorror.Game
+                        Id: d2110386-ef16-41fb-8497-0f1b7b95306f
+                        Priority: -11
         -   Entity:
                 Id: 46b62aed-0c5e-4c2c-9693-298a9bf5de54
                 Name: Wall0x2x5Window (3)
@@ -4359,12 +4362,12 @@ Hierarchy:
                         Id: dfa9bb23-17fa-4879-8b59-441132997559
                         Priority: -1
                         itemId: 0
-                        itemName: Door password
+                        itemName: letter.puzzle.name
                         itemDescription: 
                         isPickable: false
                         rotationInspection: {X: 0.7071067, Y: -2.9802322E-08, Z: 2.9802322E-08, W: 0.7071067}
                         notificationText: 
-                        documentText: Press 1 , 3 , 2 ,4 buttons in that order to open the door
+                        documentText: letter.puzzle.text
                         ItemType: document
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
                         Id: fde447c7-1ea1-4128-906e-ef3cdc0cc921
@@ -4795,8 +4798,8 @@ Hierarchy:
                         invertDirection: false
                         idDoor: 1
                         isLocked: false
-                        lockedNotification: Door is locked...
-                        unlockedNotification: The key fits
+                        lockedNotification: door.locked
+                        unlockedNotification: door.unlocked
                     bd731eaaf3a08432f3671444661b290d: !RigidbodyComponent
                         Id: 6701476d-dcd4-4525-86f5-29852012f2c9
                         CanSleep: false
@@ -5313,8 +5316,8 @@ Hierarchy:
                         invertDirection: true
                         idDoor: 1
                         isLocked: false
-                        lockedNotification: Door is locked...
-                        unlockedNotification: The key fits
+                        lockedNotification: door.locked
+                        unlockedNotification: door.unlocked
                     bd731eaaf3a08432f3671444661b290d: !RigidbodyComponent
                         Id: 670520c5-b65c-489c-96d6-98e44de23554
                         CanSleep: false
@@ -6113,8 +6116,8 @@ Hierarchy:
                         invertDirection: false
                         idDoor: 99
                         isLocked: true
-                        lockedNotification: Door is locked...
-                        unlockedNotification: The key fits
+                        lockedNotification: door.locked
+                        unlockedNotification: door.unlocked
                     bd731eaaf3a08432f3671444661b290d: !RigidbodyComponent
                         Id: 3e81fe35-b116-4834-929f-af5b374af081
                         CanSleep: false
@@ -6508,11 +6511,11 @@ Hierarchy:
                         Id: e2d573ac-ffe2-40ea-b617-69c6f5838818
                         Priority: -1
                         itemId: 1
-                        itemName: First key
-                        itemDescription: A rusty key
+                        itemName: object.key1.name
+                        itemDescription: object.key1.description
                         isPickable: true
                         rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
-                        notificationText: First Key picked up
+                        notificationText: object.key1.notification
                         documentText: 
                         ItemType: key
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent

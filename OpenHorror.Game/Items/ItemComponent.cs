@@ -10,6 +10,8 @@ using OpenHorror.Core;
 using Stride.Rendering;
 using Stride.Core.Shaders.Ast;
 using System.ComponentModel;
+using System.Security.Cryptography.X509Certificates;
+using System.IO;
 
 namespace OpenHorror.Items
 {
@@ -25,13 +27,13 @@ namespace OpenHorror.Items
     {
         public ItemType ItemType { get; set; }
         public ushort itemId = 0;
-        public String itemName = "Object";
-        public String itemDescription = "This is an object...";
+        public string itemName = "Object";
+        public string itemDescription = "This is an object...";
         public bool isPickable = false; //This variable indicates if the item can be pickable after inspection or not.
         public Quaternion rotationInspection; //Rotation of the object when is being inspected
-        public String notificationText = "Picked item...";
+        public string notificationText = "Picked item...";
 
-        public String documentText = "";
+        public string documentText = "";
 
         private Vector3 startPosition , inspectPosition;
         private ModelComponent  modelComponent;
@@ -52,7 +54,7 @@ namespace OpenHorror.Items
             GameManager.Instance.playerInventorySystem.Inventory.Add(itemComponent);
             Entity.Get<ModelComponent>().Enabled = false;
             Entity.Remove(this);
-            GameManager.Instance.GetUI().PushNotification(notificationText);
+            GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(notificationText));
             GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.takeItem);
         }
 
@@ -60,7 +62,7 @@ namespace OpenHorror.Items
         {
             if (ItemType == ItemType.nonInspectable)
             {
-                GameManager.Instance.GetUI().PushNotification(notificationText);
+                GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(notificationText));
                 return;
             }
 

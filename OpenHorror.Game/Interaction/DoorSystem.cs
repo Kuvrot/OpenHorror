@@ -76,7 +76,7 @@ namespace OpenHorror.Interaction
                 }
                 else
                 {
-                    GameManager.Instance.GetUI().PushNotification(lockedNotification);
+                    GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(lockedNotification));
                     GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.lockDoor);
                     return;
                 }
@@ -89,7 +89,7 @@ namespace OpenHorror.Interaction
 
         public void Unlock()
         {
-            GameManager.Instance.GetUI().PushNotification(unlockedNotification);
+            GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(unlockedNotification));
             isLocked = false;
             GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.unlockDoor);
         }
