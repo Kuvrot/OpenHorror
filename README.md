@@ -9,12 +9,11 @@ Horror game template in C# for ![Stride engine](https://github.com/stride3d/stri
 - [x] Door system
 - [x] Keys system
 - [x] Simple inventory system
-- [ ] Internationalization
-- [ ] Ladder system
+- [ ] Internationalization (In progress)
 - [x] Sprinting
 - [x] Puzzles
 - [x] Footstep system (simple system has been implemented, but it does not discriminates floors)
-- [ ] Add sounds (in progress)
-
+- [x] Add sounds (in progress)
+- [ ] Ladder system
 
 
