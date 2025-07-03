@@ -14,6 +14,7 @@
 - [x] Puzzles
 - [x] Footstep system (simple system has been implemented, but it does not discriminates floors)
 - [x] Add sounds (in progress)
+- [x] Dialogue system
 - [ ] Ladder system
 
 
