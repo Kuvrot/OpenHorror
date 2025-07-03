@@ -1,0 +1,54 @@
+!PrefabAsset
+Id: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 638ec79b-7837-430d-89b1-ef4e16df2b5e
+    Parts:
+        -   Entity:
+                Id: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                Name*: DialogueSystem
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: a88aa22e-b831-4975-ac39-19ac202017f5
+                        Position*: {X: -15.169766, Y: 1.0, Z: -3.2656157}
+                        Rotation*: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale*: {X: 0.25, Y: 2.0, Z: 0.75}
+                        Children: {}
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: 9e7094b2-46b3-4fd6-9a6d-50e05d1bd60f
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 7a77bc71-b428-43e2-b950-e647e00ab674
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012*: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 8ad61883-a1cf-4403-9824-2375a1cecc09
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1: Pene
+                            0a4e1f3ec4278bee413c86220d627352: Pene2
+                        timeBetweenDialogues: 3.0
+                        timeBetweenLetters: 0.15
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3*: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 6fba7eac-ce9b-44b6-a858-3b39b2b72fa8
+            Base:
+                BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
+                BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
+                InstanceId: 99a8ff05-e797-4c2b-b5ab-3f77f77146f2
