@@ -80,7 +80,7 @@ namespace OpenHorror
         /// </summary>
         protected virtual void UpdateCamera()
         {
-            if (GameManager.Instance.IsInspecting())
+            if (GameManager.Instance.IsInspecting() || GameManager.Instance.GetInteract())
                 return;
 
             // Camera movement from player input

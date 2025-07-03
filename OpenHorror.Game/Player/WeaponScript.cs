@@ -106,6 +106,15 @@ namespace OpenHorror.Player
                     }
                     UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
                 }
+
+                if (hitResult.Collider.Entity.Get<DialogueSystem>() != null)
+                {
+                    if (Input.IsMouseButtonReleased(MouseButton.Left))
+                    {
+                        hitResult.Collider.Entity.Get<DialogueSystem>().Interact();
+                    }
+                    UIManager.Instance.SetCursor(UIManager.Instance.handFrame);
+                }
             }
             else
             {

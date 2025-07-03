@@ -29,6 +29,7 @@ namespace OpenHorror.Core
         private ItemComponent itemComponent; //current item being inspected
         private AudioManager audioManager;
         public PlayerInventorySystem playerInventorySystem;
+        private bool isInteracting = false;
 
         public bool isDebugEnabled = false;
         public override void Update()
@@ -84,7 +85,6 @@ namespace OpenHorror.Core
             {
                 Debug();
             }
-
         }
 
         public UIManager GetUI()
@@ -117,6 +117,15 @@ namespace OpenHorror.Core
             //Debug menu
 
             DebugText.Print("[K] TO ENABLE/DISABLE AMBIENT LIGHT" , new Int2(300 , 300));
+        }
+
+        public void SetInteract (bool isInteracting)
+        {
+            this.isInteracting = isInteracting;
+        }
+        public bool GetInteract ()
+        {
+            return isInteracting;
         }
     }
 }

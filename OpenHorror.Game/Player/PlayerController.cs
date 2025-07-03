@@ -44,7 +44,7 @@ namespace OpenHorror.Player
         /// </summary>
         public override void Update()
         {
-            if (!GameManager.Instance.IsInspecting())
+            if (!GameManager.Instance.IsInspecting() && !GameManager.Instance.GetInteract())
             {
                 Move();
             }

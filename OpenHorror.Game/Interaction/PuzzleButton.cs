@@ -15,6 +15,8 @@ namespace OpenHorror.Interaction
         
         public PuzzleSystem puzzleSystem; // puzzle system that this button belongs to
         public string value = "";
+
+        public string notificationText = "";
         public override void Start()
         {
             if (puzzleSystem == null)
@@ -31,6 +33,10 @@ namespace OpenHorror.Interaction
         {
             puzzleSystem.PushHistory(value);
             GameManager.Instance.GetAudioManager().PlaySound(GlobalAudioManager.Instance.pressButton);
+            if (notificationText != "")
+            {
+                GameManager.Instance.GetUI().PushNotification(notificationText);
+            }
         }
     }
 }

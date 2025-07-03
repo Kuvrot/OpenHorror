@@ -1,4 +1,5 @@
 ﻿using System;
+using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Rendering.Sprites;
 using Stride.UI.Controls;
@@ -23,12 +24,16 @@ namespace OpenHorror.Core
         TextBlock notificationUI;
 
         private float timer = 0;
+        private float notificationTime = 3;
+        private bool isNotification = false;
 
         public override void Update()
         {
-            if (notificationUI.Text != "")
+            DebugText.Print(isNotification.ToString(), new Int2(300, 300));
+
+            if (notificationUI.Text != "" && isNotification)
             {
-               if (timer < 3f)
+               if (timer < notificationTime)
                {
                     Counter();
                }
@@ -54,7 +59,22 @@ namespace OpenHorror.Core
 
         public void PushNotification(String notification)
         {
+            isNotification = true;
+            notificationTime = 3;
             notificationUI.Text = notification;
+        }
+
+        public void PushNotificationSpecificTime (String notification, float time)
+        {
+            isNotification = true;
+            notificationTime = time;
+            notificationUI.Text = notification;
+        }
+
+        public void PrintText(String text)
+        {
+            isNotification = false;
+            notificationUI.Text = text;
         }
     }
 }
