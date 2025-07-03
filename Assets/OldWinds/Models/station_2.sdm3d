@@ -1,0 +1,15 @@
+!Model
+Id: 7a570c60-1b99-401e-8b62-dec729a19412
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/station.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f94c9a69c1dc22f685e9e18e1b8ab97f:
+        Name: Material
+        MaterialInstance:
+            Material: 8e9e3165-2cac-41dd-be08-2be4c97b0b1c:OldWinds/Models/Material
+Modifiers: {}
+~SourceHashes:
+    229a3a02e448549994df2c8202dd353f~../../../Resources/OldWinds/Models/station.obj: 9a48ee4a320368efccb76c4e2b2d99f2

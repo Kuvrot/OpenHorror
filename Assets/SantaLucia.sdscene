@@ -11,7 +11,24 @@ Hierarchy:
         - ref!! 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
         - ref!! faa2b344-c342-4544-8a11-6cf8dcf5a4a2
         - ref!! 211113a4-40e8-4331-9465-90fbe0948078
+        - ref!! c2f549a8-15b1-419a-990a-ece142277822
+        - ref!! 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
+        - ref!! b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
     Parts:
+        -   Entity:
+                Id: 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 8ec6c8df-17d5-4ad9-b1e5-0cf17a11cd2b
+                        Position: {X: -7.24071, Y: 0.62423265, Z: -1.5239086}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 5efd4814-480f-4ce1-8d8f-e9d72019131f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
         -   Entity:
                 Id: 11a0c743-053e-4e55-a2cf-efa1e374c9e5
                 Name: PlayerUI
@@ -469,6 +486,48 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 7f24b289-5054-4f10-8187-3f8ceb72afda
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Folder: null
+            Entity:
+                Id: b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 8683196e-6af4-4d77-85b5-3eab84b3b966
+                        Position: {X: 6.1084065, Y: 0.62423265, Z: -1.5239079}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7b5a07f1-c3c8-4f04-a491-5db9441fe765
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: c2f549a8-15b1-419a-990a-ece142277822
+                Name: station_2
+                Components:
+                    ef3e43a43d62b507982db19da55e3cf8: !TransformComponent
+                        Id: 9477b99e-013e-4c55-8b4b-ac51f38eb0ba
+                        Position: {X: -0.9166013, Y: 0.0, Z: 8.257622}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3ee4c37f00b89216cacfea9ce1931eb3: !ModelComponent
+                        Id: 0fab9e45-858d-46ba-bb24-576283b558e3
+                        Model: 7a570c60-1b99-401e-8b62-dec729a19412:OldWinds/Models/station_2
+                        Materials: {}
+                    0c22e028a68c1c7658c13c13f9ec9fc4: !StaticColliderComponent
+                        Id: 6e24af44-abed-43d4-b2c2-06b1248519af
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3019b16b4d722c977d21fc6dd8e9ef5c: !StaticMeshColliderShapeDesc
+                                Model: 7a570c60-1b99-401e-8b62-dec729a19412:OldWinds/Models/station_2
         -   Entity:
                 Id: f4414d3d-9f92-4229-a0de-5a6c6ee30285
                 Name: FlashLight
