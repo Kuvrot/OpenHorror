@@ -1,0 +1,8 @@
+!Sound
+Id: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Default assets/SFX/Interaction/VoiceSound.mp3
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

@@ -38,5 +38,23 @@ namespace OpenHorror.Core
                 soundInstance.Play();
             }
         }
+
+        //This method plays the sound but with a random pitch, so every time makes a "different" sound
+        public void PlaySoundWithRandomPitch(Sound sound)
+        {
+            if (sound != null)
+            {
+                var soundInstace = sound.CreateInstance();
+                if (new Random().Next(0, 99) >= 33)
+                {
+                    soundInstace.Pitch = 0.7f;
+                }
+                else if (new Random().Next(0, 99) >= 33 + 33)
+                {
+                    soundInstace.Pitch = 0.5f;
+                }
+                soundInstace.Play();
+            }
+        }
     }
 }

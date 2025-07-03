@@ -3,6 +3,8 @@ using Stride.Engine;
 using OpenHorror.Core;
 using System;
 using Stride.Core.Mathematics;
+using Stride.Audio;
+using Silk.NET.Core;
 
 namespace OpenHorror.Interaction
 {
@@ -17,6 +19,9 @@ namespace OpenHorror.Interaction
         private float clock = 0;
         private float letterTick = 0;
         private string currentString;
+
+        public Sound voiceSound;
+
         public override void Start()
         {
             if (DialoguesList.Count > 0)
@@ -57,6 +62,7 @@ namespace OpenHorror.Interaction
                        {
                             currentString += DialoguesList[currentDialogue][currentLetter];
                             GameManager.Instance.GetUI().PrintText(currentString);
+                            Entity.Get<AudioManager>().PlaySoundWithRandomPitch(voiceSound);
                             currentLetter++;
                        }
                        else
