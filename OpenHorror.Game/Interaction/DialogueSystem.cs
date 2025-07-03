@@ -57,23 +57,22 @@ namespace OpenHorror.Interaction
                 {
                     if (Counter())
                     {
-                        currentDialogue++;
-                        GameManager.Instance.GetUI().PrintText("");
-                        endDialogue = false;
-                    }
-                }
-
-                if (currentDialogue == DialoguesList.Count - 1)
-                {
-                    if (Counter())
-                    {
-                        GameManager.Instance.SetInteract(false);
-                        currentDialogue = 0;
-                        currentLetter = 0;
-                        GameManager.Instance.GetUI().PrintText("");
-                        clock = timeBetweenDialogues;
-                        dialogueInitiated = false;
-                    }
+                        if (currentDialogue == DialoguesList.Count - 1)
+                        {
+                            GameManager.Instance.SetInteract(false);
+                            currentDialogue = 0;
+                            currentLetter = 0;
+                            GameManager.Instance.GetUI().PrintText("");
+                            clock = timeBetweenDialogues;
+                            dialogueInitiated = false;
+                        }
+                        else
+                        {
+                            currentDialogue++;
+                            GameManager.Instance.GetUI().PrintText("");
+                            endDialogue = false;
+                        }
+                    }  
                 }
             }
 
