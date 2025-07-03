@@ -30,6 +30,7 @@ namespace OpenHorror.Core
         private AudioManager audioManager;
         public PlayerInventorySystem playerInventorySystem;
         private bool isInteracting = false;
+        public TransformComponent Player;
 
         public bool isDebugEnabled = false;
         public override void Update()

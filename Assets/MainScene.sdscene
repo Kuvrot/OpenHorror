@@ -2819,6 +2819,7 @@ Hierarchy:
                         Priority: -10
                         inspectPosition: ref!! 27081004-b96a-4b12-b3d1-5025071e3fd0
                         playerInventorySystem: null
+                        Player: ref!! 59c28a45-950f-4f3f-b472-42e21b3e420f
                         isDebugEnabled: false
                     00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
                         Id: e7d532a0-ca69-4721-a291-edf8d3877bd7
@@ -7920,7 +7921,9 @@ Hierarchy:
                         DialoguesList:
                             42c7d84ee443dcc5888b50791666e4b1: Pene
                             0a4e1f3ec4278bee413c86220d627352: Pene2
-                        timeBetweenDialogues: 5.0
+                        timeBetweenDialogues: 3.0
+                    c6a2f777f90d94b05bf033fd89410bd3*: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 7b736d26-a209-488a-94c5-dfcabce47016
             Base:
                 BasePartAsset: e4b3ab45-27bb-4ac5-b9ff-71ec1ead5c54:BlocksPrefabs/Box3x1x1
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
