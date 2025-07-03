@@ -166,18 +166,18 @@ SharedRenderers:
     34ecb9b2633eacfc439ba8744fe05102: !PostProcessingEffects
         Id: 608bf04d-8640-469d-b710-1ecf6a46f794
         Outline:
-            Enabled: false
+            Enabled*: false
             NormalWeight: 2.0
             DepthWeight: 0.2
             NormalNearCutoff: 0.1
         Fog:
-            Enabled: false
-            Density: 0.1
+            Enabled*: false
+            Density*: 0.02
             Color: {R: 1.0, G: 1.0, B: 1.0}
-            FogStart: 10.0
+            FogStart*: 0.3
             SkipBackground: false
         AmbientOcclusion:
-            Enabled: false
+            Enabled*: false
         LocalReflections:
             Enabled*: false
             ResolvePassResolution: Full
@@ -189,7 +189,11 @@ SharedRenderers:
             TemporalEffect*: true
         DepthOfField:
             Enabled*: false
-            DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
+            MaxBokehSize*: 0.37
+            DOFAreas*: {X: 300.0, Y: 300.0, Z: 200.0, W: 400.0}
+            QualityPreset*: 0.09
+            Technique*: HexagonalTripleRhombi
+            AutoFocus*: false
         BrightFilter:
             Color: {R: 1.0, G: 1.0, B: 1.0}
         Bloom:
@@ -198,21 +202,23 @@ SharedRenderers:
                 Enabled: false
         LightStreak:
             Attenuation: 0.7
-        LensFlare: {}
+        LensFlare:
+            Enabled*: true
         ColorTransforms:
-            Enabled*: false
+            Enabled*: true
             Transforms:
                 1e06f805f8b2e949a06c30d45fe413ef: !ToneMap
                     Operator: !ToneMapHejl2Operator {}
                 c57351444609d14ea258b3f511ec8a74: !FilmGrain
                     Enabled*: true
                     Amount*: 1.0
-                    GrainSize*: 2.887
+                    GrainSize*: 1.97
                     Animate*: true
                 e86e22e9a5d65545b8b55fca26e0afee: !Vignetting
                     Enabled*: true
                     Color: {R: 0.0, G: 0.0, B: 0.0}
-        Antialiasing: !FXAAEffect {}
+        Antialiasing: !FXAAEffect
+            Enabled*: false
     ee80a20a9bd99f2d70711114e15fe7ca: !Stride.Rendering.Compositing.DebugRenderer,Stride.Rendering
         Id: 7f627be4-065f-4541-bfd2-f7e6cef58a96
         DebugRenderStages: {}

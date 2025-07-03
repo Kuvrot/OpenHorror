@@ -11,10 +11,11 @@ namespace OpenHorror.Interaction
     public class DialogueSystem : SyncScript
     {
         public List<string> DialoguesList = [];
-        public float timeBetweenDialogues = 5;
+        public float timeBetweenDialogues = 2;
         public float timeBetweenLetters = 0.15f;
         public bool lookPlayer = true;
         private bool dialogueInitiated = false;
+        private bool endDialogue = false;
         private int currentDialogue = 0;
         private int currentLetter = 0;
         private float clock = 0;
@@ -31,39 +32,47 @@ namespace OpenHorror.Interaction
         {
             if (dialogueInitiated)
             {
-                if (Counter())
+                if (Counter2() && !endDialogue)
                 {
-                    currentString = "";
-                    if (currentDialogue < DialoguesList.Count - 1)
+                    if (currentString != DialoguesList[currentDialogue])
                     {
-                        currentLetter = 0;
-                        currentDialogue++;
+                        currentString += DialoguesList[currentDialogue][currentLetter];
+                        GameManager.Instance.GetUI().PrintText(Language.Instance.Translate(currentString));
+                        if (!DialoguesList[currentDialogue].Contains("player.dialogue"))
+                        {
+                            Entity.Get<AudioManager>().PlaySoundWithRandomPitch(voiceSound);
+                        }
+                        currentLetter++;
                     }
                     else
                     {
+                        currentString = DialoguesList[currentDialogue];
+                        currentString = "";
+                        currentLetter = 0;
+                        endDialogue = true;
+                    }
+                }
+
+                if (endDialogue)
+                {
+                    if (Counter())
+                    {
+                        currentDialogue++;
+                        GameManager.Instance.GetUI().PrintText("");
+                        endDialogue = false;
+                    }
+                }
+
+                if (currentDialogue == DialoguesList.Count - 1)
+                {
+                    if (Counter())
+                    {
                         GameManager.Instance.SetInteract(false);
                         currentDialogue = 0;
+                        currentLetter = 0;
                         GameManager.Instance.GetUI().PrintText("");
                         clock = timeBetweenDialogues;
                         dialogueInitiated = false;
-                    }
-                }
-                else
-                {
-                    if (Counter2())
-                    {
-                       if (currentString != DialoguesList[currentDialogue])
-                       {
-                            currentString += DialoguesList[currentDialogue][currentLetter];
-                            GameManager.Instance.GetUI().PrintText(Language.Instance.Translate(currentString));
-                            Entity.Get<AudioManager>().PlaySoundWithRandomPitch(voiceSound);
-                            currentLetter++;
-                       }
-                       else
-                       {
-                            currentString = DialoguesList[currentDialogue];
-                            currentLetter = 0;
-                       }
                     }
                 }
             }

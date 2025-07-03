@@ -1,0 +1,286 @@
+!PrefabAsset
+Id: 127aaa60-3648-4285-859e-5744f8539307
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 7f24b289-5054-4f10-8187-3f8ceb72afda
+    Parts:
+        -   Entity:
+                Id: 24631be9-0f51-4c2f-be87-976fabe4d2be
+                Name: Inspect
+                Components:
+                    aa37db61145ce7265de686c2ce252422: !TransformComponent
+                        Id: acc78c86-858c-40f6-9492-603697beb8d3
+                        Position: {X: 0.0, Y: 0.0, Z: -0.68152684}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: null
+            Entity:
+                Id: 403e0aa7-c0a1-4359-997e-48d237b4ab3a
+                Name: CandleLight
+                Components:
+                    778e226aaeea787c9b36c3d654d2d3e4: !TransformComponent
+                        Id: 88a7c7ef-6acb-4018-b7d5-348206ccf188
+                        Position: {X: -0.7726961, Y: 0.20981474, Z: -1.062977}
+                        Rotation: {X: -0.49999997, Y: 0.49999997, Z: 0.49999997, W: 0.49999997}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8c41d55db2aae35b02ac3ef1019149e0: !LightComponent
+                        Id: f491ac57-3a23-42dc-ab57-0d135ede25a1
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.76862746, G: 0.6784314, B: 0.49411765}
+                            Radius: 20.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+        -   Entity:
+                Id: 517d816e-7308-4bca-90e1-1052bfa0c8c0
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: e8a725de-3257-4a18-9183-d7cd6b9041a5
+                        Position: {X: 1.8508038E-15, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            321d321c570d3e43a2a274d71d7258f5: ref!! 09a65329-d70c-4c63-8872-b42ce1fa03da
+                            3874058b00661242806d2e3f4afd55c1: ref!! 4496f7e7-27f0-4e81-b7f2-788cbb76f72d
+                            647dc8aa353f51fa6b65cbc15fde17c2: ref!! ed822fed-7646-42ce-b4ac-02bdd5683cf3
+                            de5f34e32037b6c301265807e288b15f: ref!! 88a7c7ef-6acb-4018-b7d5-348206ccf188
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: 238d98ad-90ca-4fcd-980a-2a0272ed8297
+                        Enabled: false
+                        Model: 380281ef-07bb-49eb-8c9e-6c509f454845:Models/MachinegunModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    39b0129ace88504c8b56a15efbeca890: !ModelNodeLinkComponent
+                        Id: 544f39ae-4d6b-489f-9d46-0167ab068758
+                        Target: null
+                        NodeName: MachinegunBone
+        -   Entity:
+                Id: 7f24b289-5054-4f10-8187-3f8ceb72afda
+                Name: PlayerCharacter
+                Components:
+                    458ac2590f953f4fb47242e21b3e420f: !TransformComponent
+                        Id: 04aa2c74-4649-4ed7-81f9-d8ee7ca9c5e2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e7530b9a6be27e47b405f3991f670c13: ref!! bc6816fd-a407-42da-88e8-ceeeb1020e15
+                    87c25277a58ea44f81710ca69284e1dd: !CharacterComponent
+                        Id: af857e3b-f86f-4d0c-b42b-2eb3682dd6a9
+                        CollisionGroup: KinematicFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.785398}
+                        JumpSpeed: 0.0
+                        Gravity: {X: 0.0, Y: -20.0, Z: 0.0}
+                        ColliderShapes:
+                            c7ab0c6b38a28147baf5c58b2eea7674: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    e3730ef4c10fc311cdee97ef9c416942: !OpenHorror.Player.PlayerController,OpenHorror.Game
+                        Id: 39372a27-a891-49b2-870b-8db877441f34
+                        MaxRunSpeed: 4.0
+                    99486f0b232148dd09a6627b59db596b: !OpenHorror.Player.PlayerInput,OpenHorror.Game
+                        Id: 725e48fb-36fb-403b-83df-288779363c99
+                        Priority: -1000
+                        DeadZone: 0.25
+                        Camera: ref!! 5a627f3c-ffd7-4a7c-8674-714f7ae04dc8
+                        MouseSensitivity: 100.0
+                        KeysLeft:
+                            79c1d8abdc0cce2b4221ece447bdec9e: Left
+                            0fe771bf0347303773c1aecc0768b5f3: A
+                        KeysRight:
+                            c252e2acf9e4758efd9baa879ef896f5: Right
+                            924ede849ca80a1141ea7b4cc4c9d2dd: D
+                        KeysUp:
+                            643ce2244c48c42beffae7d0a93fcca2: Up
+                            84e9bdfa0c56e6e70fb52fb67fdf26c0: W
+                        KeysDown:
+                            c710581bbfee7f9dbffa87d8b423a961: Down
+                            9861448150847263e1dcce732406e8b4: S
+                        KeysReload:
+                            f7748360940667938216bda161f12ed0: E
+                            05744cc71fc6762cd1820202d01398ed: R
+                    6982bf064bd5745fa8e961e88cb5502c: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 52325c84-7fcd-480f-9498-44fd5b5b144a
+                    02249df08ffdf823ea232b420d942abb: !OpenHorror.Player.FootstepsSystem,OpenHorror.Game
+                        Id: 93fcd160-ce24-4c79-a4bb-0f34ca363efc
+                        soundSpeed: 0.75
+                        sounds:
+                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/SFX/Footsteps/stepstone_1
+                            192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/SFX/Footsteps/stepstone_2
+                            3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/SFX/Footsteps/stepstone_3
+                            b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/SFX/Footsteps/stepstone_4
+                            a50b8a5b5741ddfb5a8ff52c7aef9165: b636395e-8160-4a27-b4f4-9bee88906280:Default assets/SFX/Footsteps/stepstone_5
+                            6131a963a2ee2ba8a9aa1a2cfb4559a8: 52712599-9d89-4a27-b738-3a22c088f1d4:Default assets/SFX/Footsteps/stepstone_6
+                            2b06292ce7b90826ecd5cb8da39d9081: fb7fb692-31d5-4548-9d84-06d128e88237:Default assets/SFX/Footsteps/stepstone_7
+                            4ab172a7123f63c4869ecf21e7b83b8f: f4021685-c4a3-48b9-8aa3-8a59cd330eb2:Default assets/SFX/Footsteps/stepstone_8
+        -   Entity:
+                Id: 841b73a2-b6ff-43a6-8c17-910cde15bef5
+                Name: BulletCount
+                Components:
+                    3874058b00661242806d2e3f4afd55c1: !TransformComponent
+                        Id: 4496f7e7-27f0-4e81-b7f2-788cbb76f72d
+                        Position: {X: 0.00064765656, Y: 0.17203088, Z: -0.010609664}
+                        Rotation: {X: -0.38512552, Y: 1.6653345E-16, Z: -3.366874E-08, W: 0.9228642}
+                        Scale: {X: 0.04, Y: 0.04, Z: 0.04}
+                        Children: {}
+                    a3de2d72fa2fc24d83c344dedd18fc64: !SpriteComponent
+                        Id: 836c330b-722d-4d52-8e85-842889512215
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.0
+        -   Entity:
+                Id: b2353ad8-6b45-47cb-94a4-c39dfdf12f96
+                Name: FlashLight
+                Components:
+                    778e226aaeea787c9b36c3d654d2d3e4: !TransformComponent
+                        Id: ed822fed-7646-42ce-b4ac-02bdd5683cf3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.017449748, Y: -0.017449748, Z: 0.00030458646, W: 0.9996954}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8c41d55db2aae35b02ac3ef1019149e0: !LightComponent
+                        Id: d33d75ac-3b1b-4fdc-af21-5446c016c4ef
+                        Enabled: false
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 44.0
+                            AngleInner: 43.3
+                            AngleOuter: 39.3
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+        -   Entity:
+                Id: bfbb6424-4e4f-43c1-95ab-423eb7a275ea
+                Name: EffectsFeedback
+                Components:
+                    321d321c570d3e43a2a274d71d7258f5: !TransformComponent
+                        Id: 09a65329-d70c-4c63-8872-b42ce1fa03da
+                        Position: {X: 3.225738E-08, Y: 0.1441944, Z: -0.80561554}
+                        Rotation: {X: 0.70710677, Y: 3.8090255E-07, Z: -3.8090255E-07, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e05a9c8aae2b07c6caf1e8052bbb8ea3: !OpenHorror.EffectController,OpenHorror.Game
+                        Id: c0bc02de-cf72-4f46-a145-2be7ceed21cb
+                        TriggerGroup:
+                            Name: Gunfire
+                            TriggerEvents:
+                                cc2e7fd643efee43a5334538e258744d:
+                                    Name: MuzzleFlash
+                                    SourcePrefab: 0cd40e62-5722-48e0-9c50-146021d3416b:VFXPrefabs/vfx-RichMuzzleFlash
+                                    FollowEntity: true
+                                    Duration: 0.6
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 1.0, Y: 0.0, Z: 0.0, W: -4.371139E-08}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                c2b4a07f896d1143868abfae468c8a51:
+                                    Name: BulletImpact
+                                    SourcePrefab: 831ee97e-5bb2-454b-80e0-6a06240f4db1:VFXPrefabs/vfx-RichBulletImpact
+                                    FollowEntity: false
+                                    Duration: 1.0
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                25a41a6e2c1e89449f410d4cd3a33c89:
+                                    Name: DamagedTrail
+                                    SourcePrefab: 17ac78e5-0c7e-469c-a49c-518ce5ae07b0:VFXPrefabs/vfx-DamagedTrail
+                                    FollowEntity: true
+                                    Duration: 6.0
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+        -   Entity:
+                Id: c9fa9483-d66d-463f-8f9a-11e52d5ef38a
+                Name: MagazineModel
+                Components:
+                    3d9c1cc499067d46a84e5274b42e9de3: !TransformComponent
+                        Id: 71c250cc-6167-432b-9e66-164976a7bdfc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    14266246fced0e4486392429f9504708: !ModelComponent
+                        Id: c06327a0-b9c1-43ce-b1e7-5c0c5395f559
+                        Enabled: false
+                        Model: d1ed4e5c-e5e9-456d-80ed-fb5b06ce1dc3:Models/MagazineModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    1668c7b09aefcc42a71e4470c1bdf8e9: !ModelNodeLinkComponent
+                        Id: bd67381b-dcb8-47d0-8d54-69908a6bca63
+                        Target: null
+                        NodeName: MagazineBone
+        -   Entity:
+                Id: cb4c564d-c86d-4e32-bcea-fcee73d669bb
+                Name: Hands
+                Components:
+                    1fe64d64198b4543bfc6b549158775e4: !TransformComponent
+                        Id: beb73223-4729-4c1e-b1d6-57eed552bbec
+                        Position: {X: 0.0, Y: 0.0, Z: 1.4672096}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a9c79a3bf064f945b8cb4a186967953c: ref!! e8a725de-3257-4a18-9183-d7cd6b9041a5
+                            3d9c1cc499067d46a84e5274b42e9de3: ref!! 71c250cc-6167-432b-9e66-164976a7bdfc
+                    67e963ed191c3a429b961323f89766e4: !ModelComponent
+                        Id: 7b919551-96bd-479b-a41c-0643209a8c4f
+                        Model: 7135111b-8664-420f-a6a5-1572040f452f:Models/mannequinHandModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    e7f9e12d8d35d348b360d0f05ad26c60: !AnimationComponent
+                        Id: ad350dcb-1fec-426d-a474-cd7c75d587e4
+                        Animations: {}
+                    369eeb64cbd6b1712596845936028019: !OpenHorror.Player.AnimationController,OpenHorror.Game
+                        Id: 8917ba22-1247-4c8f-aac5-019ef6b186d6
+                        AnimationComponent: ref!! ad350dcb-1fec-426d-a474-cd7c75d587e4
+                        AnimationIdle: accd7484-3a17-4c8b-9a93-8745a2acb869:Animations/Gun_Idle
+                        AnimationWalk: 13693975-a936-4d71-b30b-f4b8379e62f6:Animations/Gun_Run
+                        AnimationShoot: 2e90ed18-afb2-4794-9966-3e2ab8a30429:Animations/Gun_Shoot
+                        AnimationReload: cae09ba1-b66a-42ae-8d96-218f5c37f296:Animations/Gun_Reload
+                        TimeFactor: 1.0
+        -   Entity:
+                Id: e5c95b62-b671-4172-b909-8214f4ab8a51
+                Name: Camera
+                Components:
+                    e7530b9a6be27e47b405f3991f670c13: !TransformComponent
+                        Id: bc6816fd-a407-42da-88e8-ceeeb1020e15
+                        Position: {X: 0.0, Y: 1.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1fe64d64198b4543bfc6b549158775e4: ref!! beb73223-4729-4c1e-b1d6-57eed552bbec
+                            ae3863ee8d2f5a23e9990d76b44fbfd6: ref!! acc78c86-858c-40f6-9492-603697beb8d3
+                    bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
+                        Id: 5a627f3c-ffd7-4a7c-8674-714f7ae04dc8
+                        Name: null
+                        Projection: Perspective
+                        Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
+                    cf3e805496046ff71a642a58264ab125: !OpenHorror.FpsCamera,OpenHorror.Game
+                        Id: bb37d58b-2e35-4729-a5d5-440721b159bf
+                        RotationSpeed: 0.02355
+                        InvertX: false
+                        InvertY: false
+                    a7d6769210ca2d08fff13e6e064d0430: !OpenHorror.Player.WeaponScript,OpenHorror.Game
+                        Id: a3bcaa33-4be6-4bdb-96e6-486948e98de7
+                        MaxShootDistance: 50.0
+                        ShootImpulse: 12.0
+                        Cooldown: 0.4
+                        ReloadCooldown: 2.0
+                        RemainingBullets: ref!! 836c330b-722d-4d52-8e85-842889512215

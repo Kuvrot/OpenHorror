@@ -2,7 +2,7 @@
 Id: 20c1fd7d-18db-4e29-9f42-0fe25d4e591f
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
-DefaultScene: f2dd4e67-3735-44b9-94fb-749fefd5d77d:MainScene
+DefaultScene: d4e155ff-7559-4b82-ae7a-1cab6bb16375:SantaLucia
 GraphicsCompositor: 26ebb8e9-f450-47d4-bf45-2b207a13ff92:GraphicsCompositor
 Defaults:
     - !Stride.Graphics.RenderingSettings,Stride.Graphics
