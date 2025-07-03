@@ -13,6 +13,7 @@ namespace OpenHorror.Interaction
         public List<string> DialoguesList = [];
         public float timeBetweenDialogues = 5;
         public float timeBetweenLetters = 0.15f;
+        public bool lookPlayer = true;
         private bool dialogueInitiated = false;
         private int currentDialogue = 0;
         private int currentLetter = 0;
@@ -24,12 +25,6 @@ namespace OpenHorror.Interaction
 
         public override void Start()
         {
-            if (DialoguesList.Count > 0)
-            {
-                //currentString = DialoguesList[currentDialogue];
-            }
-
-            //clock = timeBetweenDialogues;
         }
 
         public override void Update()
@@ -48,8 +43,7 @@ namespace OpenHorror.Interaction
                     {
                         GameManager.Instance.SetInteract(false);
                         currentDialogue = 0;
-                        currentString = "";
-                        GameManager.Instance.GetUI().PrintText(currentString);
+                        GameManager.Instance.GetUI().PrintText("");
                         clock = timeBetweenDialogues;
                         dialogueInitiated = false;
                     }
@@ -61,7 +55,7 @@ namespace OpenHorror.Interaction
                        if (currentString != DialoguesList[currentDialogue])
                        {
                             currentString += DialoguesList[currentDialogue][currentLetter];
-                            GameManager.Instance.GetUI().PrintText(currentString);
+                            GameManager.Instance.GetUI().PrintText(Language.Instance.Translate(currentString));
                             Entity.Get<AudioManager>().PlaySoundWithRandomPitch(voiceSound);
                             currentLetter++;
                        }
@@ -74,7 +68,10 @@ namespace OpenHorror.Interaction
                 }
             }
 
-            LookTarget();
+            if (lookPlayer)
+            {
+                LookTarget();
+            }
         }
 
         public void LookTarget()
