@@ -1,0 +1,20 @@
+!Model
+Id: 48ba3e52-b585-481e-9a59-0be52b2cf245
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/pot.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    880c00b95482f36dfb5b41262be0e14b:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    374446000b50d3a91d5720c6e38e80a4:
+        Name: Material
+        MaterialInstance:
+            Material: null
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    a59ed7983640eebf3e9b52a42699d7bf~../../../../Resources/OldWinds/Models/Props/pot.obj: 648c189e971928a87226563d959019a5

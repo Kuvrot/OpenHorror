@@ -1,0 +1,16 @@
+!Model
+Id: 0d4b0192-5453-4021-9407-e64b0661ddae
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/water.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    548a6751ff4a58116d85d0fe25494920:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    cc1b5e760accf27824be3b198cd4327f~../../../../Resources/OldWinds/Models/Props/water.obj: cb5767a290ba289e59dbcc2028487e6c

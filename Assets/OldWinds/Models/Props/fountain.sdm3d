@@ -1,0 +1,20 @@
+!Model
+Id: 3d87cc5e-4717-4f5a-8540-a10c607d635a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/fountain.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    0bc1a56a1681a07e5e9ee3f2cd6bf576:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    021d62c41abcca8bb9622b1e35c5e47d:
+        Name: Material
+        MaterialInstance:
+            Material: null
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    51ba71d53eac21db0df9c1236cdfc5fd~../../../../Resources/OldWinds/Models/Props/fountain.obj: 81b6b2b7a3c8f9da6bf1d2602de51fde

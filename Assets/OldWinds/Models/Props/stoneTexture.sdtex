@@ -1,0 +1,7 @@
+!Texture
+Id: cb9c6d40-418b-4f8a-947a-2ef59f142210
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/stoneTexture.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

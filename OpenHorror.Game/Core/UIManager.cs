@@ -29,8 +29,6 @@ namespace OpenHorror.Core
 
         public override void Update()
         {
-            DebugText.Print(isNotification.ToString(), new Int2(300, 300));
-
             if (notificationUI.Text != "" && isNotification)
             {
                if (timer < notificationTime)

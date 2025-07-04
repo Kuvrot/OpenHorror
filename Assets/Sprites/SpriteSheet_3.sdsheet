@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 408329f8-ad1c-4e13-bebc-04b633a368c4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    a1843a711212c8ffb43f55f88d61f6e0:
+        Source: !file ../../Resources/Sprites/group_128.png
+        Name: group_128
+        TextureRegion: {X: 0, Y: 0, Width: 128, Height: 128}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
