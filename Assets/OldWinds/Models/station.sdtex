@@ -1,0 +1,7 @@
+!Texture
+Id: 37a69cdc-9903-4735-84da-ded903ef4163
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/station.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

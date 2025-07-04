@@ -1,0 +1,51 @@
+!PrefabAsset
+Id: 8daec079-6d8d-4f80-80fe-7afc88b8787a
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! a32df5c1-99d9-459a-91c8-8f330f613f6d
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: a32df5c1-99d9-459a-91c8-8f330f613f6d
+                Name: Key
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: 603cf7c0-de22-49b9-b5c8-25ceac9b328e
+                        Position: {X: -9.04518, Y: 1.0611999, Z: 11.362692}
+                        Rotation: {X: 0.49999997, Y: -0.49999997, Z: 0.49999997, W: 0.49999997}
+                        Scale: {X: 0.16590412, Y: 0.16590412, Z: 0.16590412}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: ee2b2e5c-8e3f-424e-bd58-7182670aab64
+                        Model: 56acc843-de29-4595-b40f-d9f5c70ff6b1:Default assets/Models/Keys/antique lock3
+                        IsShadowCaster: false
+                        Materials: {}
+                    014d21fb35a00446c8ab5c1867e78b1d: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: 2d32d4b3-a50d-409b-8292-4a630cef580e
+                        Priority: -1
+                        itemId: 1
+                        itemName: object.key1.name
+                        itemDescription: object.key1.description
+                        isPickable: true
+                        rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
+                        notificationText: object.key1.notification
+                        documentText: 
+                        ItemType: key
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: 72768be8-e0b2-427d-9679-96b555c09438
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,51 @@
+!PrefabAsset
+Id: 9b38e8ae-5287-42c1-81cc-765fc93ec205
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! f2179958-3b95-4a71-af41-a5635f9a90aa
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: f2179958-3b95-4a71-af41-a5635f9a90aa
+                Name: Cube
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: a0c42aa2-e1d3-4644-8f02-468a0cddb669
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: -0.49999994, Y: -0.5, Z: 0.5, W: 0.5}
+                        Scale: {X: 0.22907993, Y: 0.22907993, Z: 0.22907993}
+                        Children: {}
+                    00a6a4d59608117c18a5b957071983c8: !ModelComponent
+                        Id: 0331f891-72cb-4131-a8d8-3f436a7086b3
+                        Model: 062cb574-0d97-4e01-86e9-95030aee18e8:Models/Box1x1x1
+                        IsShadowCaster: false
+                        Materials: {}
+                    d368d439fa2aef8c4c2eeb49fef2808d: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: 34fac05b-809f-40c2-8997-c3221d812b1c
+                        Priority: -1
+                        itemId: 0
+                        itemName: 
+                        itemDescription: object.cube.notification
+                        isPickable: false
+                        rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
+                        notificationText: Is just a Cube...
+                        documentText: 
+                        ItemType: nonInspectable
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: e85880da-5f1d-4783-a6ae-b0a629f38193
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 2.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,177 @@
+!PrefabAsset
+Id: 780fc9ad-0474-4180-a92e-ab98b4001e7a
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! d40a9b6f-f95e-44b3-8a96-20f524e5b7b1
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: 14fbc21d-e995-4dd2-9f2c-e4a7ba5d4a50
+                Name: 2
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: a9f775bf-3903-40b0-b150-d6165e3014b8
+                        Position: {X: 1.1312396E-08, Y: 0.0, Z: 0.1897905}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 050bd093-d102-438e-9d04-d950017c6031
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: 800d6d39-660a-491b-a2e3-c8e78949f020
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: 8890119a-1868-410e-8a4f-4113b1646e9a
+                        puzzleSystem: null
+                        value: 2
+                        notificationText: 
+        -   Entity:
+                Id: 247304f8-2597-4557-a655-f371f1d6b837
+                Name: 1
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 4d8caf7c-27ae-426c-ba91-6653a93a1b1c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 0f381d88-b7c5-4a35-96bf-5dc6d6cbc314
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: 27efb947-bf29-4acc-8b13-b5953fe998bd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: 78542402-64f3-4862-99e7-fb073649baed
+                        puzzleSystem: null
+                        value: 1
+                        notificationText: pene
+        -   Folder: null
+            Entity:
+                Id: 56553312-40bb-40af-93a1-d40571960179
+                Name: 3
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 6a4e6653-eef9-4964-8782-0455a7efd207
+                        Position: {X: 2.1956978E-08, Y: 0.0, Z: 0.3683769}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 1b70b6ae-8ae1-4d04-b2d8-0e8ea2be455c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 3
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: bed42d2f-f7e1-4485-83f5-306d704cd78a
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: e2ea265b-d543-4374-b8b5-9ff708f04030
+                        puzzleSystem: null
+                        value: 3
+                        notificationText: 
+        -   Entity:
+                Id: d40a9b6f-f95e-44b3-8a96-20f524e5b7b1
+                Name: SimplePuzzle
+                Components:
+                    98e2d82c2189e98c271105a7b111eab9: !TransformComponent
+                        Id: 2de35bef-5414-4497-82ad-175a3f503f12
+                        Position: {X: -9.631271, Y: 1.4742577, Z: 2.7554717}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            93e9516a65135fc3664a52a5e795ad01: ref!! 4d8caf7c-27ae-426c-ba91-6653a93a1b1c
+                            26df6f825ccc0e74cf620e1e66f1fdba: ref!! a9f775bf-3903-40b0-b150-d6165e3014b8
+                            4b53fda9f079519acf67efe8dcfed35c: ref!! 6a4e6653-eef9-4964-8782-0455a7efd207
+                            4b22019d8f3f5655e57863fde3445407: ref!! 5e5f9999-545f-49a2-a8ad-832e6296692d
+                    92349e51f074846ed8a78c52983c646b: !OpenHorror.Interaction.PuzzleSystem,OpenHorror.Game
+                        Id: f50fd53c-69e1-4b2b-b3a1-df615e4a68a5
+                        password: 1324
+                        unlockDoor: null
+        -   Folder: null
+            Entity:
+                Id: f9015747-ed86-4b3b-9d9f-80dd4571cdf5
+                Name: 4
+                Components:
+                    78ab77f25f79ac9d95122ddafc061d0e: !TransformComponent
+                        Id: 5e5f9999-545f-49a2-a8ad-832e6296692d
+                        Position: {X: 3.2004912E-08, Y: 0.0, Z: 0.5369532}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 0.09640636, Y: 0.09640636, Z: 0.09640636}
+                        Children: {}
+                    f59c5fee3e356c671d77f27e7ebb1634: !SpriteComponent
+                        Id: 1530a42a-b5f0-4831-9a74-4fe9ac7e5320
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                            CurrentFrame: 4
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fbe806c01e718a4daf0b5700acd2cf27: !StaticColliderComponent
+                        Id: 39bf8b32-e793-4152-b7b4-fdeeb74876be
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            98b7c262562384fc5e450e2696045613: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3c1fa78ea10e6a97956f5e9722094767: !OpenHorror.Interaction.PuzzleButton,OpenHorror.Game
+                        Id: 0df424dd-4d57-4339-b430-2d0088ca72f1
+                        puzzleSystem: null
+                        value: 4
+                        notificationText: 

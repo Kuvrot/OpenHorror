@@ -1,0 +1,20 @@
+!Model
+Id: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/genericHouse.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    624464d285a4a6dd4df9f43a19e83ea8:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: ac3edae6-6c84-495d-8684-a3b3c8975893:OldWinds/Models/Material_2
+    c3cd6f13c67ff8310870ff315b917974:
+        Name: Material
+        MaterialInstance:
+            Material: ac3edae6-6c84-495d-8684-a3b3c8975893:OldWinds/Models/Material_2
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    4f3af984b0d1c63464396431e09b798d~../../../Resources/OldWinds/Models/genericHouse.obj: 58a6fc339e91812e2c3f03683cf35483

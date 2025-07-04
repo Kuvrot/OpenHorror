@@ -1,0 +1,608 @@
+!SceneAsset
+Id: d4e155ff-7559-4b82-ae7a-1cab6bb16375
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! a59ee72c-4bd4-49ac-9ae7-dbc53fb7182e
+        - ref!! 290d74bc-69a4-4192-8ee8-0a42f86019d9
+        - ref!! 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
+        - ref!! faa2b344-c342-4544-8a11-6cf8dcf5a4a2
+        - ref!! 211113a4-40e8-4331-9465-90fbe0948078
+        - ref!! c2f549a8-15b1-419a-990a-ece142277822
+        - ref!! 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
+        - ref!! b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
+    Parts:
+        -   Entity:
+                Id: 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 8ec6c8df-17d5-4ad9-b1e5-0cf17a11cd2b
+                        Position: {X: -7.24071, Y: 0.62423265, Z: -1.5239086}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 5efd4814-480f-4ce1-8d8f-e9d72019131f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: 11a0c743-053e-4e55-a2cf-efa1e374c9e5
+                Name: PlayerUI
+                Components:
+                    920336cb4bc35edac1628259ce8d74d9: !TransformComponent
+                        Id: 5effa1f8-78cd-45f2-b06d-ef7439d3dff0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    afedc61de05252a5e215820fdca67b89: !UIComponent
+                        Id: c4b3c1a2-fd61-4794-8a5e-af7d4ee1061b
+                        Page: 15deb367-b8af-40de-af62-3defb3da25f3:UIs/Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+            Base:
+                BasePartAsset: 3ba8d8d2-a808-478b-a63e-76efbbb769a0:Prefabs/GameManager
+                BasePartId: 7e237372-4fb7-464f-99c9-3d9eaf6c09ab
+                InstanceId: ced7bfae-c32d-4539-ade8-6a31b994f0eb
+        -   Entity:
+                Id: 11d5f8ab-8c21-4025-bba5-a35c4391a686
+                Name: Camera
+                Components:
+                    e7530b9a6be27e47b405f3991f670c13: !TransformComponent
+                        Id: 2fe82322-e522-4d70-ba5f-b2605705b113
+                        Position: {X: 0.0, Y: 1.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1fe64d64198b4543bfc6b549158775e4: ref!! 655db334-5749-4d51-b56e-230f9b547ac1
+                            ae3863ee8d2f5a23e9990d76b44fbfd6: ref!! 8135b0dd-e8ba-4c55-8dcf-afb28237b9a0
+                    bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
+                        Id: e9436f52-1f70-4c5a-aa70-c06926cc2fbe
+                        Name: null
+                        Projection: Perspective
+                        Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
+                    cf3e805496046ff71a642a58264ab125: !OpenHorror.FpsCamera,OpenHorror.Game
+                        Id: 0c004bad-789a-4e7f-8e44-5d87a8f8e4e7
+                        RotationSpeed: 0.02355
+                        InvertX: false
+                        InvertY: false
+                    a7d6769210ca2d08fff13e6e064d0430: !OpenHorror.Player.WeaponScript,OpenHorror.Game
+                        Id: c67e6885-a378-483f-85f9-482978be81bb
+                        MaxShootDistance: 50.0
+                        ShootImpulse: 12.0
+                        Cooldown: 0.4
+                        ReloadCooldown: 2.0
+                        RemainingBullets: ref!! c6d4329c-0c23-47e4-9861-e0c7f8472e00
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: e5c95b62-b671-4172-b909-8214f4ab8a51
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 211113a4-40e8-4331-9465-90fbe0948078
+                Name: GameManager
+                Components:
+                    a6ec143cb2d569024efbf7b6bef39ff1: !TransformComponent
+                        Id: f01c322c-e5af-4cdf-95fe-e5ff3ce1c1fd
+                        Position: {X: 1.2662668, Y: 0.0, Z: 7.907094}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            0f48947d4901546f1a278cc54753f1d1: ref!! b3b1088a-4978-4dd1-baa0-3fe4f29de640
+        -   Entity:
+                Id: 290d74bc-69a4-4192-8ee8-0a42f86019d9
+                Name: GridBase10x10
+                Components:
+                    f29512fc43bed377d0ec59cfb91660f0: !TransformComponent
+                        Id: 9c36aed4-55c3-48b0-83fe-0c604acd3502
+                        Position: {X: -0.653183, Y: 0.0, Z: 1.6801419}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.119679, Y: 1.119679, Z: 1.119679}
+                        Children: {}
+                    8f76f2733234c2cd9c7d43799ce26438: !ModelComponent
+                        Id: 77b6ef3f-ad5c-477a-8707-e9a703c9c30f
+                        Model: b45ed437-fe67-422a-9e9a-6afd4b3f7a1d:Models/GridBase10x10
+                        Materials: {}
+                    85c79da5750802f7e0ab30d3c6f8fd88: !StaticColliderComponent
+                        Id: 5ecabd22-9598-4292-b955-7b58980ea6c5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            0cb8759ca27d8ebe058598a6b942bcb7: !StaticPlaneColliderShapeDesc
+                                Normal: {X: 0.0, Y: 1.0, Z: 0.0}
+                                Offset: 0.0
+        -   Entity:
+                Id: 453af8da-aae5-4766-939f-b4c1ae43c394
+                Name: InspectUI
+                Components:
+                    7c748e6a37b1b8e61108c49359c12070: !TransformComponent
+                        Id: c7099cf3-2060-4558-b39e-33326d79a010
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    27b7f979e6fd6fbfe36bfc2c2d85b494: !UIComponent
+                        Id: 14e48a93-76a1-4f8e-bdce-e0c72d537cd6
+                        Enabled: false
+                        Page: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9:UIs/InspectPage
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+            Base:
+                BasePartAsset: 3ba8d8d2-a808-478b-a63e-76efbbb769a0:Prefabs/GameManager
+                BasePartId: 7a601f88-2319-4e30-8335-b8afe9ab3daa
+                InstanceId: ced7bfae-c32d-4539-ade8-6a31b994f0eb
+        -   Entity:
+                Id: 4a462e6a-f1a3-4548-ab62-1ada65f6690b
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: 9e470562-cc1b-4b48-b513-81cbf9aa6fe2
+                        Position: {X: 1.8508038E-15, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            321d321c570d3e43a2a274d71d7258f5: ref!! 838fce8b-ee08-4dec-b144-a1865c97d86b
+                            3874058b00661242806d2e3f4afd55c1: ref!! 57f821d2-3bc8-49c7-bb5f-1dc29f9deadc
+                            647dc8aa353f51fa6b65cbc15fde17c2: ref!! 2f33fcdb-8f52-44f7-997e-31829ba06188
+                            de5f34e32037b6c301265807e288b15f: ref!! 58c36d61-f611-480f-96e3-0413e6ac26b0
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: e41d9ab5-8d56-4f9b-99e7-38e39bd14f62
+                        Enabled: false
+                        Model: 380281ef-07bb-49eb-8c9e-6c509f454845:Models/MachinegunModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    39b0129ace88504c8b56a15efbeca890: !ModelNodeLinkComponent
+                        Id: 10f5977d-7271-4d49-b2ec-cb9076b184dc
+                        Target: null
+                        NodeName: MachinegunBone
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: 517d816e-7308-4bca-90e1-1052bfa0c8c0
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 51464cb9-aef5-4f26-87a9-0d018858c28d
+                Name: Hands
+                Components:
+                    1fe64d64198b4543bfc6b549158775e4: !TransformComponent
+                        Id: 655db334-5749-4d51-b56e-230f9b547ac1
+                        Position: {X: 0.0, Y: 0.0, Z: 1.4672096}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a9c79a3bf064f945b8cb4a186967953c: ref!! 9e470562-cc1b-4b48-b513-81cbf9aa6fe2
+                            3d9c1cc499067d46a84e5274b42e9de3: ref!! e283cac2-7d97-454b-8b5b-216d11da9106
+                    67e963ed191c3a429b961323f89766e4: !ModelComponent
+                        Id: 2dbf4646-5da3-4cc3-8418-76a7bc77a04a
+                        Model: 7135111b-8664-420f-a6a5-1572040f452f:Models/mannequinHandModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    e7f9e12d8d35d348b360d0f05ad26c60: !AnimationComponent
+                        Id: deda7f0c-d22b-4861-953d-dca3a71608d5
+                        Animations: {}
+                    369eeb64cbd6b1712596845936028019: !OpenHorror.Player.AnimationController,OpenHorror.Game
+                        Id: ffc89d4a-4ccb-4513-91ad-b0905976165c
+                        AnimationComponent: ref!! deda7f0c-d22b-4861-953d-dca3a71608d5
+                        AnimationIdle: accd7484-3a17-4c8b-9a93-8745a2acb869:Animations/Gun_Idle
+                        AnimationWalk: 13693975-a936-4d71-b30b-f4b8379e62f6:Animations/Gun_Run
+                        AnimationShoot: 2e90ed18-afb2-4794-9966-3e2ab8a30429:Animations/Gun_Shoot
+                        AnimationReload: cae09ba1-b66a-42ae-8d96-218f5c37f296:Animations/Gun_Reload
+                        TimeFactor: 1.0
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: cb4c564d-c86d-4e32-bcea-fcee73d669bb
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 5b92b3a4-677e-4e0a-a923-6096bb5187d9
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: 9b0b1454-83a1-467b-b5bb-123b792b1b7d
+                        Position: {X: 0.0, Y: -0.28572005, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.25, Y: 1.25, Z: 1.0}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: 15eab2cc-9ed8-4563-93e0-1d18360ef609
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Sampler: PointClamp
+        -   Entity:
+                Id: 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
+                Name: Directional light
+                Components:
+                    a22ae5231a86cd0d31df0d50ea7c4e1a: !TransformComponent
+                        Id: 04821997-188d-4fb4-a8af-215f882ee322
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.57357645, Y: 0.0, Z: 0.0, W: 0.81915206}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f440b8d9f3a6f4a05897d7496b0bba2: !LightComponent
+                        Id: f3421edf-fe39-4369-b644-511be6d09aa4
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+        -   Entity:
+                Id: 6342aaf3-46bb-4a64-8538-e0dd804f66c0
+                Name: Inspect
+                Components:
+                    aa37db61145ce7265de686c2ce252422: !TransformComponent
+                        Id: 8135b0dd-e8ba-4c55-8dcf-afb28237b9a0
+                        Position: {X: 0.0, Y: 0.0, Z: -0.68152684}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: 24631be9-0f51-4c2f-be87-976fabe4d2be
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 805a36f9-33f5-462a-ae0c-99c1c3250a2f
+                Name: MagazineModel
+                Components:
+                    3d9c1cc499067d46a84e5274b42e9de3: !TransformComponent
+                        Id: e283cac2-7d97-454b-8b5b-216d11da9106
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    14266246fced0e4486392429f9504708: !ModelComponent
+                        Id: df21b0d2-f11a-4912-8932-8f3e5f381a17
+                        Enabled: false
+                        Model: d1ed4e5c-e5e9-456d-80ed-fb5b06ce1dc3:Models/MagazineModel
+                        IsShadowCaster: false
+                        Materials: {}
+                    1668c7b09aefcc42a71e4470c1bdf8e9: !ModelNodeLinkComponent
+                        Id: 3c2a9c6d-a238-4013-bfec-00a4b9d791fb
+                        Target: null
+                        NodeName: MagazineBone
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: c9fa9483-d66d-463f-8f9a-11e52d5ef38a
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 827c79f9-3eb2-4d74-b5f9-1bc3acb99a30
+                Name: BulletCount
+                Components:
+                    3874058b00661242806d2e3f4afd55c1: !TransformComponent
+                        Id: 57f821d2-3bc8-49c7-bb5f-1dc29f9deadc
+                        Position: {X: 0.00064765656, Y: 0.17203088, Z: -0.010609664}
+                        Rotation: {X: -0.38512552, Y: 1.6653345E-16, Z: -3.366874E-08, W: 0.9228642}
+                        Scale: {X: 0.04, Y: 0.04, Z: 0.04}
+                        Children: {}
+                    a3de2d72fa2fc24d83c344dedd18fc64: !SpriteComponent
+                        Id: c6d4329c-0c23-47e4-9861-e0c7f8472e00
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c41c3a38-8de5-4676-9d99-044f11168083:Bullets
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.0
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: 841b73a2-b6ff-43a6-8c17-910cde15bef5
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Folder: null
+            Entity:
+                Id: 8a8d264b-65ad-4d38-9149-d755247920ca
+                Name: CandleLight
+                Components:
+                    778e226aaeea787c9b36c3d654d2d3e4: !TransformComponent
+                        Id: 58c36d61-f611-480f-96e3-0413e6ac26b0
+                        Position: {X: -0.7726961, Y: 0.20981474, Z: -1.062977}
+                        Rotation: {X: -0.49999997, Y: 0.49999997, Z: 0.49999997, W: 0.49999997}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8c41d55db2aae35b02ac3ef1019149e0: !LightComponent
+                        Id: a42280f0-7432-4989-9cfd-d1ae1de0112f
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.76862746, G: 0.6784314, B: 0.49411765}
+                            Radius: 20.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: 403e0aa7-c0a1-4359-997e-48d237b4ab3a
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 8b40e190-4fc5-4883-afba-a35cc1b8630d
+                Name: GameManager
+                Components:
+                    f3fd218c6aa6e728be0e9cd98a5496db: !TransformComponent
+                        Id: b3b1088a-4978-4dd1-baa0-3fe4f29de640
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            fc55e589c881b03533937c59c5704e3b: ref!! 5effa1f8-78cd-45f2-b06d-ef7439d3dff0
+                            c03ef1b3ed233b355a9cad73d19e5999: ref!! c7099cf3-2060-4558-b39e-33326d79a010
+                    314a81e40a0a2e28b311d78b50ed2085: !OpenHorror.Core.GameManager,OpenHorror.Game
+                        Id: aebec39b-ef9e-419b-94e8-98fb058f4948
+                        Priority: -10
+                        inspectPosition*: ref!! 8135b0dd-e8ba-4c55-8dcf-afb28237b9a0
+                        playerInventorySystem: null
+                        Player*: ref!! 3f587cf9-ca6b-4218-b977-7ffaa716ba82
+                        isDebugEnabled: false
+                    00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
+                        Id: cd304fa4-5f9e-417b-8d7b-8270d80298df
+                        Priority: -10
+                        defaultFrame: 0
+                        keyFrame: 1
+                        lockFrame: 2
+                        shovelFrame: 3
+                        lensFrame: 4
+                        handFrame: 5
+                        playerUI: ref!! c4b3c1a2-fd61-4794-8a5e-af7d4ee1061b
+                        inspectUI: ref!! 14e48a93-76a1-4f8e-bdce-e0c72d537cd6
+                    7a561a2309620adb10fa02e2cffbd80f: !OpenHorror.Player.PlayerInventorySystem,OpenHorror.Game
+                        Id: ff9b1661-5a12-4a24-9d66-f593a7e281ba
+                        Inventory: {}
+                    a0d85eacf79fe671adeb55dcaa88a709: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 3826164f-882e-4d1f-b324-991074197e93
+                    aeeff610b81282d2f919ebd6e6264b53: !OpenHorror.Core.GlobalAudioManager,OpenHorror.Game
+                        Id: 348b5ad4-5c6f-4119-b1a9-24cdc0607db6
+                        openDoor: 6ba62104-6dff-4c1c-a8ff-c3f2cb6d7566:Default assets/SFX/Interaction/door_open
+                        closeDoor: 1b3e5cce-9ee4-413b-8b52-6a761670dc24:Default assets/SFX/Interaction/door_close
+                        lockDoor: 36a812f7-a081-4849-bf71-f431c5c6e0e6:Default assets/SFX/Interaction/door_lock
+                        unlockDoor: 8f5d3153-49e4-4b06-9c8a-873c4bb1226b:Default assets/SFX/Interaction/door_unlock
+                        takeItem: 81fb9abd-f8a1-453c-ac9f-15c1bcd6e729:Default assets/SFX/Interaction/leather_inventory
+                        inspectItem: 2d83be5d-407a-4cfe-a015-2a9ce2f20073:Default assets/SFX/Interaction/cloth-inventory
+                        readDocument: ff95f233-bf7b-49a8-a9cf-2ba760fbe4e1:Default assets/SFX/Interaction/turn_page
+                        pressButton: cd9511b7-5902-48a2-99f3-34e61d368bea:Default assets/SFX/Interaction/button
+                    d6240c44c633145696bf0a0f649a9cad: !OpenHorror.Core.Language,OpenHorror.Game
+                        Id: b22660b9-00ba-4c15-8baf-f959f9a7f0a7
+                        Priority: -11
+            Base:
+                BasePartAsset: 3ba8d8d2-a808-478b-a63e-76efbbb769a0:Prefabs/GameManager
+                BasePartId: 3eb9695c-d019-4319-b0e6-ea0e844abf5c
+                InstanceId: ced7bfae-c32d-4539-ade8-6a31b994f0eb
+        -   Entity:
+                Id: 974777d5-43ba-4092-9066-e766d890c174
+                Name: EffectsFeedback
+                Components:
+                    321d321c570d3e43a2a274d71d7258f5: !TransformComponent
+                        Id: 838fce8b-ee08-4dec-b144-a1865c97d86b
+                        Position: {X: 3.225738E-08, Y: 0.1441944, Z: -0.80561554}
+                        Rotation: {X: 0.70710677, Y: 3.8090255E-07, Z: -3.8090255E-07, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e05a9c8aae2b07c6caf1e8052bbb8ea3: !OpenHorror.EffectController,OpenHorror.Game
+                        Id: eac90880-c205-44bc-981e-b1169b1f7bd3
+                        TriggerGroup:
+                            Name: Gunfire
+                            TriggerEvents:
+                                cc2e7fd643efee43a5334538e258744d:
+                                    Name: MuzzleFlash
+                                    SourcePrefab: 0cd40e62-5722-48e0-9c50-146021d3416b:VFXPrefabs/vfx-RichMuzzleFlash
+                                    FollowEntity: true
+                                    Duration: 0.6
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 1.0, Y: 0.0, Z: 0.0, W: -4.371139E-08}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                c2b4a07f896d1143868abfae468c8a51:
+                                    Name: BulletImpact
+                                    SourcePrefab: 831ee97e-5bb2-454b-80e0-6a06240f4db1:VFXPrefabs/vfx-RichBulletImpact
+                                    FollowEntity: false
+                                    Duration: 1.0
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                25a41a6e2c1e89449f410d4cd3a33c89:
+                                    Name: DamagedTrail
+                                    SourcePrefab: 17ac78e5-0c7e-469c-a49c-518ce5ae07b0:VFXPrefabs/vfx-DamagedTrail
+                                    FollowEntity: true
+                                    Duration: 6.0
+                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: bfbb6424-4e4f-43c1-95ab-423eb7a275ea
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: a59ee72c-4bd4-49ac-9ae7-dbc53fb7182e
+                Name: PlayerCharacter
+                Components:
+                    458ac2590f953f4fb47242e21b3e420f: !TransformComponent
+                        Id: 3f587cf9-ca6b-4218-b977-7ffaa716ba82
+                        Position*: {X: 0.0, Y: 0.0, Z: 4.626443}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e7530b9a6be27e47b405f3991f670c13: ref!! 2fe82322-e522-4d70-ba5f-b2605705b113
+                    87c25277a58ea44f81710ca69284e1dd: !CharacterComponent
+                        Id: aa08636c-2beb-48e3-8a54-d495f5df2790
+                        CollisionGroup: KinematicFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.785398}
+                        JumpSpeed: 0.0
+                        Gravity: {X: 0.0, Y: -20.0, Z: 0.0}
+                        ColliderShapes:
+                            c7ab0c6b38a28147baf5c58b2eea7674: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    e3730ef4c10fc311cdee97ef9c416942: !OpenHorror.Player.PlayerController,OpenHorror.Game
+                        Id: 6f41236b-1218-40f7-809a-9ff806b65788
+                        MaxRunSpeed: 4.0
+                    99486f0b232148dd09a6627b59db596b: !OpenHorror.Player.PlayerInput,OpenHorror.Game
+                        Id: 8313a1e2-5c8c-49ae-a428-64761cb84690
+                        Priority: -1000
+                        DeadZone: 0.25
+                        Camera: ref!! e9436f52-1f70-4c5a-aa70-c06926cc2fbe
+                        MouseSensitivity: 100.0
+                        KeysLeft:
+                            79c1d8abdc0cce2b4221ece447bdec9e: Left
+                            0fe771bf0347303773c1aecc0768b5f3: A
+                        KeysRight:
+                            c252e2acf9e4758efd9baa879ef896f5: Right
+                            924ede849ca80a1141ea7b4cc4c9d2dd: D
+                        KeysUp:
+                            643ce2244c48c42beffae7d0a93fcca2: Up
+                            84e9bdfa0c56e6e70fb52fb67fdf26c0: W
+                        KeysDown:
+                            c710581bbfee7f9dbffa87d8b423a961: Down
+                            9861448150847263e1dcce732406e8b4: S
+                        KeysReload:
+                            f7748360940667938216bda161f12ed0: E
+                            05744cc71fc6762cd1820202d01398ed: R
+                    6982bf064bd5745fa8e961e88cb5502c: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 65b905ad-a90f-4ace-b4be-402950fae06c
+                    02249df08ffdf823ea232b420d942abb: !OpenHorror.Player.FootstepsSystem,OpenHorror.Game
+                        Id: 00ad8dfa-2e69-48b3-9fdc-a9204c55eb65
+                        soundSpeed: 0.75
+                        sounds:
+                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/SFX/Footsteps/stepstone_1
+                            192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/SFX/Footsteps/stepstone_2
+                            3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/SFX/Footsteps/stepstone_3
+                            b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/SFX/Footsteps/stepstone_4
+                            a50b8a5b5741ddfb5a8ff52c7aef9165: b636395e-8160-4a27-b4f4-9bee88906280:Default assets/SFX/Footsteps/stepstone_5
+                            6131a963a2ee2ba8a9aa1a2cfb4559a8: 52712599-9d89-4a27-b738-3a22c088f1d4:Default assets/SFX/Footsteps/stepstone_6
+                            2b06292ce7b90826ecd5cb8da39d9081: fb7fb692-31d5-4548-9d84-06d128e88237:Default assets/SFX/Footsteps/stepstone_7
+                            4ab172a7123f63c4869ecf21e7b83b8f: f4021685-c4a3-48b9-8aa3-8a59cd330eb2:Default assets/SFX/Footsteps/stepstone_8
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: 7f24b289-5054-4f10-8187-3f8ceb72afda
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Folder: null
+            Entity:
+                Id: b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 8683196e-6af4-4d77-85b5-3eab84b3b966
+                        Position: {X: 6.1084065, Y: 0.62423265, Z: -1.5239079}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7b5a07f1-c3c8-4f04-a491-5db9441fe765
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: c2f549a8-15b1-419a-990a-ece142277822
+                Name: station_2
+                Components:
+                    ef3e43a43d62b507982db19da55e3cf8: !TransformComponent
+                        Id: 9477b99e-013e-4c55-8b4b-ac51f38eb0ba
+                        Position: {X: -0.9166013, Y: 0.0, Z: 8.257622}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3ee4c37f00b89216cacfea9ce1931eb3: !ModelComponent
+                        Id: 0fab9e45-858d-46ba-bb24-576283b558e3
+                        Model: 7a570c60-1b99-401e-8b62-dec729a19412:OldWinds/Models/station_2
+                        Materials: {}
+                    0c22e028a68c1c7658c13c13f9ec9fc4: !StaticColliderComponent
+                        Id: 6e24af44-abed-43d4-b2c2-06b1248519af
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3019b16b4d722c977d21fc6dd8e9ef5c: !StaticMeshColliderShapeDesc
+                                Model: 7a570c60-1b99-401e-8b62-dec729a19412:OldWinds/Models/station_2
+        -   Entity:
+                Id: f4414d3d-9f92-4229-a0de-5a6c6ee30285
+                Name: FlashLight
+                Components:
+                    778e226aaeea787c9b36c3d654d2d3e4: !TransformComponent
+                        Id: 2f33fcdb-8f52-44f7-997e-31829ba06188
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.017449748, Y: -0.017449748, Z: 0.00030458646, W: 0.9996954}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8c41d55db2aae35b02ac3ef1019149e0: !LightComponent
+                        Id: dbce7ab1-7bad-45e4-bf7d-2fbe212b46f3
+                        Enabled: false
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 44.0
+                            AngleInner: 43.3
+                            AngleOuter: 39.3
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+            Base:
+                BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
+                BasePartId: b2353ad8-6b45-47cb-94a4-c39dfdf12f96
+                InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: faa2b344-c342-4544-8a11-6cf8dcf5a4a2
+                Name: DialogueSystem
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 5a2a808b-8610-4b2e-bafd-e9fb5d54d526
+                        Position*: {X: 0.0, Y: 1.1067858, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! 9b0b1454-83a1-467b-b5bb-123b792b1b7d
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: 8bf64bd4-b326-45a6-8319-f6d33e822af3
+                        Enabled*: false
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: dbd3b94b-7256-43b1-bbd8-d80e8100380c
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: d21de397-461f-4fa8-a9f0-066c8652b457
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
+                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
+                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
+                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: a50e75d8-269b-4285-b1eb-fe631e6112e3
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 671c15de-4ceb-45be-8f34-a98461ac5cce

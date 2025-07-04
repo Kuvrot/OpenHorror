@@ -1,0 +1,87 @@
+!PrefabAsset
+Id: 3ba8d8d2-a808-478b-a63e-76efbbb769a0
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 3eb9695c-d019-4319-b0e6-ea0e844abf5c
+    Parts:
+        -   Entity:
+                Id: 3eb9695c-d019-4319-b0e6-ea0e844abf5c
+                Name: GameManager
+                Components:
+                    f3fd218c6aa6e728be0e9cd98a5496db: !TransformComponent
+                        Id: cc5d7bb7-eb90-4740-9413-4e27437ab274
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            fc55e589c881b03533937c59c5704e3b: ref!! ff077ffa-e4ad-4f09-b630-1d3e98cd6433
+                            c03ef1b3ed233b355a9cad73d19e5999: ref!! 629e1464-77ef-4f76-a300-2a99bdb3ca8e
+                    314a81e40a0a2e28b311d78b50ed2085: !OpenHorror.Core.GameManager,OpenHorror.Game
+                        Id: 7f33b50d-7944-4c40-97ef-910f4e39fd02
+                        Priority: -10
+                        inspectPosition*: null
+                        playerInventorySystem: null
+                        Player*: null
+                        isDebugEnabled: false
+                    00bbc05a3c3816a87a3f60132417e14e: !OpenHorror.Core.UIManager,OpenHorror.Game
+                        Id: 6eff06f5-67f5-46f0-9586-751910b5c7fc
+                        Priority: -10
+                        defaultFrame: 0
+                        keyFrame: 1
+                        lockFrame: 2
+                        shovelFrame: 3
+                        lensFrame: 4
+                        handFrame: 5
+                        playerUI*: ref!! 28055159-c786-49c3-91b5-886d640ec730
+                        inspectUI*: ref!! fe742d61-df36-4757-a864-aa1ef98eabbd
+                    7a561a2309620adb10fa02e2cffbd80f: !OpenHorror.Player.PlayerInventorySystem,OpenHorror.Game
+                        Id: 9d9490d2-1f3f-4d32-a5d6-ebf0a5222be7
+                        Inventory: {}
+                    a0d85eacf79fe671adeb55dcaa88a709: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: b7082977-d441-478b-b244-a901e5c7d829
+                    aeeff610b81282d2f919ebd6e6264b53: !OpenHorror.Core.GlobalAudioManager,OpenHorror.Game
+                        Id: f24d0143-ae57-4194-a01f-b2c7d93a9a2d
+                        openDoor: 6ba62104-6dff-4c1c-a8ff-c3f2cb6d7566:Default assets/SFX/Interaction/door_open
+                        closeDoor: 1b3e5cce-9ee4-413b-8b52-6a761670dc24:Default assets/SFX/Interaction/door_close
+                        lockDoor: 36a812f7-a081-4849-bf71-f431c5c6e0e6:Default assets/SFX/Interaction/door_lock
+                        unlockDoor: 8f5d3153-49e4-4b06-9c8a-873c4bb1226b:Default assets/SFX/Interaction/door_unlock
+                        takeItem: 81fb9abd-f8a1-453c-ac9f-15c1bcd6e729:Default assets/SFX/Interaction/leather_inventory
+                        inspectItem: 2d83be5d-407a-4cfe-a015-2a9ce2f20073:Default assets/SFX/Interaction/cloth-inventory
+                        readDocument: ff95f233-bf7b-49a8-a9cf-2ba760fbe4e1:Default assets/SFX/Interaction/turn_page
+                        pressButton: cd9511b7-5902-48a2-99f3-34e61d368bea:Default assets/SFX/Interaction/button
+                    d6240c44c633145696bf0a0f649a9cad: !OpenHorror.Core.Language,OpenHorror.Game
+                        Id: 013c5772-52c9-4e2b-afbc-977d482245c2
+                        Priority: -11
+        -   Entity:
+                Id: 7a601f88-2319-4e30-8335-b8afe9ab3daa
+                Name: InspectUI
+                Components:
+                    7c748e6a37b1b8e61108c49359c12070: !TransformComponent
+                        Id: 629e1464-77ef-4f76-a300-2a99bdb3ca8e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    27b7f979e6fd6fbfe36bfc2c2d85b494: !UIComponent
+                        Id: fe742d61-df36-4757-a864-aa1ef98eabbd
+                        Enabled: false
+                        Page: be1b0a60-fc18-45dd-b6b3-5d86feb30bf9:UIs/InspectPage
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+        -   Entity:
+                Id: 7e237372-4fb7-464f-99c9-3d9eaf6c09ab
+                Name: PlayerUI
+                Components:
+                    920336cb4bc35edac1628259ce8d74d9: !TransformComponent
+                        Id: ff077ffa-e4ad-4f09-b630-1d3e98cd6433
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    afedc61de05252a5e215820fdca67b89: !UIComponent
+                        Id: 28055159-c786-49c3-91b5-886d640ec730
+                        Page: 15deb367-b8af-40de-af62-3defb3da25f3:UIs/Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
