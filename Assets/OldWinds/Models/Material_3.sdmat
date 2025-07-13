@@ -1,5 +1,5 @@
 !MaterialAsset
-Id: 2b85764a-f5f9-4c0e-9766-c44ce0257dab
+Id: 5aea4250-61b3-4927-b32a-614138645109
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
@@ -8,18 +8,18 @@ Attributes:
             Texture: 6574ada5-cb38-4ffa-a77e-d9c4a32fd6a7:OldWinds/Models/mexicanHouse
             FallbackValue:
                 Value: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
-            Scale: {X: 1.0, Y: 1.25}
+            Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Emissive: !MaterialEmissiveMapFeature
         EmissiveMap: !ComputeTextureColor
-            Texture: 6574ada5-cb38-4ffa-a77e-d9c4a32fd6a7:OldWinds/Models/mexicanHouse
+            Texture: d5bca8ff-a689-487d-a5fe-bcf6f45a9bec:OldWinds/Models/mexicanHouse_2
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
             Filtering: Point
             Scale: {X: 1.0, Y: 1.0}
-            Offset: {X: 0.0, Y: 0.03}
+            Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
         Intensity: !ComputeFloat
             Value: 1.0

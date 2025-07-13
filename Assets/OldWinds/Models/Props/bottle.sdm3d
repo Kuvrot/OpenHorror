@@ -1,0 +1,20 @@
+!Model
+Id: 0f276898-1b82-4130-be78-c20cb9e343ab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/bottle.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f5d29d359ccef6f6bda41f467a21df09:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+    fab8d3182b94d79adc52d4d68e2dc14b:
+        Name: Material
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    32a3548d1f585ec3af04e4b8d703dc67~../../../../Resources/OldWinds/Models/Props/bottle.obj: 0a79a4b45b831e6df87b84d6a0136c68

@@ -1,0 +1,20 @@
+!Model
+Id: 0f228612-b918-4330-b250-d52fd5401fbd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/Tomato_box.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2fcb32a32f82fc7b9304d8102c270478:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+    fb65438fba24557c9748ee2dd94b3101:
+        Name: Material
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    b1168a9faa38f2806f29b511bb78a0c1~../../../../Resources/OldWinds/Models/Props/Tomato_box.obj: cc0537767ae478a57926c63d5d06c191

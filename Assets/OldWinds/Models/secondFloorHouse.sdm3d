@@ -1,0 +1,18 @@
+!Model
+Id: c677ef1b-cfd2-494b-b4fc-3b1aba93119c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/Props/secondFloorHouse.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    083bc7bcf4850b0e71a107b0512163c3:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    3e1e68bec89530fabedb33e264a8470a:
+        Name: Material
+        MaterialInstance:
+            Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
+DeduplicateMaterials: false
+Modifiers: {}

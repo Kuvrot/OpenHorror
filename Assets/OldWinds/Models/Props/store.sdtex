@@ -1,8 +1,8 @@
 !Texture
-Id: 6574ada5-cb38-4ffa-a77e-d9c4a32fd6a7
+Id: 6af176d0-b762-47d7-9241-28fad6f106f2
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
-Source: !file ../../../Resources/OldWinds/Models/mexicanHouse.png
+Source: !file ../../../../Resources/OldWinds/Models/store.png
 Width: 128.0
 Height: 128.0
 IsSizeInPercentage: false

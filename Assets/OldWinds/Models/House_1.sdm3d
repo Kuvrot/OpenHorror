@@ -1,0 +1,18 @@
+!Model
+Id: eedbac7d-eee1-4fe4-acf9-4069f2f48783
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/Props/House_1.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a07b2193ff48889983aaa1ddb66836c3:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    fb80559e63e03644382d2760b6b73a12:
+        Name: Material
+        MaterialInstance:
+            Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
+DeduplicateMaterials: false
+Modifiers: {}

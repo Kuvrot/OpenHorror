@@ -1,0 +1,18 @@
+!Model
+Id: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/Props/squareHouse_NoDoor.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4337a01fe4aab8430a84cefce2f10b5c:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    40c974389826f372d753b6682db4d259:
+        Name: Material
+        MaterialInstance:
+            Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
+DeduplicateMaterials: false
+Modifiers: {}

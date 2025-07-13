@@ -1,0 +1,20 @@
+!Model
+Id: c65fe928-d369-473b-a276-aa2fb24f00d4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/Lettuce_box.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1f8cf8b2fe5251e57224384dae86be8f:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+    e6854bcccb27d11903a11699d9d8dbed:
+        Name: Material
+        MaterialInstance:
+            Material: 68cf3391-8688-4066-bb59-a06f0ee15b12:OldWinds/Models/Props/StoreMaterial
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    c08a324ac04a950095a6d369d155272b~../../../../Resources/OldWinds/Models/Props/Lettuce_box.obj: 44edc1163ae28594a0293fe7b6b30db3

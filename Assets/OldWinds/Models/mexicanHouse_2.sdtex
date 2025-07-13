@@ -3,5 +3,8 @@ Id: d5bca8ff-a689-487d-a5fe-bcf6f45a9bec
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../../Resources/OldWinds/Models/mexicanHouse_2.png
+Width: 128.0
+Height: 128.0
+IsSizeInPercentage: false
 Type: !ColorTextureType
     ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

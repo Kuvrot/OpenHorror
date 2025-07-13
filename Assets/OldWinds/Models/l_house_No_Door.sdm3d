@@ -1,0 +1,18 @@
+!Model
+Id: 17d9416f-12cc-468e-956a-bcbfbd395b41
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Models/Props/l_house_No_Door.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4d2998bf01f2ba19613b35350a8a6a35:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    7154d9a8941f17dfcf44181bc8974730:
+        Name: Material
+        MaterialInstance:
+            Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
+DeduplicateMaterials: false
+Modifiers: {}
