@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 2cd4307a-a20d-4485-9dc3-66a04a5e5366
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    39a752553eb4c08bbb95593b33861bfa:
+        Source: !file ../../../../Resources/OldWinds/Models/Props/shadow.png
+        Name: shadow
+        TextureRegion: {X: 0, Y: 0, Width: 128, Height: 128}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

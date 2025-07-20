@@ -16,3 +16,5 @@ Materials:
             Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
 DeduplicateMaterials: false
 Modifiers: {}
+~SourceHashes:
+    52421dfd266e73510f318f1dd683ca18~../../../Resources/OldWinds/Models/Props/squareHouse_NoDoor.obj: b73f4f1c504f24ce6d0afe62a939f945

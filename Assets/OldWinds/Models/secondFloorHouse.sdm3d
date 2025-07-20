@@ -16,3 +16,5 @@ Materials:
             Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
 DeduplicateMaterials: false
 Modifiers: {}
+~SourceHashes:
+    00bf37b4656de41125412c77ab5c21b6~../../../Resources/OldWinds/Models/Props/secondFloorHouse.obj: 4f3077176c4d301f581d2b748fa93d92

@@ -16,3 +16,5 @@ Materials:
             Material: 5aea4250-61b3-4927-b32a-614138645109:OldWinds/Models/Material_3
 DeduplicateMaterials: false
 Modifiers: {}
+~SourceHashes:
+    d41efd1bb5ebfba5aff287654140a4be~../../../Resources/OldWinds/Models/Props/House_1_no_door.obj: fbfdb85f76ed8d5de75fb4ac2bdc589a

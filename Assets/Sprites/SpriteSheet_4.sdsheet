@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: efe873a0-5730-4c80-898d-7d50ed69a7d0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    b5236759afcaaa144a6d1454318ed81f:
+        Source: !file ../../Resources/Sprites/old_man_3.png
+        Name: old_man_3
+        TextureRegion: {X: 0, Y: 0, Width: 53, Height: 128}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

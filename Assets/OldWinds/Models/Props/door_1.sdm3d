@@ -1,0 +1,20 @@
+!Model
+Id: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Props/door_1.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a0fe5c9507e57e9277b9e5bf933f8baf:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    dd2264a0f7fbbe9ad00e6253fe917745:
+        Name: Material
+        MaterialInstance:
+            Material: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    bee15b0e11fa641257de02386dd14fb4~../../../../Resources/OldWinds/Models/Props/door_1.obj: cf7e3b8f823668ea686c5af2b99cd098

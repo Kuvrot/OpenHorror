@@ -11,7 +11,8 @@ Attributes:
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
-    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    DiffuseModel: !MaterialDiffuseLambertModelFeature
+        Enabled: false
     Emissive: !MaterialEmissiveMapFeature
         EmissiveMap: !ComputeTextureColor
             Texture: d5bca8ff-a689-487d-a5fe-bcf6f45a9bec:OldWinds/Models/mexicanHouse_2

@@ -1,0 +1,10 @@
+!Texture
+Id: 53a3d2a3-b622-4c8c-8fbf-63c011bd59d2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/Textures/tileable_grass_00.png
+Width: 128.0
+Height: 128.0
+IsSizeInPercentage: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
