@@ -15,7 +15,8 @@ namespace OpenHorror.Trigger
     public enum TriggerTypes
     {
         sound,
-        mapUpdate
+        mapUpdate,
+        sceneChange
     }
 
     public class TriggerEventByDistance : SyncScript
@@ -58,6 +59,11 @@ namespace OpenHorror.Trigger
                     var instance = triggerSound.CreateInstance();
                     instance.Play();
                 }
+            }
+
+            if (TriggerType == TriggerTypes.mapUpdate)
+            {
+                Entity.Get<TriggerEventManually>().UpdateMap();
             }
         }
     }

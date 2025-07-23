@@ -15,11 +15,16 @@ namespace OpenHorror.Trigger
     public class TriggerEventManually : SyncScript
     {
         public List<Entity> DisableElements = [] , EnableElements = [];
+        public TriggerTypes TriggerType { get; set; }
+
         public Sound Sound;
         public bool isActive = true;
         public override void Start()
         {
-            UpdateMap(true);
+            if (TriggerType == TriggerTypes.mapUpdate)
+            {
+                UpdateMap(true);
+            }
         }
 
         public override void Update()
@@ -146,13 +151,18 @@ namespace OpenHorror.Trigger
             }
         }
 
-        private void PlaySound()
+        public void PlaySound()
         {
             if (Sound != null)
             {
                 var instance = Sound.CreateInstance();
                 instance.Play();
             }
+        }
+
+        public void ChangeScene ()
+        {
+
         }
     }
 }
