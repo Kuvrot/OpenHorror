@@ -4,7 +4,6 @@ SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
-        Enabled: false
         DiffuseMap: !ComputeTextureColor
             Texture: 37a69cdc-9903-4735-84da-ded903ef4163:OldWinds/Models/station
             FallbackValue:
@@ -15,17 +14,22 @@ Attributes:
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature
         Enabled: false
-    Emissive: !MaterialEmissiveMapFeature
-        EmissiveMap: !ComputeTextureColor
+    Specular: !MaterialSpecularMapFeature
+        SpecularMap: !ComputeTextureColor
             Texture: 37a69cdc-9903-4735-84da-ded903ef4163:OldWinds/Models/station
             FallbackValue:
-                Value: {R: 0.4625, G: 0.40179688, B: 0.40179688, A: 1.0}
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
             Filtering: Point
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
         Intensity: !ComputeFloat
             Value: 1.0
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
     Transparency: !MaterialTransparencyCutoffFeature
         Alpha: !ComputeFloat
             Value: 0.0

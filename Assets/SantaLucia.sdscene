@@ -8,11 +8,17 @@ Hierarchy:
     RootParts:
         - ref!! a59ee72c-4bd4-49ac-9ae7-dbc53fb7182e
         - ref!! 50f7a98b-ed16-4993-ad83-f0db5aefc2aa
-        - ref!! 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
+        - ref!! 346d8ab0-f73c-4afc-a5e2-272d4f9e4345
         - ref!! faa2b344-c342-4544-8a11-6cf8dcf5a4a2
+        - ref!! 18da2354-8f05-4aa5-b8e7-3bfeee6b2c5c
         - ref!! 667f5f69-e540-4f54-a1cb-2cfe8b5a8413
+        - ref!! 94ba9809-cc73-4a20-8e59-db3733278ebc
+        - ref!! 5bf7b454-f636-47e0-98f2-fe9bfd1ceb5e
+        - ref!! 32603e92-7527-46b4-b3e1-b8663860c33b
         - ref!! 790c62ea-a1c0-45be-900f-ed96fc602742
+        - ref!! 8a36f09a-3161-4f2c-9676-104e870f4347
         - ref!! 211113a4-40e8-4331-9465-90fbe0948078
+        - ref!! d31a8786-ae8c-4641-96e7-eee96b487051
         - ref!! c2f549a8-15b1-419a-990a-ece142277822
         - ref!! 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
         - ref!! 4d475fa3-0e84-48ff-9dcf-b0115fc44ef7
@@ -75,11 +81,176 @@ Hierarchy:
         - ref!! 568abf4e-5712-4633-860c-64b531c21952
         - ref!! 590ef2ba-29f0-4e61-b41e-67bfed850e0b
         - ref!! ccc207f2-6138-4188-b983-451e2cf9b651
-        - ref!! da86cd30-b351-40db-a6e4-ec6e8f12eb98
-        - ref!! d31a8786-ae8c-4641-96e7-eee96b487051
-        - ref!! 7846a6b9-9b49-4323-a1dc-b50eeb92bcdf
+        - ref!! 7a4bce03-36a7-4590-8a73-971cceea8cde
+        - ref!! 92fd363a-4467-4ca3-8772-6e14b693cf2c
+        - ref!! d9910951-0aba-43bb-b619-43cf61df0154
+        - ref!! c6fc5d73-a4a5-4c87-b439-f14eeabdcbb8
+        - ref!! 1803abd5-9860-4131-9b5a-b903a34ab35f
+        - ref!! 44699afa-3a76-429a-8092-0e4654ef8027
+        - ref!! 5ac681dc-da0b-423c-b528-2b83de8307f9
+        - ref!! 3de27da2-3d80-46eb-a5e5-bed10955b7a0
+        - ref!! cd99e158-4d59-43b3-8979-66ac1281138c
+        - ref!! ee029ad0-e16b-4ac3-866c-57270d55441f
+        - ref!! 8990ad2d-fa9d-4be8-9b74-dc12e9f5bb4c
+        - ref!! 34865e03-8a31-4f51-82e6-d0315b1d89bc
+        - ref!! 973dd5bf-024f-4335-b87e-3b0a7a6e2cc5
+        - ref!! d1fbbe0a-49db-4b8e-aa51-181072bfa873
+        - ref!! f64dace7-365e-46d7-a834-291be606f3ef
+        - ref!! 390cef1e-0129-4a66-9027-ccb85364910a
+        - ref!! 638a1a13-da09-4a73-80c0-0e41c78290e6
+        - ref!! 00283d17-0540-4e47-ba15-fd8c95d80c12
+        - ref!! 47a2f9f6-0cb0-4a52-9c76-106f1c5e3d3c
+        - ref!! d8e6b913-2db3-4af3-9a9e-f61abb538e9e
+        - ref!! 84294de2-1c36-419f-bb60-de2618910bf2
+        - ref!! cfa8c465-93aa-448a-834a-9a4a08762c83
+        - ref!! 53b876c5-8750-4bae-aca1-d7f82c9e2cee
+        - ref!! 4490f5f1-cf1b-4db6-8bc2-c614d6326d6e
+        - ref!! d581ed56-4879-4d08-ac6a-d025e04e8f9c
+        - ref!! 764f93ae-8c32-4f84-97b4-092a623e46bb
+        - ref!! 6d1939d9-d87d-413c-9818-f37899bcded8
+        - ref!! 18c4df24-dfc1-47ee-ac94-4355aceda477
+        - ref!! dc711d08-8ee6-4e2d-8d87-c2681779b70d
+        - ref!! fc843ccc-0021-4025-a587-54316e69622d
+        - ref!! f1977260-8e19-4d58-93c1-67d4380e6572
+        - ref!! fbdf0644-f507-49db-972d-922de23efa29
+        - ref!! 501aaf17-42be-48e7-a35c-267693c0f479
+        - ref!! 8e33c6e3-7adf-4e11-983d-4a7131c4f825
+        - ref!! 27fcdc94-918c-4511-a806-513b1fe05f0b
+        - ref!! 04a4d34f-cb53-46f7-8873-8134b838be70
+        - ref!! eefeed59-ba31-4431-b4f0-678d10358c52
+        - ref!! 7a3d5661-3971-4ec7-97a1-ef2f4b20b2d3
+        - ref!! 26c1106b-fdcd-462a-8e74-e7c359ab527d
+        - ref!! eb66c11f-0351-435f-9bc6-a8eb19df4873
+        - ref!! 8a044c88-9d8b-4049-9d74-1fd20eac0cd2
+        - ref!! 7be12140-1411-4126-bf95-c8ac66fb5ada
+        - ref!! 3191dad1-238b-4e72-b7f2-083a85c5337c
+        - ref!! bf7deb0b-258e-4404-b6db-afa7ff6832ef
+        - ref!! 16c9179d-c5f5-4eab-9d2f-d3e9f9dabd97
+        - ref!! 95e8b5e6-8712-43cb-b6d1-eb611fb36966
+        - ref!! 6966168d-c965-4a89-84ef-f0476f0af325
+        - ref!! 172f4205-43dc-4658-9230-33ad51e4e1b9
+        - ref!! ebfd48ca-72d5-439c-967c-1ed431d58f49
+        - ref!! 1ad12c4a-aac9-4019-a87f-e0014ead8963
+        - ref!! 000fe909-113c-4d19-8f95-220f8da78111
+        - ref!! f017666b-01cd-4489-95e8-7bb8165bcabc
+        - ref!! 6ad44440-8ec2-4894-a9f6-70cdf03ae5cb
+        - ref!! 2ba5cfaa-9039-48fd-8f79-7afe970827a3
+        - ref!! 22ab570b-0b67-43c3-98d2-09bd10f8b4b6
+        - ref!! f23d1c52-d244-45d9-885e-68ba196b8059
+        - ref!! dba0278f-3957-4a52-8510-2ddcd18fd062
+        - ref!! e0551ba9-fe07-4eec-819f-48a398b644e4
+        - ref!! f38dfbfb-7b66-4bd3-b15a-f54247d0e47e
+        - ref!! 2b8c540e-a41d-4c34-9113-6e0e00b9f8e4
+        - ref!! 48b0b0c0-a4e8-4e16-871d-e7f05f378fe8
+        - ref!! 60345718-db41-46b2-91ed-3defb2895a49
+        - ref!! 96d092a5-28dd-4347-ab8d-411651ae92da
+        - ref!! 8c50e417-f1e9-47e5-b08f-04c95052e4b6
+        - ref!! a05bc318-7b8b-4fdd-a1fd-c10655d12d32
+        - ref!! 9901fb17-f573-409f-a342-e44c13c37833
+        - ref!! d1cc4cd3-b3d3-442f-be10-fc484d0884e1
+        - ref!! c2036092-3489-47e1-8286-8d0bf13553c8
+        - ref!! 3e164732-ba0c-4660-a63c-3614dac47637
+        - ref!! 103fb929-ac7b-4763-84fa-5981fb741012
+        - ref!! 4930cf16-b36f-4a43-8e88-b006061368da
+        - ref!! a348d128-3d56-4d41-b390-10ae111172d2
+        - ref!! 6a71a3ef-3676-474b-8bfb-76d8145725bf
+        - ref!! 2826f20f-430d-48dd-b388-ee3ca641cef4
+        - ref!! c19f14ee-62e9-4506-865e-256273f0fd09
+        - ref!! 7f665689-4819-42f3-9520-47f72ac4a56e
+        - ref!! 9a08bc57-8229-48f8-b9e2-100c02d0ba53
+        - ref!! 3bcf586c-94b5-4f10-a658-13bf6bfd5bd7
+        - ref!! 0be1af90-a243-41fa-a184-9dbae9504946
+        - ref!! f01c9030-b7d5-4356-91ca-ae1f13ef7509
+        - ref!! 6abd4cda-1bc0-4966-9552-eb4857ce7b5c
+        - ref!! 564f9690-5994-47a6-9b89-f1c2966ad721
+        - ref!! 577d72e9-a0b3-430f-a6d9-f29f374505c3
+        - ref!! 8866ec89-bf27-4de1-9adb-e21fc5abe990
+        - ref!! 56d8072d-982b-4114-8a90-0e5723cb91fa
+        - ref!! 91622ee5-0849-401e-909b-5afbce7dfd84
+        - ref!! bf17aa21-3647-481a-a7b7-2b4c24754232
+        - ref!! 083bf315-90de-4ac7-9849-70372371ffc4
+        - ref!! 98e5a9ab-9019-42fd-8571-c4275cf4f6a0
+        - ref!! 01a131e8-cfe6-419c-a957-c9c0b4870bb8
+        - ref!! 9f5b03c0-46d5-4572-98c0-bd5c5160f72e
+        - ref!! 213d5384-03d6-4e7e-962c-7b171be52af0
+        - ref!! 90e4da4d-2bc7-40f5-8926-588d1d3e703d
+        - ref!! acca5854-1c78-4e94-be01-105caaf1efc0
+        - ref!! 1ecb848b-2c37-4ec3-a5a8-e3da3736595b
+        - ref!! 349c2fe3-0575-4f4f-88d3-c7c818e2e802
+        - ref!! 6db757a1-e43c-4864-8f9c-e35b95a88c4c
+        - ref!! fe6e37e3-a4c9-4d98-9541-48aea4d94e16
+        - ref!! 9a5bb123-2c64-4c0b-ad2a-11b44684837a
+        - ref!! ed4c9d70-a013-44a0-b126-7614b30f0b15
+        - ref!! 88f44fb9-2f5c-42f6-bf2e-d51c438a90d6
+        - ref!! 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
+        - ref!! 63634b5c-65f0-471f-8a0e-291ff8aa105e
+        - ref!! 837930af-6a22-4bc8-952b-99897bc69ce2
+        - ref!! 66242d92-a839-48d6-b7ce-46f846299b8e
+        - ref!! da298f34-ecf1-42ca-9041-98f64929683b
+        - ref!! 26d7496b-0cd9-467a-bccc-500af0c5ab24
     Parts:
-        -   Entity:
+        -   Folder: Town2
+            Entity:
+                Id: 000fe909-113c-4d19-8f95-220f8da78111
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 7bae4f38-48ad-4912-8399-d54c2f47a227
+                        Position: {X: -7.4400034, Y: 1.1207069, Z: -84.8488}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 1f947cd8-ba0d-4f8c-bd53-3c644219ceae
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 00283d17-0540-4e47-ba15-fd8c95d80c12
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 974d7adb-3af7-4074-ab2a-d2bb5fed2356
+                        Position: {X: 21.07542, Y: 0.62423265, Z: -98.449196}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 644d4a92-d6d2-40a5-98b7-b0a584674d01
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 01a131e8-cfe6-419c-a957-c9c0b4870bb8
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: edb906fa-1115-4bad-a3d8-f0abaf967ddf
+                        Position: {X: 4.857732, Y: 0.41231087, Z: -105.2153}
+                        Rotation: {X: 0.0, Y: 0.70779175, Z: 0.0, W: -0.706421}
+                        Scale: {X: 0.40180928, Y: 0.40180928, Z: 0.40180928}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: eae30975-60e9-43b7-a859-767f3a269f87
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 04a4d34f-cb53-46f7-8873-8134b838be70
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: daf8db00-e1a0-44ef-8b48-abf7033046df
+                        Position: {X: -17.804174, Y: 0.62423265, Z: -89.652435}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 92936d7b-0ae4-44fd-a64e-c3ed6dcad89c
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
+            Entity:
                 Id: 051e4ee4-1a04-4b10-881a-3aad50943ff7
                 Name: Tomato_box
                 Components:
@@ -93,7 +264,55 @@ Hierarchy:
                         Id: f3eadb3d-6491-4efa-ab76-4978a899bd79
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 083bf315-90de-4ac7-9849-70372371ffc4
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: 009b6116-fa52-450d-8d56-31d5ff4ebadb
+                        Position: {X: 6.423342, Y: 0.30118233, Z: -105.01233}
+                        Rotation: {X: 0.707598, Y: -1.7834152E-07, Z: -0.7066152, W: -1.1672932E-07}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: 1a569cf6-1d2a-4e34-a14b-565d09b2bd62
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
         -   Entity:
+                Id: 09937081-6377-43c6-b44b-f45c1b2be701
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: 777bf656-d769-4133-8a30-e8ea3de56732
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.022379637}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: 2e56e125-c96d-4f5b-b5d9-2e99cc359b37
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
+        -   Folder: Town2
+            Entity:
+                Id: 0be1af90-a243-41fa-a184-9dbae9504946
+                Name: secondFloorHouse
+                Components:
+                    11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
+                        Id: 7cef9cd8-476f-4c1b-8a6e-6d1949e9d6c0
+                        Position: {X: 6.4477673, Y: 3.9544756, Z: -57.883064}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    9cdc3950dca5c10ff51266aa6bce10f4: !ModelComponent
+                        Id: 5b9d42a8-b951-46ac-9872-25eb61a3e1c3
+                        Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
+                        Materials: {}
+        -   Folder: Town
+            Entity:
                 Id: 0cf640ea-1c0f-4f08-b2bd-cf667f56142b
                 Name: genericHouse
                 Components:
@@ -109,7 +328,41 @@ Hierarchy:
                         Materials:
                             322b233707b2c6d3241a8617067cbc33~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             6ab26fe4ffec29d0e7fd5642ce0278a6~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 103fb929-ac7b-4763-84fa-5981fb741012
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 13a114a3-b47e-473a-b2a1-9fbfb37f926f
+                        Position: {X: 4.07038, Y: 0.0, Z: -106.97412}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.38776016, Y: 0.38776016, Z: 0.38776016}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 0109ffbf-0320-4a0c-81ee-4a0d0f57fed5
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Entity:
+                Id: 107e8a96-2ff8-4e48-9edf-68c8f8f81b07
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: c2e5bed3-77eb-4a47-b2a6-c02a57fe94a8
+                        Position: {X: 0.0, Y: -0.52473086, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.9333524, Y: 0.9333524, Z: 0.74668187}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: ab626740-37cf-4967-96da-3f34e1c730c4
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d3901e96-4491-484e-a488-5fc1d2ae8b91:Sprites/SpriteSheet_6
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
+        -   Folder: Town
             Entity:
                 Id: 11751f64-429e-4e70-95ce-c4c2368df2f4
                 Name: genericHouse
@@ -176,7 +429,7 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: e5c95b62-b671-4172-b909-8214f4ab8a51
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 13d6eb21-8a0a-4701-9e7b-168d20e47a3f
                 Name: genericHouse
@@ -191,7 +444,133 @@ Hierarchy:
                         Id: 5d1c938e-0e10-474a-a410-7d67a221def0
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Entity:
+        -   Folder: Town2
+            Entity:
+                Id: 16c9179d-c5f5-4eab-9d2f-d3e9f9dabd97
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: bbd756d0-4ada-4161-9804-e3f22fb35f9a
+                        Position: {X: 14.436838, Y: 0.62423265, Z: -90.22715}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 9be22aff-e40c-40aa-83e0-0f4b5b76babb
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 172f4205-43dc-4658-9230-33ad51e4e1b9
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: de8174f8-322f-4f72-acad-c9276b10dfa0
+                        Position: {X: 6.503022, Y: 1.0722992, Z: -110.42627}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: f0db273b-f1b5-4250-9a23-1759750a5923
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 1803abd5-9860-4131-9b5a-b903a34ab35f
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: e00125e6-e4c9-4a37-87ea-30fc52cd2642
+                        Position: {X: 6.5041294, Y: 1.0505584, Z: -58.10235}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 9a2674a4-3b72-48d8-a4ff-1830d3a9b377
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 18c4df24-dfc1-47ee-ac94-4355aceda477
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 5d1464a4-3e05-4320-bbc1-8ead9bd28047
+                        Position: {X: -17.783094, Y: 0.62423265, Z: -104.81853}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 5a332dea-4c28-476c-ade6-d1fbd44d5588
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: null
+            Entity:
+                Id: 18da2354-8f05-4aa5-b8e7-3bfeee6b2c5c
+                Name*: Old_man_1
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 1b0e58f4-53b7-4f38-b88b-3798dd478711
+                        Position*: {X: 0.0, Y: 1.1067849, Z: -12.893834}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! 13d95d77-4e4e-4a43-8b2a-f178afe3e477
+                            4b2ce5c434daa7140728aacefa1261e6: ref!! 67dbe2d3-20d8-484d-8251-7e4abb6be7b5
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 7e0ec0ba-21f0-4eec-ac10-a839db42aa0a
+                        Enabled*: true
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 0a81c019-faa9-41cb-a4ba-c51379126228
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
+                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
+                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
+                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 47e7f4cc-7d3e-44c6-b1a1-cb172d85e68d
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 2548390f-16f8-47a3-8382-02bfdcd6a5dd
+        -   Folder: Town2
+            Entity:
+                Id: 1ad12c4a-aac9-4019-a87f-e0014ead8963
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 4aafe40a-dc95-4348-be25-121c12eea04a
+                        Position: {X: -7.5347815, Y: 1.0606375, Z: -110.63414}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 48e73f45-785e-4075-ab9f-91cd82a938ed
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials:
+                            178d6c36242f257b68e207356b11f45d~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            1f47c1aaf9d5a5ae38d41404541d2c95~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town
+            Entity:
                 Id: 1c8873a9-930f-4e06-a94e-15fc0ccd52a2
                 Name: pot
                 Components:
@@ -207,6 +586,21 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 1ecb848b-2c37-4ec3-a5a8-e3da3736595b
+                Name: bottle
+                Components:
+                    a5c005f0fde0bfca8076c96f02c2c679: !TransformComponent
+                        Id: 370ace2d-69c7-4ce4-b51a-12251c36e0f7
+                        Position: {X: 6.266041, Y: 0.70571333, Z: -105.00699}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.10719748, Y: 0.10719748, Z: 0.10719748}
+                        Children: {}
+                    d992c733a4d9e13178b1c4836a250fd3: !ModelComponent
+                        Id: f79e3c32-c982-4a91-8e76-371a55d08dff
+                        Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
+                        Materials: {}
         -   Entity:
                 Id: 211113a4-40e8-4331-9465-90fbe0948078
                 Name: GameManager
@@ -218,7 +612,66 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             0f48947d4901546f1a278cc54753f1d1: ref!! b3b1088a-4978-4dd1-baa0-3fe4f29de640
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 213d5384-03d6-4e7e-962c-7b171be52af0
+                Name: bottle
+                Components:
+                    a5c005f0fde0bfca8076c96f02c2c679: !TransformComponent
+                        Id: b244a6a2-4e62-43c9-b0d4-a93c78554ae9
+                        Position: {X: 6.505951, Y: 0.70571333, Z: -104.3064}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.10719748, Y: 0.10719748, Z: 0.10719748}
+                        Children: {}
+                    d992c733a4d9e13178b1c4836a250fd3: !ModelComponent
+                        Id: 5c232761-735d-43c7-b1d6-eeeb708c9abb
+                        Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 22ab570b-0b67-43c3-98d2-09bd10f8b4b6
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: a07ae932-cb44-4162-b6d2-6e0c878c0b3c
+                        Position: {X: -26.398108, Y: 0.62423265, Z: -48.795258}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 253273b9-853a-40b8-9813-9b85138774b3
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 26c1106b-fdcd-462a-8e74-e7c359ab527d
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 6c0497b7-b484-49c1-bb75-6cf7b5fa7d88
+                        Position: {X: -20.491032, Y: 0.62423265, Z: -18.287247}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 37468896-1775-439d-8433-904e7f8fd98c
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: 26d7496b-0cd9-467a-bccc-500af0c5ab24
+                Name: baby_2
+                Components:
+                    4cc0bb9ee6e37d444ff8aef6e397ddd7: !TransformComponent
+                        Id: 25382708-3528-4f47-945d-5850b64a4a88
+                        Position: {X: -0.6836168, Y: 0.10333105, Z: -11.28542}
+                        Rotation: {X: 0.49999997, Y: -0.49999997, Z: 0.49999997, W: 0.49999997}
+                        Scale: {X: 0.17475662, Y: 0.17475662, Z: 0.17475662}
+                        Children: {}
+                    c4737a7828bf5e8ec2e764b0c6ee9789: !ModelComponent
+                        Id: 96e9dde2-39de-46af-8acc-5d1f84144ef1
+                        Model: ec9ca5da-5076-4845-a51d-9ad8c7064518:OldWinds/Models/Character/baby_2
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 26de0383-4820-4c35-876e-c1acf612bc8e
                 Name: genericHouse
@@ -233,7 +686,69 @@ Hierarchy:
                         Id: b5daf380-2aef-4a06-9ec3-07db7d5f784f
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 27fcdc94-918c-4511-a806-513b1fe05f0b
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: f5ffde8d-028e-4536-9399-7d89ab726495
+                        Position: {X: 25.978802, Y: 0.62423265, Z: -102.886826}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: ddd75f7f-8d21-4ab3-82b9-b03b241f875d
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 2826f20f-430d-48dd-b388-ee3ca641cef4
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 797e5810-ed84-4834-97d3-4a51de2c9c72
+                        Position: {X: -5.181713, Y: 0.0, Z: -91.24846}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 949362cc-c9a4-426e-bcfb-c62cc6249801
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 2b8c540e-a41d-4c34-9113-6e0e00b9f8e4
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: e79f2064-de3f-43aa-896e-e6291453dace
+                        Position: {X: 17.432388, Y: 0.62423265, Z: -96.21953}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7dd27d76-003b-4853-8e4c-58b64e5b1394
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 2ba5cfaa-9039-48fd-8f79-7afe970827a3
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 83805591-7586-42a6-9a3e-9b253c81028d
+                        Position: {X: -26.364197, Y: 0.62423265, Z: -73.193344}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: e08801c4-7d02-4cd1-8764-420ae3cae3b3
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 2e82c202-d91c-4f7f-a30a-1745f32d09b0
                 Name: genericHouse
@@ -248,7 +763,7 @@ Hierarchy:
                         Id: c9fe3bcd-9f7c-4ac1-bf76-2c3765073c74
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 2efdf249-9411-4f00-bd01-5ebf31fce6b6
                 Name: genericHouse
@@ -263,7 +778,67 @@ Hierarchy:
                         Id: df26b2f1-b601-4df8-ba2e-1f0a887d362f
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 3191dad1-238b-4e72-b7f2-083a85c5337c
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: d7d59536-52ad-4060-ace4-2237faddf418
+                        Position: {X: 25.957722, Y: 0.62423265, Z: -87.72073}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 3a68d652-4153-4152-b2b1-8febefd308ef
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
         -   Folder: null
+            Entity:
+                Id: 32603e92-7527-46b4-b3e1-b8663860c33b
+                Name*: Sad_lady
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: f28282d2-47a9-4484-a756-8b2965862540
+                        Position*: {X: -0.058002234, Y: 1.1067858, Z: -11.3517065}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! c2e5bed3-77eb-4a47-b2a6-c02a57fe94a8
+                            0ccefb3114d87d215ee3e300681fa0a2: ref!! d1e538e2-c97e-4357-9ca6-22a545923a02
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 62154d22-6195-437c-8aec-110a090c902d
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 588dca34-bb8e-47fd-9fd7-8b18aac67d52
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 791da7eb-94b1-4a12-b00f-98897149f19a
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 2ef26c24-be44-46e2-a4d9-426b7114f29b
+        -   Folder: Town
             Entity:
                 Id: 331e8cbe-5226-4eba-91ea-cb48597a4b54
                 Name: Lettuce_box
@@ -280,6 +855,67 @@ Hierarchy:
                         Materials: {}
         -   Folder: null
             Entity:
+                Id: 346d8ab0-f73c-4afc-a5e2-272d4f9e4345
+                Name: GridBase10x10
+                Components:
+                    f29512fc43bed377d0ec59cfb91660f0: !TransformComponent
+                        Id: 1b4124ea-d1aa-4012-9a90-f2f0d3e87eca
+                        Position: {X: 9.428343, Y: 0.0, Z: -122.33451}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children: {}
+                    8f76f2733234c2cd9c7d43799ce26438: !ModelComponent
+                        Id: ffea48e2-46e6-4bdd-b410-8df5143c4453
+                        Model: b45ed437-fe67-422a-9e9a-6afd4b3f7a1d:Models/GridBase10x10
+                        Materials:
+                            7a3b8a2cc64972422a1834c2a69d7b14~0: fef16b55-e154-4d16-b8e0-148414c21834:OldWinds/Textures/Material
+                    85c79da5750802f7e0ab30d3c6f8fd88: !StaticColliderComponent
+                        Id: 7918afaa-2690-496b-9bd1-a87658517847
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            0cb8759ca27d8ebe058598a6b942bcb7: !StaticPlaneColliderShapeDesc
+                                Normal: {X: 0.0, Y: 1.0, Z: 0.0}
+                                Offset: 0.0
+        -   Folder: Town2
+            Entity:
+                Id: 34865e03-8a31-4f51-82e6-d0315b1d89bc
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: c8d0648a-6e02-427f-bac9-635f4d9e84f2
+                        Position: {X: -22.721165, Y: 0.62423265, Z: -75.42301}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 8c8bc6f5-ecf8-4127-ad05-56d91b85446f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 349c2fe3-0575-4f4f-88d3-c7c818e2e802
+                Name: door_1
+                Components:
+                    497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
+                        Id: e3771eb1-bbbf-47b3-854a-e7caf341acde
+                        Position: {X: -5.3759236, Y: 0.079589516, Z: -95.632835}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
+                        Children: {}
+                    ff0f6d0af0ed7b831ea3592fe6c8a69c: !ModelComponent
+                        Id: 34c2a108-a898-428d-923b-f6a07b943196
+                        Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
+                        Materials:
+                            59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
+        -   Folder: Town
+            Entity:
                 Id: 35a6f5d9-206c-43c6-9403-d7c14df32330
                 Name: pot
                 Components:
@@ -295,7 +931,7 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 3748ead3-14b3-4449-8e71-fab5da411eb0
                 Name: genericHouse
@@ -310,7 +946,37 @@ Hierarchy:
                         Id: c02b7d6a-e546-4f1d-88e2-d84a0754a53d
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 390cef1e-0129-4a66-9027-ccb85364910a
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 06246bd3-bf2a-4bf8-b05e-227081505af5
+                        Position: {X: 21.013523, Y: 0.62423265, Z: -53.915867}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7ee289d4-de28-432d-ab17-1fec650a306e
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 3bcf586c-94b5-4f10-a658-13bf6bfd5bd7
+                Name: secondFloorHouse
+                Components:
+                    11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
+                        Id: cd73350f-e622-48bb-857f-9ef00d5cca3f
+                        Position: {X: 6.472048, Y: 3.9544756, Z: -75.35331}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    9cdc3950dca5c10ff51266aa6bce10f4: !ModelComponent
+                        Id: a7154fb1-90b6-4bf9-8f14-446f5bd94b0f
+                        Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 3cca5eb7-fd44-4b88-b3fe-b3a5e9fb9150
                 Name: secondFloorHouse
@@ -325,7 +991,7 @@ Hierarchy:
                         Id: 3991e0f0-6707-410d-a49b-9a2a6ac8eadf
                         Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 3d25265f-d30e-49fc-8581-a732db112418
                 Name: genericHouse
@@ -338,6 +1004,68 @@ Hierarchy:
                         Children: {}
                     8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
                         Id: d621569e-7a02-4c14-8103-14a7f2227d98
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 3de27da2-3d80-46eb-a5e5-bed10955b7a0
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: bd3a77c9-d07c-4ac6-96d8-bbe84227e742
+                        Position: {X: 14.466428, Y: 0.62423265, Z: -111.51753}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: add040dd-7236-49ed-b239-b702ea1f3a69
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 3e164732-ba0c-4660-a63c-3614dac47637
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: ca1c6a1b-4953-40c4-8ba8-3882a1d7f901
+                        Position: {X: 7.5573263, Y: 0.0, Z: -102.88535}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 8b26d2c5-e145-431d-8a66-9de3498cdf10
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 44699afa-3a76-429a-8092-0e4654ef8027
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 80e0aed0-e65f-4468-9957-59fb9d881f38
+                        Position: {X: 10.512694, Y: 0.62423265, Z: -75.56704}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: a84a11ef-28a8-4958-92bd-272626ecc387
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 4490f5f1-cf1b-4db6-8bc2-c614d6326d6e
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 3ba3af98-3b94-43cc-af05-65b0c8f21d31
+                        Position: {X: 22.874018, Y: 0.62423265, Z: -27.326752}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 71669d82-9e21-47b6-8b01-c8b9449cec5a
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
         -   Entity:
@@ -360,14 +1088,78 @@ Hierarchy:
                 BasePartAsset: 3ba8d8d2-a808-478b-a63e-76efbbb769a0:Prefabs/GameManager
                 BasePartId: 7a601f88-2319-4e30-8335-b8afe9ab3daa
                 InstanceId: ced7bfae-c32d-4539-ade8-6a31b994f0eb
-        -   Folder: null
+        -   Entity:
+                Id: 4610f55f-86d7-49b3-be66-c95877f01da4
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: ee89a276-82d1-49ce-890f-a8c8c0004d8c
+                        Position: {X: 0.11611806, Y: -1.096, Z: 0.074347906}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.8118412, Y: 1.8118412, Z: 1.8118412}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: d0e8562c-adaa-4055-be6c-caa63d4808aa
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
+        -   Folder: Town2
+            Entity:
+                Id: 47a2f9f6-0cb0-4a52-9c76-106f1c5e3d3c
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 24f31577-06de-4b20-a0bd-91795683084d
+                        Position: {X: -17.773722, Y: 0.62423265, Z: -111.56234}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 495b48ca-2659-46a3-8166-3b56013bf3c8
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 48b0b0c0-a4e8-4e16-871d-e7f05f378fe8
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 0ca88a22-0bf0-4111-9926-25893116ff4d
+                        Position: {X: -7.5230255, Y: 1.0649711, Z: -102.450356}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 95fc6dac-7e37-4ab0-91cd-b7e903433871
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 4930cf16-b36f-4a43-8e88-b006061368da
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 5a088141-233e-4c1e-8137-eb0b6a6fe8b1
+                        Position: {X: -5.153637, Y: 0.0, Z: -113.33463}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.38776016, Y: 0.38776016, Z: 0.38776016}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 777243b2-3a98-4341-8e9e-0e1ad4e8f4d3
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town
             Entity:
                 Id: 49e3652b-7005-45ee-82eb-f07d1d544ea8
                 Name: squareHouse_NoDoor
                 Components:
                     555359d26a2e2262f7d54e176ab29a67: !TransformComponent
                         Id: 3f141179-bdcf-4711-8fcd-bfa0be04dfd0
-                        Position: {X: 6.7497272, Y: -0.193, Z: -14.523038}
+                        Position: {X: 6.7497272, Y: -0.45944175, Z: -14.523038}
                         Rotation: {X: 0.0, Y: -0.7095966, Z: 0.0, W: 0.7046082}
                         Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
                         Children: {}
@@ -403,7 +1195,7 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 517d816e-7308-4bca-90e1-1052bfa0c8c0
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 4b18f4bd-eba6-4fec-bbf6-74626b813310
                 Name: bottle
@@ -418,7 +1210,7 @@ Hierarchy:
                         Id: 2e181e72-091a-4a7e-bf7b-9b4f75199d7f
                         Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 4ce593c4-61bc-44dd-ade7-3eb11c692206
                 Name: secondFloorHouse
@@ -433,7 +1225,7 @@ Hierarchy:
                         Id: 762fca7e-35d1-461b-959e-6ef4af265b3e
                         Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 4d475fa3-0e84-48ff-9dcf-b0115fc44ef7
                 Name: genericHouse
@@ -448,7 +1240,7 @@ Hierarchy:
                         Id: 4f57930b-7ceb-4cd6-9041-52afa8c820a0
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 4e00a9ce-b00e-46ae-b5bb-d1f20dc3d3dc
                 Name: pot
@@ -465,6 +1257,38 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 501aaf17-42be-48e7-a35c-267693c0f479
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 2a94b555-ba37-4e99-851a-6f845b670f8e
+                        Position: {X: 25.916904, Y: 0.62423265, Z: -58.353497}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: c42b9717-3a0a-475a-91a0-b034ba6351fa
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: 50b89b0d-f0ee-4e5e-ac80-8ce3fe1d7c09
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: 67dbe2d3-20d8-484d-8251-7e4abb6be7b5
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.02237963}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: 9b9c87ec-e85b-4ec7-8447-00da1a3536e8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
         -   Folder: null
             Entity:
                 Id: 50f7a98b-ed16-4993-ad83-f0db5aefc2aa
@@ -495,7 +1319,7 @@ Hierarchy:
                             0cb8759ca27d8ebe058598a6b942bcb7: !StaticPlaneColliderShapeDesc
                                 Normal: {X: 0.0, Y: 1.0, Z: 0.0}
                                 Offset: 0.0
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 50fc5d4b-bf38-40b0-a2bc-b772aae4d28b
                 Name: pot
@@ -544,7 +1368,54 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: cb4c564d-c86d-4e32-bcea-fcee73d669bb
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 53b876c5-8750-4bae-aca1-d7f82c9e2cee
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: f60d2e64-fcf7-470e-b888-7a12f3ec2548
+                        Position: {X: -20.481659, Y: 0.62423265, Z: -25.031067}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7526c73b-a4be-410e-8373-d6b0a1e2b222
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: 5435422a-aa3d-402a-8617-56e0e6a988b6
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: 8df10ea4-dd42-4e83-94a5-dd98e6093324
+                        Position: {X: 0.0, Y: -0.09017517, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: ca57e8c6-7c20-4f7f-ade3-8443d507dd9d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: efe873a0-5730-4c80-898d-7d50ed69a7d0:Sprites/SpriteSheet_4
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
+        -   Folder: Town2
+            Entity:
+                Id: 564f9690-5994-47a6-9b89-f1c2966ad721
+                Name: squareHouse_NoDoor
+                Components:
+                    555359d26a2e2262f7d54e176ab29a67: !TransformComponent
+                        Id: eb77cfa7-00a4-4bd0-b557-93a4191d39d9
+                        Position: {X: -7.5102243, Y: -0.36561173, Z: -94.02467}
+                        Rotation: {X: 0.0, Y: 0.7041149, Z: 0.0, W: 0.71008605}
+                        Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
+                        Children: {}
+                    14d53f550751d131178ed8fe819a7600: !ModelComponent
+                        Id: 61f5a3b9-7e62-41e3-81c1-decb7512e0d6
+                        Model: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837:OldWinds/Models/squareHouse_NoDoor
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 568abf4e-5712-4633-860c-64b531c21952
                 Name: bottle
@@ -559,7 +1430,37 @@ Hierarchy:
                         Id: 74d61839-afd8-4f0e-9038-86a03ca73b59
                         Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 56d8072d-982b-4114-8a90-0e5723cb91fa
+                Name: Lettuce_box
+                Components:
+                    b3612a1313e4668040b70192172744b2: !TransformComponent
+                        Id: dd48e98c-15b1-4755-a5df-2dc75ed3606b
+                        Position: {X: 5.0659137, Y: 0.20761213, Z: -100.80463}
+                        Rotation: {X: 0.0, Y: 0.7085406, Z: 0.0, W: -0.70567006}
+                        Scale: {X: 0.48055398, Y: 0.48055398, Z: 0.48055398}
+                        Children: {}
+                    789a0ad05d9c0af47edddea79fbeb6e1: !ModelComponent
+                        Id: 494330e9-2775-4f99-9f2e-a9fd5532ce08
+                        Model: c65fe928-d369-473b-a276-aa2fb24f00d4:OldWinds/Models/Props/Lettuce_box
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 577d72e9-a0b3-430f-a6d9-f29f374505c3
+                Name: Lettuce_box
+                Components:
+                    b3612a1313e4668040b70192172744b2: !TransformComponent
+                        Id: 08752978-029d-4791-ae91-2fd8926cbeb3
+                        Position: {X: 4.9324727, Y: 0.268687, Z: -99.53395}
+                        Rotation: {X: 0.0, Y: 0.7085406, Z: 0.0, W: -0.70567006}
+                        Scale: {X: 0.26281574, Y: 0.26281574, Z: 0.26281574}
+                        Children: {}
+                    789a0ad05d9c0af47edddea79fbeb6e1: !ModelComponent
+                        Id: 5b49dbd1-8841-4ccb-a7d2-854f3f456645
+                        Model: c65fe928-d369-473b-a276-aa2fb24f00d4:OldWinds/Models/Props/Lettuce_box
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 590ef2ba-29f0-4e61-b41e-67bfed850e0b
                 Name: bottle
@@ -574,13 +1475,28 @@ Hierarchy:
                         Id: 69ff6e29-7afb-456d-acdb-4a28ec533040
                         Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 5ac681dc-da0b-423c-b528-2b83de8307f9
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: ae11be7e-45d7-43c1-84a5-e13154212019
+                        Position: {X: 10.488412, Y: 0.62423265, Z: -58.096817}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: b3876557-add1-4519-a866-cc91c2401e62
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
         -   Entity:
                 Id: 5b92b3a4-677e-4e0a-a923-6096bb5187d9
                 Name: SpriteSheet
                 Components:
                     354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
                         Id: 9b0b1454-83a1-467b-b5bb-123b792b1b7d
-                        Position: {X: 0.0, Y: -0.09017517, Z: 0.0}
+                        Position: {X: 0.0, Y: -0.08079806, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
                         Children: {}
@@ -589,14 +1505,61 @@ Hierarchy:
                         SpriteProvider: !SpriteFromSheet
                             Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
                         Sampler: PointClamp
-        -   Entity:
+        -   Folder: null
+            Entity:
+                Id: 5bf7b454-f636-47e0-98f2-fe9bfd1ceb5e
+                Name*: People
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: a5fdd8a7-f360-4fca-940f-d6e43ff356c0
+                        Position*: {X: -0.058002234, Y: 1.1067858, Z: -9.171872}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! dd2acf9d-9b92-4042-93c3-02bc5a19b675
+                            d3240727f307d941187281f9be0b93d0: ref!! ee89a276-82d1-49ce-890f-a8c8c0004d8c
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: fff53f64-35ef-4064-9cfd-ab8de0560434
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 7a1ff288-33ac-44de-8b37-10c0fa4df5c1
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 10039b20-260e-4cd2-88e4-2d86113f788b
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: c96c2adc-1c1c-4452-be50-798b13948176
+        -   Folder: Town
+            Entity:
                 Id: 5d004f66-90e4-4aca-bc18-a57e23278816
                 Name: fountain
                 Components:
                     9ee3ecaaef2b65658d3bb4e1c4ad2fdf: !TransformComponent
                         Id: afbdba57-c4b5-4cde-bde3-c018d273239e
-                        Position: {X: 0.008513119, Y: 0.0, Z: -17.309412}
+                        Position: {X: 0.008513119, Y: -6.390968E-07, Z: -28.031677}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.2649417, Y: 0.2649417, Z: 0.2649417}
                         Children: {}
@@ -637,6 +1600,7 @@ Hierarchy:
                         SpriteProvider: !SpriteFromSheet
                             Sheet: efe873a0-5730-4c80-898d-7d50ed69a7d0:Sprites/SpriteSheet_4
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
                         Sampler: PointClamp
         -   Entity:
                 Id: 5edbe447-5a2a-4bff-8a3e-3afb9f9a74ec
@@ -644,22 +1608,39 @@ Hierarchy:
                 Components:
                     a22ae5231a86cd0d31df0d50ea7c4e1a: !TransformComponent
                         Id: 04821997-188d-4fb4-a8af-215f882ee322
-                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Position: {X: -8.931423, Y: 13.666111, Z: -36.590054}
                         Rotation: {X: -0.57357645, Y: 0.0, Z: 0.0, W: 0.81915206}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     8f440b8d9f3a6f4a05897d7496b0bba2: !LightComponent
                         Id: f3421edf-fe39-4369-b644-511be6d09aa4
+                        Enabled: false
                         Type: !LightDirectional
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                             Shadow:
                                 Enabled: true
                                 Filter: !LightShadowMapFilterTypePcf {}
+                                Size: Large
                                 DepthRange: {}
                                 PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
                                 ComputeTransmittance: false
                                 BiasParameters: {}
+        -   Folder: Town2
+            Entity:
+                Id: 60345718-db41-46b2-91ed-3defb2895a49
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 7b327edc-53b5-4cb7-8086-dfaff15f6352
+                        Position: {X: -11.478858, Y: 1.1138787, Z: -102.45586}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 3c1ee537-6eb0-4dad-a2e5-dae142a154d5
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
         -   Entity:
                 Id: 6342aaf3-46bb-4a64-8538-e0dd804f66c0
                 Name: Inspect
@@ -674,7 +1655,42 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 24631be9-0f51-4c2f-be87-976fabe4d2be
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Entity:
+                Id: 63634b5c-65f0-471f-8a0e-291ff8aa105e
+                Name: Skybox light
+                Components:
+                    8c686a95c3577f94a00aa4064296a0af: !TransformComponent
+                        Id: 4d85bb8a-a05c-4258-99c0-484dca87eea7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b85f80775046b2dfd7b0f8d74fd091df: !LightComponent
+                        Id: 7829e693-3389-42f6-ad8f-d55911b83b29
+                        Enabled: false
+                        Type: !LightSkybox
+                            Skybox: be1d4fdd-38a3-455a-897c-a71e1f26a3ba:Skybox
+                        Intensity: 0.1
+                    aefe5098faca876b1e9f6575e7ba3e73: !BackgroundComponent
+                        Id: 7a3fe783-ba83-40a7-bba4-dfb7d4136a70
+                        Texture: c57acf9d-f410-413f-95a7-d2ad7ca61d16:Skybox Texture
+                        Intensity: 0.05
+        -   Folder: Town2
+            Entity:
+                Id: 638a1a13-da09-4a73-80c0-0e41c78290e6
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 9b94ef3e-9c54-46d7-b00c-b5b42260019b
+                        Position: {X: 21.044794, Y: 0.62423265, Z: -76.41455}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: a46a710f-d466-4aed-964d-4e6dbafa7030
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 641cccfa-e156-4f20-b9e0-07c389ffa6e0
                 Name: genericHouse
@@ -691,22 +1707,34 @@ Hierarchy:
                         Materials: {}
         -   Folder: null
             Entity:
+                Id: 66242d92-a839-48d6-b7ce-46f846299b8e
+                Name: blood_2
+                Components:
+                    6dc5a1f2a30e5995e0fd5568db07d3e7: !TransformComponent
+                        Id: 347e4cdb-e483-4bb5-a49d-797bb21ac049
+                        Position: {X: 0.5900197, Y: 0.032732856, Z: -12.822548}
+                        Rotation: {X: 0.49999997, Y: 0.49999997, Z: -0.49999997, W: 0.49999997}
+                        Scale: {X: 1.0, Y: 2.1097898, Z: 1.0}
+                        Children: {}
+                    4e8109c39afb857a1931bc24f027827f: !SpriteComponent
+                        Id: 96cfbaea-de3d-48da-a8d8-68975f349ed3
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5464e3ff-5ef2-4739-aede-f6136e7b8619:Sprites/SpriteSheet_7
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+        -   Folder: null
+            Entity:
                 Id: 667f5f69-e540-4f54-a1cb-2cfe8b5a8413
-                Name: DialogueSystem
+                Name*: Old_man_2
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: f84c559f-620c-483b-a672-1990284721bf
-                        Position*: {X: 1.8551383, Y: 1.1067858, Z: -24.48411}
+                        Position*: {X: 1.5231231, Y: 1.1067858, Z: -35.44871}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             04896706fbd2a2868455129f2b6b5b85: ref!! 39c8ede6-5cff-4141-91ee-e13b9f97c9ae
-                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
-                        Id: bb038143-6450-4733-aeed-1438b1c21086
-                        Enabled*: false
-                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
-                        Materials:
-                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                            badc810fe928e5d0f1892443f9d259ac: ref!! 3a432734-937f-4677-94ca-d9063b1b6538
                     d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
                         Id: 8e72fecf-e2e0-4558-b774-b0818d352bb4
                         CanSleep: true
@@ -736,17 +1764,19 @@ Hierarchy:
                         voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
                     c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
                         Id: a2ef1179-01e6-4756-818a-a1d3c0ccfe6e
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
             Base:
                 BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
                 BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
                 InstanceId: e9797d4f-45e4-4fe8-b899-cdc4934d8471
-        -   Entity:
+        -   Folder: Town
+            Entity:
                 Id: 687a6789-21ed-499d-a196-02549bf263f3
                 Name: squareHouse_NoDoor
                 Components:
                     555359d26a2e2262f7d54e176ab29a67: !TransformComponent
                         Id: bc7d20fb-264d-43fd-a01b-2ac40d83e0d4
-                        Position: {X: 6.487871, Y: -0.193, Z: -40.423523}
+                        Position: {X: 6.487871, Y: -0.35340995, Z: -40.423523}
                         Rotation: {X: 0.0, Y: -0.7095966, Z: 0.0, W: 0.7046082}
                         Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
                         Children: {}
@@ -754,7 +1784,84 @@ Hierarchy:
                         Id: 6626361f-cb22-462f-9305-365b11aa8d99
                         Model: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837:OldWinds/Models/squareHouse_NoDoor
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 6966168d-c965-4a89-84ef-f0476f0af325
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 9231840a-e5ef-4c7f-95d8-79dc04159320
+                        Position: {X: 6.4420605, Y: 1.0792217, Z: -66.56633}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 5ab94e55-e6b3-4538-978b-2cd678c5e4d1
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 6a71a3ef-3676-474b-8bfb-76d8145725bf
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 3f4bd30b-6a7e-4783-8593-4716e79d5892
+                        Position: {X: 4.9260907, Y: 0.0, Z: -97.010666}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.5776009, Y: 0.5776009, Z: 0.5776009}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: fff3b344-4a3c-42ed-9459-4969106d5f96
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 6abd4cda-1bc0-4966-9552-eb4857ce7b5c
+                Name: squareHouse_NoDoor
+                Components:
+                    555359d26a2e2262f7d54e176ab29a67: !TransformComponent
+                        Id: e2b0d9bb-bdbd-4e55-bd25-44f474656053
+                        Position: {X: -7.29053, Y: -0.37097988, Z: -59.457268}
+                        Rotation: {X: 0.0, Y: 0.7041149, Z: 0.0, W: 0.71008605}
+                        Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
+                        Children: {}
+                    14d53f550751d131178ed8fe819a7600: !ModelComponent
+                        Id: 80028452-8c78-4942-a9c9-ef3f05ff8d05
+                        Model: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837:OldWinds/Models/squareHouse_NoDoor
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 6ad44440-8ec2-4894-a9f6-70cdf03ae5cb
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 63c6d73e-f4a8-4b33-ad33-9759eebd0101
+                        Position: {X: -26.329508, Y: 0.62423265, Z: -98.15123}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: ecc45b8e-326a-4e4a-b254-448670d2db31
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 6d1939d9-d87d-413c-9818-f37899bcded8
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 7a9c5021-bd64-4e1c-bcab-2579b37847dd
+                        Position: {X: 25.967094, Y: 0.62423265, Z: -94.464554}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: effabed6-4831-4fa9-b0cd-edcfd3bdaa61
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 6d54662e-f2f8-4c68-8848-e0e90ac2e685
                 Name: genericHouse
@@ -771,7 +1878,23 @@ Hierarchy:
                         Materials:
                             4b3d7fdff0ee93f48194d9c77038b9f8~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             c3d7bf6c78a7528b9b46ad00c99921d3~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 6db757a1-e43c-4864-8f9c-e35b95a88c4c
+                Name: door_1
+                Components:
+                    497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
+                        Id: 79dd2014-d8d2-4e92-96b1-d42ff90fd05f
+                        Position: {X: -5.116215, Y: -0.00077696145, Z: -69.734795}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
+                        Children: {}
+                    ff0f6d0af0ed7b831ea3592fe6c8a69c: !ModelComponent
+                        Id: 4a7faccf-96d3-4a1f-b41a-46dbe2c40a00
+                        Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
+                        Materials:
+                            59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
+        -   Folder: Town
             Entity:
                 Id: 6ee3534c-0801-4e21-a6a2-63748c566791
                 Name: pot
@@ -788,7 +1911,7 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 7180aaa7-57ff-48eb-b177-703e7dc2f26a
                 Name: Tomato_box
@@ -803,14 +1926,14 @@ Hierarchy:
                         Id: 27d8bb06-a304-40dd-b76d-e78d829d5d21
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 74957730-3162-4ead-8ad3-83fac3c688e7
                 Name: squareHouse_NoDoor
                 Components:
                     555359d26a2e2262f7d54e176ab29a67: !TransformComponent
                         Id: c3cb6432-6ccd-4601-8713-3761e743f253
-                        Position: {X: 6.4819865, Y: -0.193, Z: -49.090103}
+                        Position: {X: 6.4819865, Y: -0.36886305, Z: -49.090103}
                         Rotation: {X: 0.0, Y: -0.7095966, Z: 0.0, W: 0.7046082}
                         Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
                         Children: {}
@@ -818,7 +1941,22 @@ Hierarchy:
                         Id: 7c827fb6-72ee-49ce-b617-a21a4d798366
                         Model: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837:OldWinds/Models/squareHouse_NoDoor
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 764f93ae-8c32-4f84-97b4-092a623e46bb
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: dfdfdea2-59e5-4ae0-be7c-d1a2dea39813
+                        Position: {X: 25.936468, Y: 0.62423265, Z: -72.42991}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 29d8feb5-38fe-4248-b325-7432aeca553f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: 77fe9a3d-c722-4170-8b8e-331cd2dbb90c
                 Name: genericHouse
@@ -833,49 +1971,19 @@ Hierarchy:
                         Id: fdccbe21-ac60-4d35-b861-2140e9097a9a
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Entity:
-                Id: 7846a6b9-9b49-4323-a1dc-b50eeb92bcdf
-                Name: Box1x1x1
-                Components:
-                    dbca45c8bba1066b1e0fab2e5ab01e87: !TransformComponent
-                        Id: d673e696-ac8a-4c15-8b73-b486309ecfea
-                        Position: {X: 0.0, Y: 0.0, Z: -45.232464}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 12.690885, Y: 13.546491, Z: 1.0}
-                        Children: {}
-                    2725c7e2659aa239f4d1804b0211f087: !ModelComponent
-                        Id: be41d850-29d9-4638-a43c-6346b8740c92
-                        Enabled: false
-                        Model: 062cb574-0d97-4e01-86e9-95030aee18e8:Models/Box1x1x1
-                        Materials: {}
-                    1473f6eb2855f51302be346e59b5e6de: !StaticColliderComponent
-                        Id: 6bb93316-afe3-4baf-8d84-d2dc85a0b22d
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        AlwaysUpdateNaviMeshCache: false
-                        ColliderShapes:
-                            bffb321ef86fa7617e567a3b3a0ec7c8: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: null
             Entity:
                 Id: 790c62ea-a1c0-45be-900f-ed96fc602742
-                Name: DialogueSystem
+                Name*: Old_man_3
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: e4e40ef2-3df1-40a8-a57a-89854e99013c
-                        Position*: {X: -3.4474494, Y: 1.1067858, Z: -38.445534}
+                        Position*: {X: -2.0591493, Y: 1.1067858, Z: -59.15539}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             04896706fbd2a2868455129f2b6b5b85: ref!! 84217e3e-cc64-4ac9-a769-44510b312def
+                            2f7ca0006783026d477a5ba3f77ce7ae: ref!! 777bf656-d769-4133-8a30-e8ea3de56732
                     8fff9564224e164bbfeeb200886985b1: !ModelComponent
                         Id: 6cfd6cf9-4831-4ded-b9b4-958e2a8507fd
                         Enabled*: false
@@ -915,7 +2023,24 @@ Hierarchy:
                 BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
                 BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
                 InstanceId: 25c1d678-d765-4b00-b168-dc3facb05f0a
-        -   Folder: null
+        -   Entity:
+                Id: 79add55f-2168-41eb-8c2e-feeb2161f578
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: e9a23904-9dac-46ac-9730-0ec1849a079e
+                        Position: {X: 0.0, Y: -0.09, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: 2df4c5d8-3af1-490f-8501-90f467dcd9ce
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f2024d7f-d4a7-4798-b02b-18acb51da874:Sprites/SpriteSheet_5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
+        -   Folder: Town
             Entity:
                 Id: 79ea13a1-1995-4b38-af38-74aeff764849
                 Name: Tomato_box
@@ -930,13 +2055,60 @@ Hierarchy:
                         Id: 438a46a6-4efe-4831-897e-645a01132966
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
-        -   Entity:
+        -   Folder: Town2
+            Entity:
+                Id: 7a3d5661-3971-4ec7-97a1-ef2f4b20b2d3
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 426f38c7-c470-4c52-a848-a069ec32aa6b
+                        Position: {X: -17.872774, Y: 0.62423265, Z: -40.296463}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: feafd86a-9e1b-44f5-aae6-87890e9ecd91
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
+            Entity:
+                Id: 7a4bce03-36a7-4590-8a73-971cceea8cde
+                Name: door_1
+                Components:
+                    497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
+                        Id: 233a23b3-5f60-453b-8bd3-6c7b06cb39e8
+                        Position: {X: 4.2856426, Y: 0.010848194, Z: -47.48888}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
+                        Children: {}
+                    ff0f6d0af0ed7b831ea3592fe6c8a69c: !ModelComponent
+                        Id: 0e5ec859-e7ed-4d39-ba65-2b719422ff7e
+                        Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
+                        Materials:
+                            59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
+        -   Folder: Town2
+            Entity:
+                Id: 7be12140-1411-4126-bf95-c8ac66fb5ada
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: b28f5cc8-6c9e-42de-8fd8-a4f9dc1b94a5
+                        Position: {X: 25.927095, Y: 0.62423265, Z: -65.68609}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 426a05a0-b355-4e5c-9763-85df280fdd8e
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
+            Entity:
                 Id: 7c53d412-1857-47c3-9cc0-06643eff0970
                 Name: water
                 Components:
                     59ae4a446715dc65c8c9ce4ce05b273b: !TransformComponent
                         Id: cb6e51e8-70a5-4617-b0fc-a671fbd46671
-                        Position: {X: -0.042412136, Y: 0.4960332, Z: -17.307592}
+                        Position: {X: -0.042412136, Y: 0.49603257, Z: -28.029858}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.6003067, Y: 0.6003067, Z: 0.6003067}
                         Children: {}
@@ -945,7 +2117,7 @@ Hierarchy:
                         Model: 0d4b0192-5453-4021-9407-e64b0661ddae:OldWinds/Models/Props/water
                         Materials:
                             a9d053c1262adbc4d4ad21ef58e851f7~0: 7fc94b5c-8f49-4740-8e5c-927d3e05aaf4:OldWinds/Models/Props/Glass
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 7f1c07c6-ea7e-42dc-9142-454c52675ff9
                 Name: pot
@@ -962,6 +2134,21 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 7f665689-4819-42f3-9520-47f72ac4a56e
+                Name: secondFloorHouse
+                Components:
+                    11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
+                        Id: 6bfe3875-23dd-4f1b-a178-13c5a0f4c932
+                        Position: {X: -7.3079624, Y: 3.8526273, Z: -85.006744}
+                        Rotation: {X: 0.0, Y: 0.7019117, Z: 0.0, W: 0.71226394}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    9cdc3950dca5c10ff51266aa6bce10f4: !ModelComponent
+                        Id: 558ec38e-f11f-4aaa-b373-ba1504ea454f
+                        Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
+                        Materials: {}
         -   Entity:
                 Id: 805a36f9-33f5-462a-ae0c-99c1c3250a2f
                 Name: MagazineModel
@@ -986,7 +2173,7 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: c9fa9483-d66d-463f-8f9a-11e52d5ef38a
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: 8106fdc2-a0e1-45d2-bee4-eaca6bf306cb
                 Name: genericHouse
@@ -1021,6 +2208,149 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 841b73a2-b6ff-43a6-8c17-910cde15bef5
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 837930af-6a22-4bc8-952b-99897bc69ce2
+                Name: blood_1
+                Components:
+                    6dc5a1f2a30e5995e0fd5568db07d3e7: !TransformComponent
+                        Id: 9cb5f6d9-c461-410e-bb75-7e51a542fca9
+                        Position: {X: 4.6069207, Y: 0.032733098, Z: -12.822548}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.5131667, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4e8109c39afb857a1931bc24f027827f: !SpriteComponent
+                        Id: c3860f4a-d9b5-4a1b-bac3-ba2c3802ffa6
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5464e3ff-5ef2-4739-aede-f6136e7b8619:Sprites/SpriteSheet_7
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+        -   Folder: Town2
+            Entity:
+                Id: 84294de2-1c36-419f-bb60-de2618910bf2
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 7e5c1054-5bb4-4aa6-8d67-b1a1389b7b7a
+                        Position: {X: -17.82949, Y: 0.62423265, Z: -71.43837}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 9e61d690-0122-4f0a-9254-90944990d1e6
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 8866ec89-bf27-4de1-9adb-e21fc5abe990
+                Name: Lettuce_box
+                Components:
+                    b3612a1313e4668040b70192172744b2: !TransformComponent
+                        Id: a5db39ba-e06f-4503-bfb8-b400066c3f7c
+                        Position: {X: 4.9470916, Y: 0.268687, Z: -103.134674}
+                        Rotation: {X: 0.0, Y: 0.7085406, Z: 0.0, W: -0.70567006}
+                        Scale: {X: 0.3305125, Y: 0.3305125, Z: 0.3305125}
+                        Children: {}
+                    789a0ad05d9c0af47edddea79fbeb6e1: !ModelComponent
+                        Id: 6b0b819a-09a8-4fe5-abc9-775423584616
+                        Model: c65fe928-d369-473b-a276-aa2fb24f00d4:OldWinds/Models/Props/Lettuce_box
+                        Materials: {}
+        -   Entity:
+                Id: 88f44fb9-2f5c-42f6-bf2e-d51c438a90d6
+                Name: Ambient light
+                Components:
+                    391edfeedd82f40434ffc8357d2c0243: !TransformComponent
+                        Id: 4f5a7469-87dd-4d6e-ac47-f9c8786d3cc3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f3f9aa539f10741b556fb3ded2e62131: !LightComponent
+                        Id: 0d1328e8-6848-4fb5-a2d0-f0aad631c160
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                        Intensity: 0.05
+        -   Folder: Town2
+            Entity:
+                Id: 8990ad2d-fa9d-4be8-9b74-dc12e9f5bb4c
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 3a75dbb3-c3e4-41ee-a323-b9253e77d4c3
+                        Position: {X: -22.686476, Y: 0.62423265, Z: -100.3809}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: cb5789bb-700b-4e90-9348-453f8b90070f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 8a044c88-9d8b-4049-9d74-1fd20eac0cd2
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: b4502b64-96b6-49af-9aeb-7e4c6cbd8dd6
+                        Position: {X: 25.895824, Y: 0.62423265, Z: -43.187405}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 98d1a3bc-5131-42d6-99b0-2642f7859653
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: null
+            Entity:
+                Id: 8a36f09a-3161-4f2c-9676-104e870f4347
+                Name*: Old_women
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: cf1411b5-c138-4f59-8dbb-3dc38dbe6dfd
+                        Position*: {X: 5.8379946, Y: 1.1067858, Z: -102.28076}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! e9a23904-9dac-46ac-9730-0ec1849a079e
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: f480dfcc-0121-4327-a4b1-d3f4be02b3f6
+                        Enabled*: false
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 64ad3049-2414-4817-8885-c76207fca0f9
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 326df5be-c5bc-409d-a6fd-fd7e37231f02
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
+                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
+                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
+                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 93438aea-39d7-46cb-b87d-f384b38b6f30
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 419e6a1c-367d-4ae9-9b11-415291b3921b
         -   Folder: null
             Entity:
                 Id: 8a8d264b-65ad-4d38-9149-d755247920ca
@@ -1037,10 +2367,11 @@ Hierarchy:
                         Type: !LightPoint
                             Color: !ColorRgbProvider
                                 Value: {R: 0.76862746, G: 0.6784314, B: 0.49411765}
-                            Radius: 20.0
+                            Radius*: 7.0
                             Shadow:
                                 Size: Small
                                 BiasParameters: {}
+                        Intensity*: 50.0
             Base:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 403e0aa7-c0a1-4359-997e-48d237b4ab3a
@@ -1097,6 +2428,178 @@ Hierarchy:
                 BasePartAsset: 3ba8d8d2-a808-478b-a63e-76efbbb769a0:Prefabs/GameManager
                 BasePartId: 3eb9695c-d019-4319-b0e6-ea0e844abf5c
                 InstanceId: ced7bfae-c32d-4539-ade8-6a31b994f0eb
+        -   Folder: Town2
+            Entity:
+                Id: 8c50e417-f1e9-47e5-b08f-04c95052e4b6
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 6e3b799a-9423-4cb4-ba51-7a11cd660d6f
+                        Position: {X: -7.37451, Y: 0.62423265, Z: -76.11685}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: e945c32c-8ebf-49dc-a64b-92f77b97773a
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials:
+                            4b3d7fdff0ee93f48194d9c77038b9f8~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            c3d7bf6c78a7528b9b46ad00c99921d3~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 8e33c6e3-7adf-4e11-983d-4a7131c4f825
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 2bf09825-770a-41b1-9522-2a439768bcf7
+                        Position: {X: 25.948175, Y: 0.62423265, Z: -80.85218}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 067be483-35b8-4dc4-b9b0-947a7f8dd29b
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 90e4da4d-2bc7-40f5-8926-588d1d3e703d
+                Name: bottle
+                Components:
+                    a5c005f0fde0bfca8076c96f02c2c679: !TransformComponent
+                        Id: b4614465-d500-4b7d-aeec-7bfa30dd80c8
+                        Position: {X: 6.335992, Y: 0.70571333, Z: -104.04579}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.10719748, Y: 0.10719748, Z: 0.10719748}
+                        Children: {}
+                    d992c733a4d9e13178b1c4836a250fd3: !ModelComponent
+                        Id: 14ca2467-ea6a-4c23-93f4-86ada6535620
+                        Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 91622ee5-0849-401e-909b-5afbce7dfd84
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: c67e0c96-03c6-44ca-af21-e675a7308d29
+                        Position: {X: 4.8555465, Y: 0.3011831, Z: -104.08749}
+                        Rotation: {X: 0.0, Y: 0.70779175, Z: 0.0, W: -0.706421}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: bb4d4fd5-ff8c-4fd7-8923-dc2dd93c602d
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
+        -   Folder: Town
+            Entity:
+                Id: 92fd363a-4467-4ca3-8772-6e14b693cf2c
+                Name: door_1
+                Components:
+                    497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
+                        Id: 3445a323-601e-4d39-8d68-9f713b1b7e2e
+                        Position: {X: 4.2856426, Y: 0.040399976, Z: -38.82941}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
+                        Children: {}
+                    ff0f6d0af0ed7b831ea3592fe6c8a69c: !ModelComponent
+                        Id: 256a788f-3cc2-4dfb-808e-a63bb99fe892
+                        Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
+                        Materials:
+                            59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
+        -   Folder: null
+            Entity:
+                Id: 94ba9809-cc73-4a20-8e59-db3733278ebc
+                Name*: Store_1
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 8952f862-69be-49fc-afc8-e51acfb95e9d
+                        Position*: {X: -6.297769, Y: 1.1067858, Z: -6.3698597}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! 8df10ea4-dd42-4e83-94a5-dd98e6093324
+                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
+                        Id: b930aa3a-9dcb-46cc-8de5-25b48b2df40d
+                        Enabled*: false
+                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
+                        Materials:
+                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: 994255c4-d87e-408b-b04a-00c7ca166da6
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: f8e4794e-69c4-4c46-b128-2d82c787fba9
+                        DialoguesList:
+                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 277dba61-678f-4760-80d0-067465d0d0d5
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 2d3a65c0-582a-452f-a737-837406535187
+        -   Folder: Town2
+            Entity:
+                Id: 95e8b5e6-8712-43cb-b6d1-eb611fb36966
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 733b2729-e999-4829-8b77-1f62e4bb1df9
+                        Position: {X: 6.504999, Y: 1.0600373, Z: -92.25447}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: dc7c0826-647e-4e71-88d8-aeb0386bfc7f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 96d092a5-28dd-4347-ab8d-411651ae92da
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: a951574c-fb63-48a4-b617-5187bb402291
+                        Position: {X: -16.33436, Y: 0.62423265, Z: -108.51114}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 99970bf1-142c-4de3-b734-498a328d65fd
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 973dd5bf-024f-4335-b87e-3b0a7a6e2cc5
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 47074f62-662e-44ea-8e24-51dd1f6b2af1
+                        Position: {X: -22.755075, Y: 0.62423265, Z: -51.024925}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 6f035ade-35b9-44d8-beeb-3acf5eb3065b
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
         -   Entity:
                 Id: 974777d5-43ba-4092-9066-e766d890c174
                 Name: EffectsFeedback
@@ -1140,7 +2643,111 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: bfbb6424-4e4f-43c1-95ab-423eb7a275ea
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 98e5a9ab-9019-42fd-8571-c4275cf4f6a0
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: 14a713bf-1ca0-472f-8a01-c1de994d1b55
+                        Position: {X: 4.851644, Y: 0.3011831, Z: -102.075005}
+                        Rotation: {X: 0.0, Y: 0.70779175, Z: 0.0, W: -0.706421}
+                        Scale: {X: 0.2821938, Y: 0.2821938, Z: 0.2821938}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: 8a65d6ce-5b6e-4c30-8ebc-5a63f69e11b4
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: 9901fb17-f573-409f-a342-e44c13c37833
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 74b3fa6c-841c-44a9-b2df-7e3ce528c08a
+                        Position: {X: 7.228758, Y: 0.0, Z: -99.15509}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.45408365, Y: 0.45408365, Z: 0.45408365}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: f229e768-a3f8-4cd1-a4e9-c7b41abedfaa
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: 9a08bc57-8229-48f8-b9e2-100c02d0ba53
+                Name: secondFloorHouse
+                Components:
+                    11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
+                        Id: c7218130-bd04-4250-aba0-ce614f65d70f
+                        Position: {X: -7.067684, Y: 3.2737694, Z: -67.889336}
+                        Rotation: {X: 0.0, Y: 0.7019117, Z: 0.0, W: 0.71226394}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    9cdc3950dca5c10ff51266aa6bce10f4: !ModelComponent
+                        Id: 6b26526f-9ba1-47b7-8e19-41f3dc419644
+                        Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
+                        Materials: {}
+        -   Entity:
+                Id: 9a5bb123-2c64-4c0b-ad2a-11b44684837a
+                Name*: Trigger_1
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: 06c91b67-5781-4984-8df4-4402e5604ae2
+                        Position*: {X: -6.843054E-06, Y: 1.3686108E-05, Z: -114.80738}
+                        Rotation: {X: -0.49999994, Y: -0.5, Z: 0.5, W: 0.5}
+                        Scale*: {X: 7.2410026, Y: 1.3686279, Z: 12.231412}
+                        Children: {}
+                    d368d439fa2aef8c4c2eeb49fef2808d: !OpenHorror.Items.ItemComponent,OpenHorror.Game
+                        Id: 6452f91b-e253-4ff6-9ee5-dd3bc8a147ea
+                        Priority: -1
+                        itemId: 0
+                        itemName: 
+                        itemDescription: object.cube.notification
+                        isPickable: false
+                        rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
+                        notificationText*: can't go right now, I'm very tired
+                        documentText: 
+                        ItemType*: triggerEvent
+                    c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
+                        Id: dc9b5b91-f1cb-4cab-b933-f6b849b08e29
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f9642da05b6a59bc5c798489b735a010: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 2.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    51c1cf156bcae5d5fd6d02627bb826d2*: !OpenHorror.Trigger.TriggerEventManually,OpenHorror.Game
+                        Id: eb5e9ff5-8c2f-4c28-8a81-adccd38722ac
+                        DisableElements:
+                            c05db91703c4e0b7670978bf8930f445: ref!! 18da2354-8f05-4aa5-b8e7-3bfeee6b2c5c
+                        EnableElements:
+                            5fb553a4cb2124b07acf7c95b9325895: ref!! 32603e92-7527-46b4-b3e1-b8663860c33b
+                            1417b0a1ff4684ef9eb33478866933d3: ref!! 5bf7b454-f636-47e0-98f2-fe9bfd1ceb5e
+                            bfbce55f3bb4b435384265ef291e2d0b: ref!! faa2b344-c342-4544-8a11-6cf8dcf5a4a2
+                            43bd0829d52e0920dc75ac68a85e41ae: ref!! 837930af-6a22-4bc8-952b-99897bc69ce2
+                            936e5c6df59604ac785f8c8d78d79a2c: ref!! 66242d92-a839-48d6-b7ce-46f846299b8e
+                            e78533f25a4c6d4910710b3630f73990: ref!! da298f34-ecf1-42ca-9041-98f64929683b
+                            79193ef751773c0e168aa42a804d817b: ref!! 26d7496b-0cd9-467a-bccc-500af0c5ab24
+                            072c6328cd78248d782c627a3f3faee6: ref!! ed4c9d70-a013-44a0-b126-7614b30f0b15
+                        Sound: e0aaad1b-9adf-4940-83c4-8e3e32b20dd7:OldWinds/SFX/WomanScream
+                        isActive: true
+                    00a6a4d59608117c18a5b957071983c8: ~(Deleted)
+            Base:
+                BasePartAsset: 9b38e8ae-5287-42c1-81cc-765fc93ec205:Prefabs/Cube
+                BasePartId: f2179958-3b95-4a71-af41-a5635f9a90aa
+                InstanceId: b03c741e-7078-4916-83b9-60f9a7d8df35
+        -   Folder: Town
             Entity:
                 Id: 9f4a06ea-0013-480c-beaf-418329b274b0
                 Name: pot
@@ -1157,7 +2764,39 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: 9f5b03c0-46d5-4572-98c0-bd5c5160f72e
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: a21a37fa-5f13-41fd-825b-3edbe08bd434
+                        Position: {X: 5.0439916, Y: 0.44396448, Z: -98.20142}
+                        Rotation: {X: 0.0, Y: 0.70779175, Z: 0.0, W: -0.706421}
+                        Scale: {X: 0.49970728, Y: 0.49970728, Z: 0.49970728}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: df18ffe5-7f11-4f29-944e-23e91e4514fb
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: a05bc318-7b8b-4fdd-a1fd-c10655d12d32
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: a7e23118-c160-4664-b5b0-c238d5a933ea
+                        Position: {X: 7.4952908, Y: 0.0, Z: -100.059265}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: f967ccde-260d-4b8c-b9b6-30f9e58dae7c
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town
             Entity:
                 Id: a2203858-7ac1-4b19-8155-c976e5719409
                 Name: genericHouse
@@ -1172,6 +2811,23 @@ Hierarchy:
                         Id: 870aa7e0-db1c-4d03-9b24-3b1c5b9ddf8a
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: a348d128-3d56-4d41-b390-10ae111172d2
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: b906e0c3-aa24-43cd-b4e1-09e51721c6e5
+                        Position: {X: -5.165058, Y: 0.0, Z: -103.231026}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: d4c08b89-39c6-4504-908e-3a885029aee1
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
         -   Entity:
                 Id: a59ee72c-4bd4-49ac-9ae7-dbc53fb7182e
                 Name: PlayerCharacter
@@ -1244,7 +2900,8 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 7f24b289-5054-4f10-8187-3f8ceb72afda
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Entity:
+        -   Folder: Town
+            Entity:
                 Id: a70f1bc1-6918-4a83-a10b-a408854e3e17
                 Name: bottle
                 Components:
@@ -1258,7 +2915,7 @@ Hierarchy:
                         Id: b7748446-8fc2-4a9b-b5df-6531ab0d97c1
                         Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: ab1c6ee8-ffcd-4e84-9bc4-ce7b2590d334
                 Name: genericHouse
@@ -1273,7 +2930,22 @@ Hierarchy:
                         Id: 4fe78996-ff16-4cf4-9836-48bb5d2ad9cf
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: acca5854-1c78-4e94-be01-105caaf1efc0
+                Name: bottle
+                Components:
+                    a5c005f0fde0bfca8076c96f02c2c679: !TransformComponent
+                        Id: 09c89815-ea09-4a42-838d-3a89ae9c4352
+                        Position: {X: 6.5627327, Y: 0.70571333, Z: -104.79704}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.10719748, Y: 0.10719748, Z: 0.10719748}
+                        Children: {}
+                    d992c733a4d9e13178b1c4836a250fd3: !ModelComponent
+                        Id: 9baf9e58-f700-43ff-b457-ceed5c2f1478
+                        Model: 0f276898-1b82-4130-be78-c20cb9e343ab:OldWinds/Models/Props/bottle
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: b166d7d9-54a2-4b91-af91-798eabeea348
                 Name: pot
@@ -1290,7 +2962,7 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
                 Name: genericHouse
@@ -1307,7 +2979,7 @@ Hierarchy:
                         Materials:
                             178d6c36242f257b68e207356b11f45d~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             1f47c1aaf9d5a5ae38d41404541d2c95~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: b8bb6591-9d0f-4765-86b3-3742d85dcb2e
                 Name: genericHouse
@@ -1322,7 +2994,7 @@ Hierarchy:
                         Id: 0a97c7f3-31b5-4114-97a1-d384cdba7a59
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: b8e92c53-bea1-4069-9c1e-c11d84b4952b
                 Name: Tomato_box
@@ -1337,7 +3009,7 @@ Hierarchy:
                         Id: 602ce1b3-96d0-4ccb-b2b1-f6b8972499ab
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: bc2a191b-cabd-41c6-806f-90083bbbb61c
                 Name: genericHouse
@@ -1354,7 +3026,8 @@ Hierarchy:
                         Materials:
                             925075b1b24ad047b2a7560f55788e0f~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             71315ac96a031a6aa5cf2b52cbb9c699~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Entity:
+        -   Folder: Town
+            Entity:
                 Id: bee6d91b-cf47-4002-b377-55c4a1a292bd
                 Name: secondFloorHouse
                 Components:
@@ -1368,7 +3041,22 @@ Hierarchy:
                         Id: e2249a93-e4dd-4a07-afa1-cfa4ba24bf2c
                         Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: bf17aa21-3647-481a-a7b7-2b4c24754232
+                Name: Tomato_box
+                Components:
+                    2cea67b503ba29ff22edb440fee7c938: !TransformComponent
+                        Id: 8e1140af-5973-47d3-8e4a-4a50bcbe2933
+                        Position: {X: 6.422054, Y: 0.30118242, Z: -104.08531}
+                        Rotation: {X: 0.707598, Y: -1.7834152E-07, Z: -0.7066152, W: -1.1672932E-07}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    631eb81fce4836049565c264c5eb6699: !ModelComponent
+                        Id: 3ab01d29-9445-45b1-b142-89604f48a6d2
+                        Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: bf1e01da-8db4-4d34-9710-418133c4c947
                 Name: genericHouse
@@ -1383,7 +3071,55 @@ Hierarchy:
                         Id: d2d4eb63-db16-4c24-8cb7-1b9f07835aff
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Entity:
+        -   Folder: Town2
+            Entity:
+                Id: bf7deb0b-258e-4404-b6db-afa7ff6832ef
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: ea057ace-2da7-406e-9b48-3fcdaa4fb23e
+                        Position: {X: 14.457915, Y: 0.62423265, Z: -105.393234}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7afabf32-cfec-45d7-9be1-23655ebcfbe0
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: c19f14ee-62e9-4506-865e-256273f0fd09
+                Name: secondFloorHouse
+                Components:
+                    11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
+                        Id: a99a5c3a-f38d-449b-9988-38198a2ebad8
+                        Position: {X: -7.564925, Y: 4.2535996, Z: -102.30008}
+                        Rotation: {X: 0.0, Y: 0.7019117, Z: 0.0, W: 0.71226394}
+                        Scale: {X: 1.6287863, Y: 1.6287863, Z: 1.6287863}
+                        Children: {}
+                    9cdc3950dca5c10ff51266aa6bce10f4: !ModelComponent
+                        Id: 074ca92a-b077-40a2-86f5-086ac4254990
+                        Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: c2036092-3489-47e1-8286-8d0bf13553c8
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 55549135-b834-40b7-9940-f11f971e80fb
+                        Position: {X: 7.5815334, Y: 0.0, Z: -102.41214}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 765c3022-f250-4425-8854-1a2e4806ba29
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town
+            Entity:
                 Id: c2f549a8-15b1-419a-990a-ece142277822
                 Name: station_2
                 Components:
@@ -1410,7 +3146,7 @@ Hierarchy:
                         ColliderShapes:
                             3019b16b4d722c977d21fc6dd8e9ef5c: !StaticMeshColliderShapeDesc
                                 Model: 7a570c60-1b99-401e-8b62-dec729a19412:OldWinds/Models/station_2
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: c3c8e7c5-6272-41aa-be07-fb3d83a54a3d
                 Name: pot
@@ -1427,7 +3163,7 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: c4076a34-9b7c-424a-8c4f-73ec572fc1e7
                 Name: genericHouse
@@ -1440,6 +3176,21 @@ Hierarchy:
                         Children: {}
                     8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
                         Id: a388d136-6b33-42e0-884b-d5a4f2a95ea2
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: c6fc5d73-a4a5-4c87-b439-f14eeabdcbb8
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: f0a60009-7cf6-455d-bd84-d60b75520330
+                        Position: {X: 6.528411, Y: 1.0505584, Z: -75.57258}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 0b0e8bc0-dd80-4514-9e9e-07d58787f5b4
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
         -   Entity:
@@ -1457,14 +3208,50 @@ Hierarchy:
                         SpriteProvider: !SpriteFromSheet
                             Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
                         Sampler: PointClamp
         -   Entity:
+                Id: cab065ee-de4f-47b4-b0e7-361923d9ef3b
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: 13d95d77-4e4e-4a43-8b2a-f178afe3e477
+                        Position: {X: 0.0, Y: -0.08079806, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: e2c8d582-9633-40b1-9ec4-ba17d7aea871
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
+        -   Entity:
+                Id: cab4be28-4cec-4958-b7a8-883bfcf8b216
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: 3a432734-937f-4677-94ca-d9063b1b6538
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.022379637}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: bdb4ca98-bbe0-4c93-b383-422d0b4570a6
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
+        -   Folder: Town
+            Entity:
                 Id: ccc207f2-6138-4188-b983-451e2cf9b651
                 Name: door_1
                 Components:
                     497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
                         Id: 5a722c34-ece3-4088-8ff3-da0c40ea3a88
-                        Position: {X: 4.4226017, Y: 0.25220126, Z: -12.912055}
+                        Position: {X: 4.495525, Y: -0.009345084, Z: -12.912055}
                         Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
                         Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
                         Children: {}
@@ -1473,7 +3260,37 @@ Hierarchy:
                         Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
                         Materials:
                             59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: cd99e158-4d59-43b3-8979-66ac1281138c
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 1dab474b-f8cc-4f99-9fb4-2b0c6a00ad47
+                        Position: {X: 14.445351, Y: 0.62423265, Z: -96.35145}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 45cea513-ee7c-4b6e-8210-ea6fc46501a7
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: cfa8c465-93aa-448a-834a-9a4a08762c83
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 3816c8e4-cc2f-4c8c-bb25-ba27aecff93c
+                        Position: {X: -17.863401, Y: 0.62423265, Z: -47.040283}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: b1ac6220-cc1e-4579-abec-9a66cba7da9f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: d1733491-5d65-4655-80db-6ef51465a71f
                 Name: genericHouse
@@ -1488,7 +3305,7 @@ Hierarchy:
                         Id: 11586fa7-1867-44f0-b047-ab89dde7bc63
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: d198ed8c-8d66-4d32-a0f0-25011ce74593
                 Name: genericHouse
@@ -1503,14 +3320,46 @@ Hierarchy:
                         Id: ae75431b-6f63-47ac-824a-02f0d49c739b
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: d1cc4cd3-b3d3-442f-be10-fc484d0884e1
+                Name: pot
+                Components:
+                    c1be0f2c4b4b9c4f27351e949607c554: !TransformComponent
+                        Id: 8092abee-af13-41c4-80bb-88e876c212e5
+                        Position: {X: 5.5764866, Y: 0.0, Z: -100.85841}
+                        Rotation: {X: 0.0, Y: 0.99999976, Z: 0.0, W: 0.0006949464}
+                        Scale: {X: 0.30028972, Y: 0.30028972, Z: 0.30028972}
+                        Children: {}
+                    9fa030989b6e7cbcec2bbaab86d2f4fa: !ModelComponent
+                        Id: 01f4fe69-f32b-4924-ad05-f5af9f1c15ab
+                        Model: 48ba3e52-b585-481e-9a59-0be52b2cf245:OldWinds/Models/Props/pot
+                        Materials:
+                            41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: d1fbbe0a-49db-4b8e-aa51-181072bfa873
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: a853201e-4faf-4d95-a27c-92250b662778
+                        Position: {X: -25.373333, Y: 0.62423265, Z: -29.015709}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 719d9aa7-096f-4be5-b2e3-fe7ff1ec1a8f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: d2f92b83-3668-4b33-aa1d-099086ae729f
                 Name: secondFloorHouse
                 Components:
                     11cabd14a8d6ec6e6773d784a8c017a7: !TransformComponent
                         Id: 5f5330ca-35d9-4d0e-8051-564494a17165
-                        Position: {X: 6.263601, Y: 3.2737694, Z: -40.109764}
+                        Position: {X: 6.2690144, Y: 3.2737694, Z: -40.51828}
                         Rotation: {X: 0.0, Y: -0.71177596, Z: 0.0, W: 0.7024065}
                         Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
                         Children: {}
@@ -1525,7 +3374,7 @@ Hierarchy:
                 Components:
                     822743a420572492b46577c58405543b: !TransformComponent
                         Id: 17a6e8a7-a8e1-4fe2-b72e-5cd91bd42626
-                        Position: {X: -0.03485963, Y: 0.00999897, Z: -17.295818}
+                        Position: {X: -0.03485963, Y: 0.009998331, Z: -28.018084}
                         Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
                         Scale: {X: 3.005835, Y: 3.005835, Z: 3.005835}
                         Children: {}
@@ -1536,7 +3385,7 @@ Hierarchy:
                         Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
                         IsAlphaCutoff: true
                         Sampler: PointClamp
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: d5472ee3-a875-4cfe-a55e-d7012a4d5279
                 Name: genericHouse
@@ -1551,7 +3400,22 @@ Hierarchy:
                         Id: 036c1f12-c483-47f4-8667-d5739f4a1723
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: d581ed56-4879-4d08-ac6a-d025e04e8f9c
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 02d94320-2548-4c63-b16c-e4a06768dd03
+                        Position: {X: 25.905197, Y: 0.62423265, Z: -49.931225}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 6bdc6c25-28f3-4fc8-bfdd-939da32cb0a3
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: d763d88b-bce1-4c70-a2c8-745e9668183f
                 Name: genericHouse
@@ -1566,7 +3430,7 @@ Hierarchy:
                         Id: ff9708a6-783c-41e5-8e72-2d61d200f79c
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: d76c3fb9-2cf4-465f-92c3-a017276f402f
                 Name: pot
@@ -1583,13 +3447,62 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: Town2
+            Entity:
+                Id: d8e6b913-2db3-4af3-9a9e-f61abb538e9e
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 56174a0d-746c-4ad4-ba7c-28fa503958b7
+                        Position: {X: -17.794802, Y: 0.62423265, Z: -96.396255}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: c69a2d52-e736-4d5f-99e2-2a95ab26ce6d
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: d9910951-0aba-43bb-b619-43cf61df0154
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 10d7e7c7-f57e-40bd-ab00-016d4a4195ee
+                        Position: {X: 9.790702, Y: 0.9875761, Z: -101.85602}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 3c036089-cdd2-4225-afb1-821c992c1960
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials:
+                            322b233707b2c6d3241a8617067cbc33~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            6ab26fe4ffec29d0e7fd5642ce0278a6~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Folder: null
+            Entity:
+                Id: da298f34-ecf1-42ca-9041-98f64929683b
+                Name: blood_3
+                Components:
+                    6dc5a1f2a30e5995e0fd5568db07d3e7: !TransformComponent
+                        Id: 94234296-8462-4bed-b6a4-e8cbbdda53bc
+                        Position: {X: -1.5115682, Y: 0.032732602, Z: -11.261645}
+                        Rotation: {X: 0.49999997, Y: 0.49999997, Z: -0.49999997, W: 0.49999997}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4e8109c39afb857a1931bc24f027827f: !SpriteComponent
+                        Id: 463b9ccd-84e0-472b-b6f2-1c3d500c1605
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5464e3ff-5ef2-4739-aede-f6136e7b8619:Sprites/SpriteSheet_7
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
         -   Entity:
                 Id: da86cd30-b351-40db-a6e4-ec6e8f12eb98
                 Name: Shadow
                 Components:
                     822743a420572492b46577c58405543b: !TransformComponent
                         Id: 6e556b29-8cee-4e3a-9875-76fe3626e2f9
-                        Position: {X: -0.021410778, Y: 0.01, Z: -0.023298621}
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.02237963}
                         Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -1600,7 +3513,37 @@ Hierarchy:
                         Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
                         IsAlphaCutoff: true
                         Sampler: PointClamp
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: dba0278f-3957-4a52-8510-2ddcd18fd062
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 8420d10b-e096-4415-baf8-6e65c4708c45
+                        Position: {X: 14.339311, Y: 0.62423265, Z: -29.081726}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 37860270-275d-4d30-b898-d3bcd856a432
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: dc711d08-8ee6-4e2d-8d87-c2681779b70d
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 5907f09f-abc0-4018-a912-8ff2b26ad9c2
+                        Position: {X: -17.817783, Y: 0.62423265, Z: -79.86064}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 61aebe07-c337-40ac-bf03-bbabf843becd
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: defdc361-08f0-4924-8752-aa2562bfc523
                 Name: Tomato_box
@@ -1615,7 +3558,7 @@ Hierarchy:
                         Id: 12de14f7-5602-4af3-b62d-0747163929bd
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: df02e3f8-1f0d-428d-b775-864310fc3e0d
                 Name: genericHouse
@@ -1630,7 +3573,8 @@ Hierarchy:
                         Id: 85ca58b7-f409-400c-9e86-c6416ac0d014
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Entity:
+        -   Folder: Town
+            Entity:
                 Id: df30f17f-c6cb-4494-b19b-5b07a0ac8cb6
                 Name: Lettuce_box
                 Components:
@@ -1644,7 +3588,185 @@ Hierarchy:
                         Id: 021180b9-e6ed-447a-a3bd-5d8d741cda65
                         Model: c65fe928-d369-473b-a276-aa2fb24f00d4:OldWinds/Models/Props/Lettuce_box
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: e0551ba9-fe07-4eec-819f-48a398b644e4
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: c2b210e8-f702-4111-8261-9d44012a5eb4
+                        Position: {X: 17.370491, Y: 0.62423265, Z: -51.6862}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: d53d601d-eb48-4a30-a71a-24abf762484c
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: eb66c11f-0351-435f-9bc6-a8eb19df4873
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 503a3c2f-dc8d-405d-9ad9-79f01fb819b0
+                        Position: {X: 22.864645, Y: 0.62423265, Z: -20.582932}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 12531d12-fd03-4dbe-a98f-fddf9c954eca
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Entity:
+                Id: ebd43df0-b4b0-4c11-b16d-fee733656f83
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: d1e538e2-c97e-4357-9ca6-22a545923a02
+                        Position: {X: -0.0010681301, Y: -1.096, Z: 0.074347906}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: adfc1dfc-5d06-4398-9daa-d8d04b27982e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
+        -   Folder: Town2
+            Entity:
+                Id: ebfd48ca-72d5-439c-967c-1ed431d58f49
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 9932f69a-e44d-4509-960a-adb153ac6e44
+                        Position: {X: 6.4659166, Y: 1.0212823, Z: -83.72997}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7, Y: 1.7, Z: 1.7}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 47c25829-82e3-42fe-b5f6-f6de7132469a
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials:
+                            925075b1b24ad047b2a7560f55788e0f~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+                            71315ac96a031a6aa5cf2b52cbb9c699~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
         -   Folder: null
+            Entity:
+                Id: ed4c9d70-a013-44a0-b126-7614b30f0b15
+                Name*: Trigger_2
+                Components:
+                    f7b3cfcf95ce7adc269301961bd38164: !TransformComponent
+                        Id: bae22837-77d2-4b6f-9ec6-f702c48142a3
+                        Position*: {X: 0.2044067, Y: 1.7838339E-06, Z: -14.861677}
+                        Rotation: {X: -0.49999994, Y: -0.5, Z: 0.5, W: 0.5}
+                        Scale*: {X: 2.9684694, Y: 1.3686279, Z: 0.8904819}
+                        Children: {}
+                    c15dd16c8366cff08714013b70e00022*: !OpenHorror.Trigger.TriggerEventByDistance,OpenHorror.Game
+                        Id: a0b62e17-e1a8-450e-9a4b-2b51118ac09a
+                        triggerDistance: 4.0
+                        triggerSound: c4ec9509-c152-468c-be7e-584dcd3b5517:OldWinds/SFX/horror_effect2
+                        isActive: true
+                        TriggerType: sound
+                    d368d439fa2aef8c4c2eeb49fef2808d: ~(Deleted)
+                    c16a63bc7d934e49d25d53a8b27155ed: ~(Deleted)
+                    00a6a4d59608117c18a5b957071983c8: ~(Deleted)
+            Base:
+                BasePartAsset: 9b38e8ae-5287-42c1-81cc-765fc93ec205:Prefabs/Cube
+                BasePartId: f2179958-3b95-4a71-af41-a5635f9a90aa
+                InstanceId: 89a6a2d4-ca4a-4519-a372-06ad43b78390
+        -   Folder: Town2
+            Entity:
+                Id: ee029ad0-e16b-4ac3-866c-57270d55441f
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 25059dcd-e15e-4c8b-98c0-f5fd86848d9a
+                        Position: {X: 15.51633, Y: 0.62423265, Z: -100.327805}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 0b303db0-2dbd-45de-9658-30dcc7cea38f
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: eefeed59-ba31-4431-b4f0-678d10358c52
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: c0d1cd90-3ffd-4dd9-a645-e9d2b2068367
+                        Position: {X: -17.838863, Y: 0.62423265, Z: -64.69455}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: e6e676ce-ead6-4620-8513-b706d23eb1b4
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: f017666b-01cd-4489-95e8-7bb8165bcabc
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 3422101a-237f-4a57-a594-9b5207c91955
+                        Position: {X: -11.316464, Y: 1.0041764, Z: -84.85419}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.7168078, Y: 1.7168078, Z: 1.7168078}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: e51933fe-b790-4654-8016-941b5044098e
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: f01c9030-b7d5-4356-91ca-ae1f13ef7509
+                Name: squareHouse_NoDoor
+                Components:
+                    555359d26a2e2262f7d54e176ab29a67: !TransformComponent
+                        Id: 032c3176-7a16-4e9a-b1ce-508eafd31461
+                        Position: {X: -7.2843676, Y: -0.3668723, Z: -68.123856}
+                        Rotation: {X: 0.0, Y: 0.7041149, Z: 0.0, W: 0.71008605}
+                        Scale: {X: 2.1506572, Y: 2.1506572, Z: 2.1506572}
+                        Children: {}
+                    14d53f550751d131178ed8fe819a7600: !ModelComponent
+                        Id: 4ff00356-b190-4d84-bfb5-23f3e1d4cad2
+                        Model: 3bf1a3a0-c0b0-4845-9d0a-b04f9147f837:OldWinds/Models/squareHouse_NoDoor
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: f1977260-8e19-4d58-93c1-67d4380e6572
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 544e4217-9ca7-4fdb-ba03-ec8be6bb863f
+                        Position: {X: -20.469952, Y: 0.62423265, Z: -33.45334}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 694d7804-2928-44b9-ba05-29d35df30f11
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: f23d1c52-d244-45d9-885e-68ba196b8059
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: ab7e344f-a4aa-4699-b3c4-1f8e3fb11cba
+                        Position: {X: -29.016365, Y: 0.62423265, Z: -26.786041}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: b6357211-7478-4463-b71f-e4dd40129b6c
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: f2621821-2d8d-4f92-ac9f-1eedbfd9f0c2
                 Name: genericHouse
@@ -1659,7 +3781,7 @@ Hierarchy:
                         Id: 4bcd2b6a-35b7-43d0-b912-156d2c5cc486
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: f3718615-07b5-4cdc-b39c-02b78789d2f9
                 Name: Lettuce_box
@@ -1673,6 +3795,21 @@ Hierarchy:
                     789a0ad05d9c0af47edddea79fbeb6e1: !ModelComponent
                         Id: 8c735f4d-0496-4c47-b8c6-704ccc33a5e5
                         Model: c65fe928-d369-473b-a276-aa2fb24f00d4:OldWinds/Models/Props/Lettuce_box
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: f38dfbfb-7b66-4bd3-b15a-f54247d0e47e
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: e632ec04-a259-4324-8c01-c2d9ac925302
+                        Position: {X: 17.401762, Y: 0.62423265, Z: -74.18488}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 7b38146d-30d0-4072-a44f-30abacb54af9
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
         -   Entity:
                 Id: f4414d3d-9f92-4229-a0de-5a6c6ee30285
@@ -1702,7 +3839,22 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: b2353ad8-6b45-47cb-94a4-c39dfdf12f96
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: f64dace7-365e-46d7-a834-291be606f3ef
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: 1b0501f5-89c5-4290-a163-1cd2691c29b7
+                        Position: {X: 17.982344, Y: 0.62423265, Z: -31.311394}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 0e222739-8477-4780-ae64-5bc37bb8df72
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: f79b0cbd-efcc-4e52-ab9e-607c996a9a5b
                 Name: secondFloorHouse
@@ -1717,7 +3869,7 @@ Hierarchy:
                         Id: 7d5b0bb3-db77-457e-80e7-c743281c5cec
                         Model: c677ef1b-cfd2-494b-b4fc-3b1aba93119c:OldWinds/Models/secondFloorHouse
                         Materials: {}
-        -   Folder: null
+        -   Folder: Town
             Entity:
                 Id: f8e548e3-f706-4019-aa47-c21dba1877cc
                 Name: genericHouse
@@ -1733,24 +3885,37 @@ Hierarchy:
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
         -   Entity:
+                Id: f922f308-bc2b-46bf-8653-0341f0ab8cb2
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: dd2acf9d-9b92-4042-93c3-02bc5a19b675
+                        Position: {X: 0.0, Y: 0.039643392, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.9044563, Y: 1.9044563, Z: 1.5235649}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: f12dcbf7-4f14-496f-8fcf-bd6cfb82c71e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 408329f8-ad1c-4e13-bebc-04b633a368c4:Sprites/SpriteSheet_3
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
+        -   Entity:
                 Id: faa2b344-c342-4544-8a11-6cf8dcf5a4a2
-                Name: DialogueSystem
+                Name*: Old_man_1_dialogue_2
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: 5a2a808b-8610-4b2e-bafd-e9fb5d54d526
-                        Position*: {X: 0.0, Y: 1.1067858, Z: 0.0}
+                        Position*: {X: 2.479967, Y: 1.1067849, Z: -11.689276}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             04896706fbd2a2868455129f2b6b5b85: ref!! 9b0b1454-83a1-467b-b5bb-123b792b1b7d
-                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
-                        Id: 8bf64bd4-b326-45a6-8319-f6d33e822af3
-                        Enabled*: false
-                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
-                        Materials:
-                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
+                            4b2ce5c434daa7140728aacefa1261e6: ref!! 6e556b29-8cee-4e3a-9875-76fe3626e2f9
                     d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
                         Id: dbd3b94b-7256-43b1-bbd8-d80e8100380c
+                        Enabled*: true
                         CanSleep: true
                         Restitution: 0.0
                         Friction: 0.5
@@ -1768,21 +3933,51 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: d21de397-461f-4fa8-a9f0-066c8652b457
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
-                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
-                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
-                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                            95e3e3ce235d2ef4ab4709e261caad85*: You!!!!!
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                            42c7d84ee443dcc5888b50791666e4b1: ~(Deleted)
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
                         lookPlayer: true
                         voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
                     c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
                         Id: a50e75d8-269b-4285-b1eb-fe631e6112e3
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
             Base:
                 BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
                 BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
                 InstanceId: 671c15de-4ceb-45be-8f34-a98461ac5cce
-        -   Folder: null
+        -   Folder: Town2
+            Entity:
+                Id: fbdf0644-f507-49db-972d-922de23efa29
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: a0b63400-ebb6-4a67-9c78-10d04dcf8eaf
+                        Position: {X: 22.885725, Y: 0.62423265, Z: -35.749023}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: f0f0b60e-25df-44b5-b437-46e6bf587826
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: fc843ccc-0021-4025-a587-54316e69622d
+                Name: genericHouse
+                Components:
+                    89ed4e4f1e9b29fcfa49fc80a3f52af1: !TransformComponent
+                        Id: e8f27d63-7004-4b12-9067-517ee450f923
+                        Position: {X: -17.851694, Y: 0.62423265, Z: -55.462555}
+                        Rotation: {X: 0.0, Y: 0.7066152, Z: 0.0, W: 0.707598}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8bc19e3a3b4d8d7d8bdd0760e1254641: !ModelComponent
+                        Id: 716d5d68-4eec-4108-b297-149ad4cec1aa
+                        Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
+                        Materials: {}
+        -   Folder: Town
             Entity:
                 Id: fde12288-1287-40fa-9153-cc8d9ba0d386
                 Name: Tomato_box
@@ -1797,3 +3992,19 @@ Hierarchy:
                         Id: 5815cf2c-5ea7-4a8a-90cf-91d734cd378f
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
+        -   Folder: Town2
+            Entity:
+                Id: fe6e37e3-a4c9-4d98-9541-48aea4d94e16
+                Name: door_1
+                Components:
+                    497e0b1d33f94cb3e3bc6defca89b4f1: !TransformComponent
+                        Id: fe1fe729-7732-4c38-a1ab-4085af7f370c
+                        Position: {X: -5.0920324, Y: 0.07422139, Z: -61.00466}
+                        Rotation: {X: 0.0, Y: 0.707598, Z: 0.0, W: -0.7066152}
+                        Scale: {X: 2.5688598, Y: 2.0750027, Z: 1.8983003}
+                        Children: {}
+                    ff0f6d0af0ed7b831ea3592fe6c8a69c: !ModelComponent
+                        Id: 88a1bdef-71af-4796-815f-c62e5dc5aa14
+                        Model: 006c985e-7a3b-48b0-a975-6f59eb9b1ba1:OldWinds/Models/Props/door_1
+                        Materials:
+                            59638a379202f5d7507740bc6b2efd3a~1: dc50ce3a-d6df-48cc-8ab5-3abbdea12782:OldWinds/Models/DoorMaterial

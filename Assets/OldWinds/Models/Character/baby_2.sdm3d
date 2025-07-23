@@ -1,0 +1,24 @@
+!Model
+Id: ec9ca5da-5076-4845-a51d-9ad8c7064518
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/OldWinds/Models/Character/baby_2.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    db583d4e9a369d931b5eee3b6d6d270d:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    9242b61d1e5dd3f03edbc65ec3c0f55c:
+        Name: Material
+        MaterialInstance:
+            Material: 1c62ebcd-9719-4ff7-8028-e39fd5f7246e:OldWinds/Models/Character/Material
+    da337ab067f93598ddc06db25bf68854:
+        Name: Eye_brown
+        MaterialInstance:
+            Material: null
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    c89419188a9003b8ee52c4638832fd36~../../../../Resources/OldWinds/Models/Character/baby_2.obj: 164546271feb5d83ec353a0537f16074

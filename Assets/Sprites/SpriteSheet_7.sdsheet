@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 5464e3ff-5ef2-4739-aede-f6136e7b8619
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    524c76564c3864afaa0efb10d6eafafd:
+        Source: !file ../../Resources/Sprites/blood.png
+        Name: blood
+        TextureRegion: {X: 0, Y: 0, Width: 128, Height: 128}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

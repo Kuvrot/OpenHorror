@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: f2024d7f-d4a7-4798-b02b-18acb51da874
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e8edad47731cea28d6aeb041e412aa1c:
+        Source: !file ../../Resources/Sprites/old_lady_128.png
+        Name: old_lady_128
+        TextureRegion: {X: 0, Y: 0, Width: 55, Height: 128}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

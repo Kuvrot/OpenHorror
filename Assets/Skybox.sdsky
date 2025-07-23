@@ -3,3 +3,4 @@ Id: be1d4fdd-38a3-455a-897c-a71e1f26a3ba
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 CubeMap: c57acf9d-f410-413f-95a7-d2ad7ca61d16:Skybox Texture
+SpecularCubeMapSize: 128

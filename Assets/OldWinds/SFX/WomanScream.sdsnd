@@ -1,0 +1,8 @@
+!Sound
+Id: e0aaad1b-9adf-4940-83c4-8e3e32b20dd7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/SFX/2.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

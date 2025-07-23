@@ -1,15 +1,14 @@
 !MaterialAsset
-Id: fef16b55-e154-4d16-b8e0-148414c21834
+Id: 1c62ebcd-9719-4ff7-8028-e39fd5f7246e
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: 53a3d2a3-b622-4c8c-8fbf-63c011bd59d2:OldWinds/Textures/tileable_grass_00
+            Texture: e5a687b5-c282-418f-af1f-aab7d35342bc:OldWinds/Models/Character/GreenTowel_blood
             FallbackValue:
                 Value: {R: 1.0, G: 0.8392157, B: 0.43529412, A: 1.0}
-            Filtering: Point
-            Scale: {X: 10.0, Y: 10.0}
+            Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}

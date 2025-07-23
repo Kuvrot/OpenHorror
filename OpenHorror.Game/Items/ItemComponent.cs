@@ -12,6 +12,7 @@ using Stride.Core.Shaders.Ast;
 using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
+using OpenHorror.Trigger;
 
 namespace OpenHorror.Items
 {
@@ -20,7 +21,8 @@ namespace OpenHorror.Items
         key,
         document,
         inspectable,
-        nonInspectable
+        nonInspectable,
+        triggerEvent
     }
 
     public class ItemComponent : SyncScript
@@ -60,6 +62,13 @@ namespace OpenHorror.Items
 
         public void Inspect ()
         {
+            if (ItemType == ItemType.triggerEvent)
+            {
+                GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(notificationText));
+                Entity.Get<TriggerEventManually>().UpdateMap();
+                return;
+            }
+
             if (ItemType == ItemType.nonInspectable)
             {
                 GameManager.Instance.GetUI().PushNotification(Language.Instance.Translate(notificationText));

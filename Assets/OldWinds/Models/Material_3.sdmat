@@ -5,7 +5,7 @@ Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: 6574ada5-cb38-4ffa-a77e-d9c4a32fd6a7:OldWinds/Models/mexicanHouse
+            Texture: d5bca8ff-a689-487d-a5fe-bcf6f45a9bec:OldWinds/Models/mexicanHouse_2
             FallbackValue:
                 Value: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
             Scale: {X: 1.0, Y: 1.0}
@@ -13,8 +13,8 @@ Attributes:
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature
         Enabled: false
-    Emissive: !MaterialEmissiveMapFeature
-        EmissiveMap: !ComputeTextureColor
+    Specular: !MaterialSpecularMapFeature
+        SpecularMap: !ComputeTextureColor
             Texture: d5bca8ff-a689-487d-a5fe-bcf6f45a9bec:OldWinds/Models/mexicanHouse_2
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
@@ -24,6 +24,14 @@ Attributes:
             Swizzle: null
         Intensity: !ComputeFloat
             Value: 1.0
+        IsEnergyConservative: false
+    SpecularModel: !MaterialSpecularCelShadingModelFeature
+        RampFunction: !MaterialCelShadingLightDefault
+            IsBlackAndWhite: false
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
 Layers: {}

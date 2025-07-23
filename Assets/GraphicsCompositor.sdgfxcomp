@@ -195,12 +195,15 @@ SharedRenderers:
             Technique*: HexagonalTripleRhombi
             AutoFocus*: false
         BrightFilter:
+            Enabled*: true
             Color: {R: 1.0, G: 1.0, B: 1.0}
         Bloom:
+            Enabled*: true
             Distortion: {X: 1.0, Y: 1.0}
             Afterimage:
                 Enabled: false
         LightStreak:
+            Enabled*: true
             Attenuation: 0.7
         LensFlare:
             Enabled*: true
@@ -208,6 +211,7 @@ SharedRenderers:
             Enabled*: true
             Transforms:
                 1e06f805f8b2e949a06c30d45fe413ef: !ToneMap
+                    Enabled*: false
                     Operator: !ToneMapHejl2Operator {}
                 c57351444609d14ea258b3f511ec8a74: !FilmGrain
                     Enabled*: true

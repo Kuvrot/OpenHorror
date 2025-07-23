@@ -1,0 +1,8 @@
+!Sound
+Id: c4ec9509-c152-468c-be7e-584dcd3b5517
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OldWinds/SFX/horror_effect2.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

@@ -13,17 +13,6 @@ Attributes:
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
-    Emissive: !MaterialEmissiveMapFeature
-        EmissiveMap: !ComputeTextureColor
-            Texture: cb9c6d40-418b-4f8a-947a-2ef59f142210:OldWinds/Models/Props/stoneTexture
-            FallbackValue:
-                Value: {R: 0.475, G: 0.475, B: 0.475, A: 1.0}
-            Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
-            Offset: {X: 0.0, Y: 0.0}
-            Swizzle: null
-        Intensity: !ComputeFloat
-            Value: 1.0
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
 Layers: {}

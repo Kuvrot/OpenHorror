@@ -1909,6 +1909,7 @@ Hierarchy:
                         Children: {}
                     90bb395a55a1e34bb46aa14806033dd7: !LightComponent
                         Id: 5a39bb90-a155-4be3-b46a-a14806033dd7
+                        Enabled: false
                         Type: !LightAmbient
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
@@ -4674,6 +4675,7 @@ Hierarchy:
                         Children: {}
                     58de7bbb8c1fe447b91985df9d2b457f: !LightComponent
                         Id: bb7bde58-1f8c-47e4-b919-85df9d2b457f
+                        Enabled: false
                         Type: !LightDirectional
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
