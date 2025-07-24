@@ -6,8 +6,8 @@ DefaultScene: d4e155ff-7559-4b82-ae7a-1cab6bb16375:SantaLucia
 GraphicsCompositor: 26ebb8e9-f450-47d4-bf45-2b207a13ff92:GraphicsCompositor
 Defaults:
     - !Stride.Graphics.RenderingSettings,Stride.Graphics
-        DefaultBackBufferWidth: 1280
-        DefaultBackBufferHeight: 720
+        DefaultBackBufferWidth: 1600
+        DefaultBackBufferHeight: 900
         AdaptBackBufferToScreen: false
         DefaultGraphicsProfile: Level_10_0
         ColorSpace: Linear

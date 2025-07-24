@@ -216,7 +216,7 @@ SharedRenderers:
                 c57351444609d14ea258b3f511ec8a74: !FilmGrain
                     Enabled*: true
                     Amount*: 1.0
-                    GrainSize*: 1.97
+                    GrainSize*: 2.5
                     Animate*: true
                 e86e22e9a5d65545b8b55fca26e0afee: !Vignetting
                     Enabled*: true

@@ -92,6 +92,7 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     e3730ef4c10fc311cdee97ef9c416942: !OpenHorror.Player.PlayerController,OpenHorror.Game
                         Id: 39372a27-a891-49b2-870b-8db877441f34
+                        canSprint: true
                         MaxRunSpeed: 4.0
                     99486f0b232148dd09a6627b59db596b: !OpenHorror.Player.PlayerInput,OpenHorror.Game
                         Id: 725e48fb-36fb-403b-83df-288779363c99

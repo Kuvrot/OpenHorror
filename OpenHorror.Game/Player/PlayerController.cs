@@ -15,7 +15,7 @@ namespace OpenHorror.Player
     {
         [Display("Run Speed")]
         public float MaxRunSpeed { get; set; } = 5;
-
+        public bool canSprint = true;
         public static readonly EventKey<float> RunSpeedEventKey = new EventKey<float>();
 
         // This component is the physics representation of a controllable character
@@ -62,7 +62,7 @@ namespace OpenHorror.Player
             // Broadcast normalized speed
             RunSpeedEventKey.Broadcast(moveDirection.Length());
 
-            if (Input.IsKeyDown(Keys.LeftShift))
+            if (Input.IsKeyDown(Keys.LeftShift) && canSprint)
             {
                 Entity.Get<FootstepsSystem>().setRunning(moveDirection != Vector3.Zero);
                 character.SetVelocity(moveDirection * MaxRunSpeed * 2f);

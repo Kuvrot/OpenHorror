@@ -10,12 +10,13 @@ Hierarchy:
         - ref!! 50f7a98b-ed16-4993-ad83-f0db5aefc2aa
         - ref!! 346d8ab0-f73c-4afc-a5e2-272d4f9e4345
         - ref!! faa2b344-c342-4544-8a11-6cf8dcf5a4a2
+        - ref!! c119b624-7af4-4df3-97c4-9bb3caf7ba10
         - ref!! 18da2354-8f05-4aa5-b8e7-3bfeee6b2c5c
         - ref!! 667f5f69-e540-4f54-a1cb-2cfe8b5a8413
+        - ref!! 4dfed23c-320e-41ee-80a0-3968734ea23f
         - ref!! 94ba9809-cc73-4a20-8e59-db3733278ebc
         - ref!! 5bf7b454-f636-47e0-98f2-fe9bfd1ceb5e
         - ref!! 32603e92-7527-46b4-b3e1-b8663860c33b
-        - ref!! 790c62ea-a1c0-45be-900f-ed96fc602742
         - ref!! 8a36f09a-3161-4f2c-9676-104e870f4347
         - ref!! 211113a4-40e8-4331-9465-90fbe0948078
         - ref!! d31a8786-ae8c-4641-96e7-eee96b487051
@@ -234,6 +235,23 @@ Hierarchy:
                         Id: eae30975-60e9-43b7-a859-767f3a269f87
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
+        -   Entity:
+                Id: 03009cd6-b4e5-4583-96aa-01f5974c1b4a
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: 51672715-fbde-4da4-a30d-9427c7361d61
+                        Position: {X: 0.0, Y: -0.09017517, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: e915347f-825a-4338-b04f-af577bd119d7
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5ba39b3f-84eb-48e3-be15-6d7083364fd2:Sprites/SpriteSheet_8
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
         -   Folder: Town2
             Entity:
                 Id: 04a4d34f-cb53-46f7-8873-8134b838be70
@@ -249,6 +267,23 @@ Hierarchy:
                         Id: 92936d7b-0ae4-44fd-a64e-c3ed6dcad89c
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
+        -   Entity:
+                Id: 051a739b-5759-49f1-b79e-3034a59f32d4
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: eab4e4f9-0a97-4f2b-9773-36eff167bf50
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.022379637}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: e523008b-5f55-435a-b689-59d672a6a1fe
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
         -   Folder: Town
             Entity:
                 Id: 051e4ee4-1a04-4b10-881a-3aad50943ff7
@@ -279,23 +314,6 @@ Hierarchy:
                         Id: 1a569cf6-1d2a-4e34-a14b-565d09b2bd62
                         Model: 0f228612-b918-4330-b250-d52fd5401fbd:OldWinds/Models/Props/Tomato_box
                         Materials: {}
-        -   Entity:
-                Id: 09937081-6377-43c6-b44b-f45c1b2be701
-                Name: Shadow
-                Components:
-                    822743a420572492b46577c58405543b: !TransformComponent
-                        Id: 777bf656-d769-4133-8a30-e8ea3de56732
-                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.022379637}
-                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
-                        Id: 2e56e125-c96d-4f5b-b5d9-2e99cc359b37
-                        SpriteProvider: !SpriteFromSheet
-                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
-                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
-                        IsAlphaCutoff: true
-                        Sampler: PointClamp
         -   Folder: Town2
             Entity:
                 Id: 0be1af90-a243-41fa-a184-9dbae9504946
@@ -537,10 +555,12 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: 0a81c019-faa9-41cb-a4ba-c51379126228
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
-                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
-                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
-                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue.town.1
+                            0a4e1f3ec4278bee413c86220d627352*: oldMan1.dialogue.town.1
+                            f930cf4d823d970d565b08759b9b85e7*: player.dialogue.town.2
+                            95e3e3ce235d2ef4ab4709e261caad85*: oldMan1.dialogue.town.2
+                            7e910b0bda4c0d9f234a8f555df2bb1e*: oldMan1.dialogue.town.3
+                            091c6db1ee474f135ebb18929a86ec61*: oldMan1.dialogue.town.4
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
                         lookPlayer: true
@@ -825,7 +845,7 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: 588dca34-bb8e-47fd-9fd7-8b18aac67d52
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            42c7d84ee443dcc5888b50791666e4b1*: sadLady.dialogue.town.1
                             0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
@@ -1240,6 +1260,55 @@ Hierarchy:
                         Id: 4f57930b-7ceb-4cd6-9041-52afa8c820a0
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
+        -   Folder: null
+            Entity:
+                Id: 4dfed23c-320e-41ee-80a0-3968734ea23f
+                Name*: Old_man_3
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 57e371cd-b15a-4d00-b178-655e16031bd4
+                        Position*: {X: -2.921375, Y: 1.1067858, Z: -70.800766}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! 51672715-fbde-4da4-a30d-9427c7361d61
+                            badc810fe928e5d0f1892443f9d259ac: ref!! eab4e4f9-0a97-4f2b-9773-36eff167bf50
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: c9bfef92-501e-49a3-b8e4-7f7a52af218e
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: 8d8c1efe-80cf-4942-8815-897a6c6dc2aa
+                        DialoguesList:
+                            89369a5da81f15d0115d4d36bf836ca2*: oldMan3.dialogue.town.1
+                            5cdd201bb77b7b67cb931a3650590686*: oldMan3.dialogue.town.2
+                            7155d981460f17c6f13880988ae63252*: oldMan3.dialogue.town.3
+                            c576de3c84f8eba5066d5e171e647b8b*: oldMan3.dialogue.town.4
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                            42c7d84ee443dcc5888b50791666e4b1: ~(Deleted)
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: b2caa040-1bc4-4e63-91df-719c494351ed
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 09667b57-1b47-40fe-9194-4a7c979bdf9b
         -   Folder: Town
             Entity:
                 Id: 4e00a9ce-b00e-46ae-b5bb-d1f20dc3d3dc
@@ -1503,7 +1572,7 @@ Hierarchy:
                     49148bf9259f2c853158a004798ef191: !SpriteComponent
                         Id: 15eab2cc-9ed8-4563-93e0-1d18360ef609
                         SpriteProvider: !SpriteFromSheet
-                            Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
+                            Sheet: efe873a0-5730-4c80-898d-7d50ed69a7d0:Sprites/SpriteSheet_4
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                         Intensity: 0.5
                         Sampler: PointClamp
@@ -1539,7 +1608,16 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: 7a1ff288-33ac-44de-8b37-10c0fa4df5c1
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            42c7d84ee443dcc5888b50791666e4b1*: pray1
+                            fe9f1b5769e45bc3fff976b040086b69*: pray2
+                            35683bbf734cdc31ee0bcdd0d7782000*: pray3
+                            230e21fa573ebe071412f91dbc1c857a*: pray4
+                            9bf5491b4574ea87cbe68d2d63812a55*: pray5
+                            0aea1d91dd9eceecde9338112f55b327*: pray6
+                            b4ed155eaf5ec0e093a6bdb1b0dbed9f*: pray7
+                            270fa53f41e67a4b4b4d6e25f87e602a*: pray8
+                            98c951b2e52cecfcfea8e1a0e357360e*: pray9
+                            f9a710b421aef3de29dfb0f10f75768e*: pray10
                             0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
@@ -1729,7 +1807,7 @@ Hierarchy:
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: f84c559f-620c-483b-a672-1990284721bf
-                        Position*: {X: 1.5231231, Y: 1.1067858, Z: -35.44871}
+                        Position*: {X: 1.5231231, Y: 1.1067858, Z: -43.847164}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -1754,10 +1832,15 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: fea7eb64-da03-48de-8144-0f7d466e9065
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
-                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
-                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
-                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue.town.3
+                            0a4e1f3ec4278bee413c86220d627352*: player.dialogue.town.4
+                            f930cf4d823d970d565b08759b9b85e7*: oldMan2.dialogue.town.1
+                            95e3e3ce235d2ef4ab4709e261caad85*: oldMan2.dialogue.town.2
+                            fafe80320d319e53072be9a7025468cf*: oldMan2.dialogue.town.3
+                            d16e25cf6ba54bc4c9f1595abe12f894*: oldMan2.dialogue.town.4
+                            bb586d84fed7b67e7a76423968e35d80*: player.dialogue.town.5
+                            e86bf0568d4e1e37a69fc4fc6a6b8820*: oldMan2.dialogue.town.5
+                            f1f0d6411c3aef40378ae4d6ce546334*: oldMan2.dialogue.town.6
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
                         lookPlayer: true
@@ -1971,58 +2054,6 @@ Hierarchy:
                         Id: fdccbe21-ac60-4d35-b861-2140e9097a9a
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Folder: null
-            Entity:
-                Id: 790c62ea-a1c0-45be-900f-ed96fc602742
-                Name*: Old_man_3
-                Components:
-                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
-                        Id: e4e40ef2-3df1-40a8-a57a-89854e99013c
-                        Position*: {X: -2.0591493, Y: 1.1067858, Z: -59.15539}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            04896706fbd2a2868455129f2b6b5b85: ref!! 84217e3e-cc64-4ac9-a769-44510b312def
-                            2f7ca0006783026d477a5ba3f77ce7ae: ref!! 777bf656-d769-4133-8a30-e8ea3de56732
-                    8fff9564224e164bbfeeb200886985b1: !ModelComponent
-                        Id: 6cfd6cf9-4831-4ded-b9b4-958e2a8507fd
-                        Enabled*: false
-                        Model: d628dce0-6e88-4d82-8227-b15dfd4f5c00:Models/Box3x1x1
-                        Materials:
-                            1f66d7610cd6dc4c9b32d800d312e162~0: b2547013-bc8b-4c94-bfa4-e0c8426f5a47:Materials/GridMTPlatform
-                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
-                        Id: 07ce981f-37f3-4d2a-b990-205b2047bf7e
-                        CanSleep: true
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        AlwaysUpdateNaviMeshCache: false
-                        ColliderShapes:
-                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
-                        Id: fae5435c-faee-4d0a-adbb-6eba86f3cdf1
-                        DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
-                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
-                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
-                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
-                        timeBetweenDialogues*: 2.0
-                        timeBetweenLetters*: 0.05
-                        lookPlayer: true
-                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
-                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
-                        Id: d61d7fd9-b7b9-4ffa-8180-688b765406fe
-            Base:
-                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
-                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
-                InstanceId: 25c1d678-d765-4b00-b168-dc3facb05f0a
         -   Entity:
                 Id: 79add55f-2168-41eb-8c2e-feeb2161f578
                 Name: SpriteSheet
@@ -2303,7 +2334,7 @@ Hierarchy:
         -   Folder: null
             Entity:
                 Id: 8a36f09a-3161-4f2c-9676-104e870f4347
-                Name*: Old_women
+                Name*: Old_woman
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: cf1411b5-c138-4f59-8dbb-3dc38dbe6dfd
@@ -2337,10 +2368,24 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: 326df5be-c5bc-409d-a6fd-fd7e37231f02
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: player.dialogue Excuse me!
-                            0a4e1f3ec4278bee413c86220d627352*: What do you want?
-                            f930cf4d823d970d565b08759b9b85e7*: "player.dialogue I want to go to Ichtacatlán"
-                            95e3e3ce235d2ef4ab4709e261caad85*: Are you crazy?
+                            e73e04576bd20e85a559e422061fc0f0*: player.dialogue.town.6
+                            0ba252a5fc8974670693a001e8184a38*: oldLady.dialogue.town.1
+                            23d9336ad1cb94465aec3b3da68c8202*: oldLady.dialogue.town.2
+                            6c2bc6fac4b97534a6dd0ea2745ab812*: oldLady.dialogue.town.3
+                            587d5955b30b4591c9b8910af8638d82*: oldLady.dialogue.town.4
+                            6bf5071d48a221de7fecbf70c1faee74*: player.dialogue.town.7
+                            4a5addbbfb4f084b47846faf5574c8aa*: oldLady.dialogue.town.5
+                            69a57d860b6a15741455d2d774eca906*: player.dialogue.town.8
+                            08886504cb330449c70d3ce3b310318d*: oldLady.dialogue.town.6
+                            6bbb638273f35102f5dfdd4a75254d15*: oldLady.dialogue.town.7
+                            fcb496fdf696e8ce9115f97408169fd7*: player.dialogue.town.9
+                            6cf2d60138da1c7ef048d85e79f2089b*: oldLady.dialogue.town.8
+                            e236821a72d04ce407a632c89addfcb8*: oldLady.dialogue.town.9
+                            00d6051ef1b1bc189c269c7012060d91*: oldLady.dialogue.town.3
+                            85e9499243401069ee41f21d8ca9f5cf*: oldLady.dialogue.town.10
+                            fd0a96bb80e58bb14147a149ffbb4d9f*: oldLady.dialogue.town.11
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                            42c7d84ee443dcc5888b50791666e4b1: ~(Deleted)
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
                         lookPlayer: true
@@ -2376,6 +2421,23 @@ Hierarchy:
                 BasePartAsset: 127aaa60-3648-4285-859e-5744f8539307:Prefabs/PlayerCharacter
                 BasePartId: 403e0aa7-c0a1-4359-997e-48d237b4ab3a
                 InstanceId: 97dddcb1-bfe2-411b-98d2-72bed9190557
+        -   Entity:
+                Id: 8b29d137-9e5f-4e4c-88a6-2a563f209ef8
+                Name: SpriteSheet
+                Components:
+                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
+                        Id: ef6b8a29-133c-46de-a84c-64875c10fc51
+                        Position: {X: 0.0, Y: -0.08079806, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
+                        Children: {}
+                    49148bf9259f2c853158a004798ef191: !SpriteComponent
+                        Id: 4af5ba9d-2310-4f14-b5f1-dd409bc09dde
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 0.5
+                        Sampler: PointClamp
         -   Entity:
                 Id: 8b40e190-4fc5-4883-afba-a35cc1b8630d
                 Name: GameManager
@@ -2543,7 +2605,7 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: f8e4794e-69c4-4c46-b128-2d82c787fba9
                         DialoguesList:
-                            42c7d84ee443dcc5888b50791666e4b1*: What are you buying?
+                            42c7d84ee443dcc5888b50791666e4b1*: merchant.dialogue.town.1
                             0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
                         timeBetweenDialogues*: 2.0
                         timeBetweenLetters*: 0.05
@@ -2708,7 +2770,7 @@ Hierarchy:
                         itemDescription: object.cube.notification
                         isPickable: false
                         rotationInspection: {X: -2.9802319E-08, Y: -2.9802319E-08, Z: 0.70710677, W: 0.70710677}
-                        notificationText*: can't go right now, I'm very tired
+                        notificationText*: player.ask.1
                         documentText: 
                         ItemType*: triggerEvent
                     c16a63bc7d934e49d25d53a8b27155ed: !StaticColliderComponent
@@ -2740,8 +2802,10 @@ Hierarchy:
                             e78533f25a4c6d4910710b3630f73990: ref!! da298f34-ecf1-42ca-9041-98f64929683b
                             79193ef751773c0e168aa42a804d817b: ref!! 26d7496b-0cd9-467a-bccc-500af0c5ab24
                             072c6328cd78248d782c627a3f3faee6: ref!! ed4c9d70-a013-44a0-b126-7614b30f0b15
+                            4211672e6ec1087ecd06e7eaf0a2abcf: ref!! c119b624-7af4-4df3-97c4-9bb3caf7ba10
                         Sound: e0aaad1b-9adf-4940-83c4-8e3e32b20dd7:OldWinds/SFX/WomanScream
                         isActive: true
+                        TriggerType: mapUpdate
                     00a6a4d59608117c18a5b957071983c8: ~(Deleted)
             Base:
                 BasePartAsset: 9b38e8ae-5287-42c1-81cc-765fc93ec205:Prefabs/Cube
@@ -2860,6 +2924,7 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     e3730ef4c10fc311cdee97ef9c416942: !OpenHorror.Player.PlayerController,OpenHorror.Game
                         Id: 6f41236b-1218-40f7-809a-9ff806b65788
+                        canSprint*: true
                         MaxRunSpeed: 4.0
                     99486f0b232148dd09a6627b59db596b: !OpenHorror.Player.PlayerInput,OpenHorror.Game
                         Id: 8313a1e2-5c8c-49ae-a428-64761cb84690
@@ -2888,7 +2953,7 @@ Hierarchy:
                         Id: 00ad8dfa-2e69-48b3-9fdc-a9204c55eb65
                         soundSpeed: 0.75
                         sounds:
-                            0603be59acb03dc8877e0496bba3b35f: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/SFX/Footsteps/stepstone_1
+                            0603be59acb03dc8877e0496bba3b35f*: 5f999788-7826-4466-a48d-d1adba721a1a:Default assets/SFX/Footsteps/stepstone_1
                             192046a11cd1585710652e2ecad4a5e1: f80efce0-6642-43a0-8423-5ef8683c053a:Default assets/SFX/Footsteps/stepstone_2
                             3d6321e80814906979b8fbfcea290a3e: c8429b9d-2954-4ac7-b25c-b2f784340574:Default assets/SFX/Footsteps/stepstone_3
                             b67e6e67b551e6582fc9aa8e230c452d: 0a9760ec-d286-4498-9271-a72a66f3ab70:Default assets/SFX/Footsteps/stepstone_4
@@ -2962,6 +3027,23 @@ Hierarchy:
                         Materials:
                             41e9796c039961681f1fe257c2978a78~0: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
                             4f30f2c29dc84e740a1ea63dd5e8b984~1: 2b85764a-f5f9-4c0e-9766-c44ce0257dab:OldWinds/Models/Material_2 (2)
+        -   Entity:
+                Id: b313c30f-0d89-4280-b8c8-e97d0042ffdb
+                Name: Shadow
+                Components:
+                    822743a420572492b46577c58405543b: !TransformComponent
+                        Id: bf2d0595-72d2-454b-a24e-afa97bbb69dc
+                        Position: {X: -0.0045207217, Y: -1.096, Z: -0.02237963}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5457c1fb4a87209eef385869287ba97: !SpriteComponent
+                        Id: 4e473915-052f-44d7-af31-1ac8d6799ea5
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2cd4307a-a20d-4485-9dc3-66a04a5e5366:OldWinds/Models/Props/SpriteSheet
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.39215687}
+                        IsAlphaCutoff: true
+                        Sampler: PointClamp
         -   Folder: Town
             Entity:
                 Id: b6ed0413-0235-4f2f-b583-15a4cb8b6ec0
@@ -3086,6 +3168,57 @@ Hierarchy:
                         Id: 7afabf32-cfec-45d7-9be1-23655ebcfbe0
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
+        -   Folder: null
+            Entity:
+                Id: c119b624-7af4-4df3-97c4-9bb3caf7ba10
+                Name*: Old_man_1_dialogue_2
+                Components:
+                    a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
+                        Id: 03e9671f-60e0-48dc-bf8c-91dec537a012
+                        Position*: {X: -3.6916194, Y: 1.1067849, Z: -11.790847}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            04896706fbd2a2868455129f2b6b5b85: ref!! ef6b8a29-133c-46de-a84c-64875c10fc51
+                            4b2ce5c434daa7140728aacefa1261e6: ref!! bf2d0595-72d2-454b-a24e-afa97bbb69dc
+                    d85b2b6e072fba4f9eac30a89cde96ea: !StaticColliderComponent
+                        Id: b2190a4c-c5c0-44b3-b994-b96551be382b
+                        Enabled*: true
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e444ebaf79902340b6f52785555515ef: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
+                        Id: ed2cf771-e22c-4c17-b737-1b7088dca90a
+                        DialoguesList:
+                            95e3e3ce235d2ef4ab4709e261caad85*: oldMan1.dialogue.town.5
+                            91a19aa4741458c7842583c5b930f127*: oldMan1.dialogue.town.6
+                            f8951bb74150cd761daec729942fea4c*: oldMan1.dialogue.town.7
+                            bd8fb821378a5f4cc3192c71816162e1*: oldMan1.dialogue.town.8
+                            615fe5f7748b3343d2880d19cf35504a*: oldMan1.dialogue.town.9
+                            0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
+                            42c7d84ee443dcc5888b50791666e4b1: ~(Deleted)
+                        timeBetweenDialogues*: 2.0
+                        timeBetweenLetters*: 0.05
+                        lookPlayer: true
+                        voiceSound: 7fdd584d-0d21-4afb-977d-1a84c7a8e60a:Default assets/SFX/Interaction/VoiceSound
+                    c6a2f777f90d94b05bf033fd89410bd3: !OpenHorror.Core.AudioManager,OpenHorror.Game
+                        Id: 6df4a71a-3360-4fea-8a14-26813f5eaabe
+                    8fff9564224e164bbfeeb200886985b1: ~(Deleted)
+            Base:
+                BasePartAsset: d9dae6e6-32e4-4f0a-9469-b70dc2a1b76e:Prefabs/DialogueSystem
+                BasePartId: 638ec79b-7837-430d-89b1-ef4e16df2b5e
+                InstanceId: 38479e5c-95a3-43dd-a278-5418d1b94bc3
         -   Folder: Town2
             Entity:
                 Id: c19f14ee-62e9-4506-865e-256273f0fd09
@@ -3193,23 +3326,6 @@ Hierarchy:
                         Id: 0b0e8bc0-dd80-4514-9e9e-07d58787f5b4
                         Model: e0ffdfb8-b165-4a5b-9fc5-ab01109e6162:OldWinds/Models/genericHouse
                         Materials: {}
-        -   Entity:
-                Id: ca81e9d8-4eab-44a8-be4e-7f6c0f0bdfb8
-                Name: SpriteSheet
-                Components:
-                    354c22fc579194d3d0f6a159cb71f79f: !TransformComponent
-                        Id: 84217e3e-cc64-4ac9-a769-44510b312def
-                        Position: {X: 0.0, Y: -0.09017517, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.6262906, Y: 1.6262906, Z: 1.3010324}
-                        Children: {}
-                    49148bf9259f2c853158a004798ef191: !SpriteComponent
-                        Id: 571429a3-5435-492d-87b8-6e8de2d8f9d4
-                        SpriteProvider: !SpriteFromSheet
-                            Sheet: 40566e31-72b7-4b29-bc07-e1ea7dfe502c:Sprites/SpriteSheet_2
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                        Intensity: 0.5
-                        Sampler: PointClamp
         -   Entity:
                 Id: cab065ee-de4f-47b4-b0e7-361923d9ef3b
                 Name: SpriteSheet
@@ -3903,11 +4019,11 @@ Hierarchy:
                         Sampler: PointClamp
         -   Entity:
                 Id: faa2b344-c342-4544-8a11-6cf8dcf5a4a2
-                Name*: Old_man_1_dialogue_2
+                Name*: Old_man_2_dialogue_2
                 Components:
                     a2d6ca1adcf6ec41a4c7d29eb46ea480: !TransformComponent
                         Id: 5a2a808b-8610-4b2e-bafd-e9fb5d54d526
-                        Position*: {X: 2.479967, Y: 1.1067849, Z: -11.689276}
+                        Position*: {X: 2.3569777, Y: 1.1067849, Z: -13.692806}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale*: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -3933,7 +4049,9 @@ Hierarchy:
                     c99fe8bdc4c35882d0b3b54c67721012: !OpenHorror.Interaction.DialogueSystem,OpenHorror.Game
                         Id: d21de397-461f-4fa8-a9f0-066c8652b457
                         DialoguesList:
-                            95e3e3ce235d2ef4ab4709e261caad85*: You!!!!!
+                            95e3e3ce235d2ef4ab4709e261caad85*: oldMan2.dialogue.town.7
+                            2d88827a23b07201dc48bfb49d186306*: oldMan2.dialogue.town.8
+                            c7fdff68a88f89c959d51e871a0a9ae7*: oldMan2.dialogue.town.9
                             0a4e1f3ec4278bee413c86220d627352: ~(Deleted)
                             42c7d84ee443dcc5888b50791666e4b1: ~(Deleted)
                         timeBetweenDialogues*: 2.0
