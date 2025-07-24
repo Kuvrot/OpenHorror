@@ -19,7 +19,7 @@ namespace OpenHorror.Core
          public override void Start()
          {
             Instance = this;
-            LoadLanguage("language.js");
+            LoadLanguage("language.json");
          }
         #endregion
 

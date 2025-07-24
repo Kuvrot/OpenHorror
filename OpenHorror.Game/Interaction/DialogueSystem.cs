@@ -23,7 +23,7 @@ namespace OpenHorror.Interaction
         private string currentString;
 
         public Sound voiceSound;
-
+        private bool playerTalking = false;
         public override void Start()
         {
         }
@@ -34,19 +34,18 @@ namespace OpenHorror.Interaction
             {
                 if (Counter2() && !endDialogue)
                 {
-                    if (currentString != DialoguesList[currentDialogue])
+                    if (currentString != Language.Instance.Translate(DialoguesList[currentDialogue]))
                     {
-                        currentString += DialoguesList[currentDialogue][currentLetter];
-                        GameManager.Instance.GetUI().PrintText(Language.Instance.Translate(currentString));
                         if (!DialoguesList[currentDialogue].Contains("player.dialogue"))
                         {
                             Entity.Get<AudioManager>().PlaySoundWithRandomPitch(voiceSound);
                         }
+                        currentString += Language.Instance.Translate(DialoguesList[currentDialogue])[currentLetter];
+                        GameManager.Instance.GetUI().PrintText(Language.Instance.Translate(currentString));
                         currentLetter++;
                     }
                     else
                     {
-                        currentString = DialoguesList[currentDialogue];
                         currentString = "";
                         currentLetter = 0;
                         endDialogue = true;
