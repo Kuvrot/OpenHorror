@@ -9,7 +9,7 @@
 - [x] Door system
 - [x] Keys system
 - [x] Simple inventory system
-- [x] Internationalization paste this file [language.zip](https://github.com/user-attachments/files/20808583/language.zip) in the binary directory
+- [x] Internationalization
 - [x] Sprinting
 - [x] Puzzles
 - [x] Footstep system (simple system has been implemented, but it does not discriminates floors)
@@ -17,4 +17,6 @@
 - [x] Dialogue system
 - [ ] Ladder system
 
-
+#Internationalization
+The template offers internationalization system, download this file: [language.json](https://github.com/user-attachments/files/22454279/language.json)
+And put it on the binaries folder.
