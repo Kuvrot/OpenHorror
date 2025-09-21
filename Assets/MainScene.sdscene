@@ -390,7 +390,7 @@ Hierarchy:
                         Id: bc39ad2a-1835-4443-8c69-269cae693e57
                         puzzleSystem: null
                         value: 3
-                        notificationText: 
+                        notificationText*: 3
             Base:
                 BasePartAsset: 780fc9ad-0474-4180-a92e-ab98b4001e7a:Prefabs/SimplePuzzle
                 BasePartId: 56553312-40bb-40af-93a1-d40571960179
@@ -942,7 +942,7 @@ Hierarchy:
                         Id: 12bda715-12a9-4862-bdcd-1ccc58d85222
                         puzzleSystem: null
                         value: 1
-                        notificationText: pene
+                        notificationText*: 1
             Base:
                 BasePartAsset: 780fc9ad-0474-4180-a92e-ab98b4001e7a:Prefabs/SimplePuzzle
                 BasePartId: 247304f8-2597-4557-a655-f371f1d6b837
@@ -2067,7 +2067,7 @@ Hierarchy:
                         Id: e889b2d6-d70c-4b78-a444-d47ed2b0dd3e
                         puzzleSystem: null
                         value: 2
-                        notificationText: 
+                        notificationText*: 2
             Base:
                 BasePartAsset: 780fc9ad-0474-4180-a92e-ab98b4001e7a:Prefabs/SimplePuzzle
                 BasePartId: 14fbc21d-e995-4dd2-9f2c-e4a7ba5d4a50
@@ -3043,7 +3043,7 @@ Hierarchy:
                         Id: e58c5254-dec0-48c8-87fd-cfb69f2bfc33
                         puzzleSystem: null
                         value: 4
-                        notificationText: 
+                        notificationText*: 4
             Base:
                 BasePartAsset: 780fc9ad-0474-4180-a92e-ab98b4001e7a:Prefabs/SimplePuzzle
                 BasePartId: f9015747-ed86-4b3b-9d9f-80dd4571cdf5
